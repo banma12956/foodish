@@ -1,0 +1,957 @@
+prx.xdata = {
+    "cc": 375,
+    "data": {
+        "template": {
+            "id": "",
+            "stateid": ""
+        },
+        "items": [{
+            "left": 0,
+            "top": 196,
+            "width": 1080,
+            "height": 1428,
+            "type": "symbol",
+            "group": "root",
+            "text": "",
+            "symbolid": 5,
+            "caption": "Scrolling feed",
+            "visible": true,
+            "scroll": "vertical",
+            "scrollsnap": false,
+            "pinchzoom": false,
+            "lockdirection": true,
+            "scrollbars": false,
+            "momentum": true,
+            "zindex": 1,
+            "id": "box-113",
+            "hpos": "left",
+            "vpos": "top",
+            "wtype": "fixed",
+            "htype": "fixed",
+            "opacity": 1,
+            "propagateevents": false,
+            "rotation": 0,
+            "scale": 1,
+            "aspectratio": false,
+            "symbolstateid": "577f3b3a-f84a-4e3f-a138-2980f79b9415",
+            "bounce": true,
+            "lib": "undefined",
+            "actions": [],
+            "scrollToX": "0",
+            "scrollToY": "0",
+            "patternGuid": "89f5572f-3d9f-4dde-a977-1ea8c78ecf7a"
+        }, {
+            "name": "image",
+            "type": "image",
+            "lib": "common",
+            "caption": "ASIPLOGO.png",
+            "imgSrc": {
+                "fileId": "69e4f1bf892aaaa50c204fb783a177aa.png",
+                "assetType": "project",
+                "bucketsource": "main",
+                "name": "ASIPLOGO.png"
+            },
+            "repeat": false,
+            "width": 190,
+            "height": 150,
+            "borderWidth": 0,
+            "borderRadius": 0,
+            "borderColor": "#D1D1D1",
+            "borderPos": "inside",
+            "propagateEvents": false,
+            "actions": [],
+            "overlay": false,
+            "autoResize": false,
+            "aspectratio": 1.2628255722178374,
+            "left": 445,
+            "top": 25,
+            "visible": true,
+            "id": "box-114",
+            "group": "root",
+            "zindex": 3,
+            "hpos": "left",
+            "vpos": "top",
+            "wtype": "fixed",
+            "htype": "fixed",
+            "opacity": 1,
+            "borderStyle": "solid",
+            "rotation": 0,
+            "scale": 1
+        }, {
+            "name": "material_morphing_lines_close",
+            "type": "material_morphing_lines",
+            "lib": "material",
+            "caption": "Morphing Icon Close",
+            "width": 161,
+            "height": 161,
+            "backgroundColor": "#FF6849",
+            "backgroundColorActive": "#E26100",
+            "active": false,
+            "itemtype": "lines-close",
+            "checkboxActionsOnActive": [],
+            "checkboxActionsOnDeactive": [],
+            "aspectratio": 1,
+            "rippleEffect": true,
+            "rippleEffectType": "dark",
+            "rippleEffectColor": "rgba(0,0,0,0.1)",
+            "left": 927,
+            "top": 25,
+            "vpos": "top",
+            "hpos": "left",
+            "visible": true,
+            "id": "box-191",
+            "group": "root",
+            "zindex": 5,
+            "wtype": "fixed",
+            "htype": "fixed",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1
+        }, {
+            "name": "ios7_button_icon",
+            "type": "ios7_button_icon",
+            "lib": "ios7",
+            "caption": "Icon Button 1",
+            "image": "https://dteyv52hbg2at.cloudfront.net/devices/ios7/button_icon/image.png",
+            "width": 127,
+            "height": 127,
+            "textAlign": "center",
+            "iconpos": "notext",
+            "img": {
+                "fileId": "c0877fc419aa836a4097f4f982a53a59.svg",
+                "name": "chevron-left.svg",
+                "assetType": "icon",
+                "bucketsource": "static",
+                "url": "f1352971179296/b0a2a6e58cba73da2d0b8dc3e0ac8fe8.svg",
+                "targetSrc": "generated/c0877fc419aa836a4097f4f982a53a59_ff6849.svg",
+                "color": "FF6849"
+            },
+            "left": 0,
+            "top": 25,
+            "vpos": "top",
+            "hpos": "left",
+            "visible": true,
+            "id": "box-192",
+            "group": "root",
+            "zindex": 6,
+            "wtype": "fixed",
+            "htype": "fixed",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "aspectratio": false,
+            "actions": [{
+                "title": "Interaction 1",
+                "type": "tap",
+                "actionId": "go-to-page",
+                "pageId": "2",
+                "animation": "slide",
+                "animationEasing": "Cubic.easeOut",
+                "duration": "400",
+                "delay": "0",
+                "callback": false,
+                "guid": "ea03e675-aa69-4ab4-b305-5c157f551426",
+                "sort": null
+            }]
+        }, {
+            "name": "ios7_tabbar",
+            "type": "ios7_tabbar",
+            "lib": "ios7",
+            "caption": "Tabbar 1",
+            "width": 1088,
+            "height": 141,
+            "vpos": "top",
+            "backgroundColor": "rgba(235,235,235,0.95)",
+            "borderWidth": 0,
+            "borderColor": "transparent",
+            "textFont": "San Francisco UI Text Regular",
+            "textSize": 30,
+            "textColor": "#000000",
+            "textProperties": [],
+            "iconpos": "top",
+            "iconSize": 3,
+            "activeBackgroundColor": "as-inactive",
+            "activeTextColor": "#000000",
+            "maskEnabled": true,
+            "maskInactive": "#8D8D8D",
+            "maskActive": "#F26100",
+            "activeTab": 0,
+            "overlay": false,
+            "tabs": [{
+                "text": "Like",
+                "icon": {
+                    "fileId": "a3c129a0b51f005fcc78d342c50f1da5.svg",
+                    "name": "like-3.svg",
+                    "assetType": "icon",
+                    "bucketsource": "static",
+                    "url": "f1352971179296/f838e7169e051607ad6a0ffc8e6f423c.svg",
+                    "targetSrc": "generated/a3c129a0b51f005fcc78d342c50f1da5_000000.svg",
+                    "color": "000000"
+                },
+                "activeicon": {
+                    "fileId": "e4e7dbcddba77b96954aa3602719162c.svg",
+                    "name": "kub-home.svg",
+                    "assetType": "icon",
+                    "bucketsource": "static",
+                    "url": "f1352971179296/e6a1ba573190139ceda51280e9fdad9c.svg",
+                    "targetSrc": "generated/e6a1ba573190139ceda51280e9fdad9c_ffffff.svg",
+                    "color": "ffffff"
+                },
+                "actions": [],
+                "linkedscreen": -1
+            }, {
+                "text": "Messages",
+                "icon": {
+                    "fileId": "324879579bf3ecf9c4b49ef0c151501b.svg",
+                    "name": "speech-1.svg",
+                    "assetType": "icon",
+                    "bucketsource": "static",
+                    "url": "f1352971179296/693bf32e7424f6bf747696ddab19cdf5.svg",
+                    "targetSrc": "generated/324879579bf3ecf9c4b49ef0c151501b_383838.svg",
+                    "color": "383838"
+                },
+                "activeicon": {
+                    "fileId": "e55334acc02f524531f172be5348bfd2.svg",
+                    "name": "mail-2.svg",
+                    "assetType": "icon",
+                    "bucketsource": "static",
+                    "url": "f1352971179296/1b58b288e91e6a4cb64d90433880003d.svg",
+                    "targetSrc": "generated/1b58b288e91e6a4cb64d90433880003d_ffffff.svg",
+                    "color": "ffffff"
+                },
+                "actions": [],
+                "linkedscreen": -1
+            }, {
+                "text": "Share",
+                "icon": {
+                    "bucketsource": "main",
+                    "fileId": "5798b1ce822f718554c401bedfbd5c83.png",
+                    "name": "17704-200.png",
+                    "assetType": "account"
+                },
+                "activeicon": {
+                    "fileId": "a764f2746aa43431594a25b3e9d5dc34.svg",
+                    "name": "star.svg",
+                    "assetType": "icon",
+                    "bucketsource": "static",
+                    "url": "f1352971179296/94a90bf9a645dba63ad7a41d18f82ea7.svg",
+                    "targetSrc": "generated/94a90bf9a645dba63ad7a41d18f82ea7_1b9af7.svg",
+                    "color": "1b9af7"
+                },
+                "actions": [{
+                    "title": "Interaction 1",
+                    "type": "tap",
+                    "actionId": "show-item",
+                    "pageId": "3",
+                    "itemId": "group-42448998-485d-4599-9760-01258f4c018b",
+                    "animationEasing": "out",
+                    "duration": "400",
+                    "delay": "0",
+                    "callback": false,
+                    "guid": "46fde401-b60f-4912-9aab-1a0da5484053",
+                    "sort": null
+                }],
+                "linkedscreen": -1
+            }],
+            "left": 0,
+            "top": 1624,
+            "hpos": "left",
+            "visible": true,
+            "id": "box-199",
+            "group": "root",
+            "zindex": 12,
+            "wtype": "fixed",
+            "htype": "fixed",
+            "opacity": 1,
+            "changeActive": true,
+            "rotation": 0,
+            "scale": 1,
+            "aspectratio": false,
+            "userCaption": true
+        }, {
+            "name": "ios10_widget",
+            "type": "ios10_widget",
+            "lib": "ios7",
+            "caption": "Widget 1",
+            "width": 1080,
+            "height": 406,
+            "title": "Share with",
+            "titleSize": 54,
+            "titleFont": "San Francisco UI Text Light",
+            "titleColor": "7F7F7F",
+            "titleProperties": [],
+            "more": "",
+            "text": "",
+            "textSize": 45,
+            "textFont": "San Francisco UI Text Regular",
+            "textColor": "000000",
+            "textProperties": [],
+            "textAlign": "left",
+            "imgSrc": {
+                "bucketsource": "main",
+                "fileId": "5798b1ce822f718554c401bedfbd5c83.png",
+                "name": "17704-200.png",
+                "assetType": "account"
+            },
+            "titleBackgroundColor": "rgba(226,226,226,0.9)",
+            "backgroundColor": "rgba(235,235,235,0.9)",
+            "borderRadius": 12,
+            "left": 0,
+            "top": 1835,
+            "vpos": "top",
+            "hpos": "left",
+            "visible": true,
+            "id": "box-194",
+            "group": "42448998-485d-4599-9760-01258f4c018b",
+            "zindex": 7,
+            "wtype": "fixed",
+            "htype": "fixed",
+            "opacity": 1,
+            "rotation": 0,
+            "scale": 1,
+            "aspectratio": false
+        }, {
+            "name": "image",
+            "type": "image",
+            "lib": "common",
+            "caption": "twitter.png",
+            "imgSrc": {
+                "fileId": "bc08e0a5615217a29474b465bc7d7d74.png",
+                "assetType": "project",
+                "bucketsource": "main",
+                "name": "twitter.png"
+            },
+            "repeat": false,
+            "width": 179,
+            "height": 179,
+            "borderWidth": 0,
+            "borderRadius": 0,
+            "borderColor": "#D1D1D1",
+            "borderPos": "inside",
+            "propagateEvents": false,
+            "actions": [],
+            "overlay": false,
+            "autoResize": false,
+            "aspectratio": 1,
+            "left": 35,
+            "top": 1990,
+            "visible": true,
+            "id": "box-195",
+            "group": "42448998-485d-4599-9760-01258f4c018b",
+            "zindex": 8,
+            "hpos": "left",
+            "vpos": "top",
+            "wtype": "fixed",
+            "htype": "fixed",
+            "opacity": 1,
+            "borderStyle": "solid",
+            "rotation": 0,
+            "scale": 1
+        }, {
+            "name": "image",
+            "type": "image",
+            "lib": "common",
+            "caption": "wechat.png",
+            "imgSrc": {
+                "fileId": "f943db42f5e79480913974747d35263f.png",
+                "assetType": "project",
+                "bucketsource": "main",
+                "name": "wechat.png"
+            },
+            "repeat": false,
+            "width": 179,
+            "height": 179,
+            "borderWidth": 0,
+            "borderRadius": 0,
+            "borderColor": "#D1D1D1",
+            "borderPos": "inside",
+            "propagateEvents": false,
+            "actions": [],
+            "overlay": false,
+            "autoResize": false,
+            "aspectratio": 1,
+            "left": 285,
+            "top": 1990,
+            "visible": true,
+            "id": "box-196",
+            "group": "42448998-485d-4599-9760-01258f4c018b",
+            "zindex": 9,
+            "hpos": "left",
+            "vpos": "top",
+            "wtype": "fixed",
+            "htype": "fixed",
+            "opacity": 1,
+            "borderStyle": "solid",
+            "rotation": 0,
+            "scale": 1
+        }, {
+            "name": "image",
+            "type": "image",
+            "lib": "common",
+            "caption": "Facebook.png",
+            "imgSrc": {
+                "fileId": "b18a17809c6ab7df11fbec9d7968bd98.png",
+                "assetType": "project",
+                "bucketsource": "main",
+                "name": "Facebook.png"
+            },
+            "repeat": false,
+            "width": 179,
+            "height": 179,
+            "borderWidth": 0,
+            "borderRadius": 0,
+            "borderColor": "#D1D1D1",
+            "borderPos": "inside",
+            "propagateEvents": false,
+            "actions": [],
+            "overlay": false,
+            "autoResize": false,
+            "aspectratio": 1,
+            "left": 530,
+            "top": 1990,
+            "visible": true,
+            "id": "box-197",
+            "group": "42448998-485d-4599-9760-01258f4c018b",
+            "zindex": 10,
+            "hpos": "left",
+            "vpos": "top",
+            "wtype": "fixed",
+            "htype": "fixed",
+            "opacity": 1,
+            "borderStyle": "solid",
+            "rotation": 0,
+            "scale": 1
+        }, {
+            "name": "image",
+            "type": "image",
+            "lib": "common",
+            "caption": "weibo.png",
+            "imgSrc": {
+                "fileId": "378768375fd233502ad306ef20f9e06d.png",
+                "assetType": "project",
+                "bucketsource": "main",
+                "name": "weibo.png"
+            },
+            "repeat": false,
+            "width": 179,
+            "height": 179,
+            "borderWidth": 0,
+            "borderRadius": 0,
+            "borderColor": "#D1D1D1",
+            "borderPos": "inside",
+            "propagateEvents": false,
+            "actions": [],
+            "overlay": false,
+            "autoResize": false,
+            "aspectratio": 1,
+            "left": 786,
+            "top": 1990,
+            "visible": true,
+            "id": "box-198",
+            "group": "42448998-485d-4599-9760-01258f4c018b",
+            "zindex": 11,
+            "hpos": "left",
+            "vpos": "top",
+            "wtype": "fixed",
+            "htype": "fixed",
+            "opacity": 1,
+            "borderStyle": "solid",
+            "rotation": 0,
+            "scale": 1
+        }, {
+            "name": "basic_tabbar",
+            "type": "basic_tabbar",
+            "lib": "common",
+            "caption": "Basic Tabbar 1",
+            "width": 1080,
+            "height": 155,
+            "vpos": "top",
+            "backgroundColor": "FFFFFF",
+            "borderWidth": 0,
+            "borderColor": "C6C6C6",
+            "textFont": "sans-serif,Helvetica Neue,Arial",
+            "textSize": 30,
+            "textColor": "#AAAAAA",
+            "textProperties": ["bold"],
+            "iconpos": "top",
+            "iconSize": 3,
+            "activeBackgroundColor": "rgba(242,133,0,0.59)",
+            "activeTextColor": "FFFFFF",
+            "maskEnabled": true,
+            "maskInactive": "383838",
+            "maskActive": "FFFFFF",
+            "activeTab": "999",
+            "overlay": false,
+            "tabs": [{
+                "text": "<strong>Home</strong>",
+                "icon": {
+                    "fileId": "e4e7dbcddba77b96954aa3602719162c.svg",
+                    "name": "kub-home.svg",
+                    "assetType": "icon",
+                    "bucketsource": "static",
+                    "url": "f1352971179296/e6a1ba573190139ceda51280e9fdad9c.svg",
+                    "targetSrc": "generated/e4e7dbcddba77b96954aa3602719162c_ff6849.svg",
+                    "color": "FF6849"
+                },
+                "activeicon": {
+                    "fileId": "e4e7dbcddba77b96954aa3602719162c.svg",
+                    "name": "kub-home.svg",
+                    "assetType": "icon",
+                    "bucketsource": "static",
+                    "url": "f1352971179296/e6a1ba573190139ceda51280e9fdad9c.svg",
+                    "targetSrc": "generated/e6a1ba573190139ceda51280e9fdad9c_ffffff.svg",
+                    "color": "ffffff"
+                },
+                "actions": [{
+                    "title": "Interaction 1",
+                    "type": "tap",
+                    "actionId": "go-to-page",
+                    "pageId": "2",
+                    "animation": "slide",
+                    "animationEasing": "Cubic.easeOut",
+                    "duration": "400",
+                    "delay": "0",
+                    "callback": false,
+                    "guid": "250147b9-eac4-4684-8381-3406e49ecbbe",
+                    "sort": null
+                }],
+                "linkedscreen": -1
+            }, {
+                "text": "Post",
+                "icon": {
+                    "fileId": "9f51e6dd9adaacbc69eb39a3b11e2069.svg",
+                    "name": "plus.svg",
+                    "assetType": "icon",
+                    "bucketsource": "static",
+                    "url": "f1352971179296/558b9ee9b4a9123e4df38f815f297650.svg",
+                    "targetSrc": "generated/9f51e6dd9adaacbc69eb39a3b11e2069_ff6849.svg",
+                    "color": "FF6849"
+                },
+                "activeicon": {
+                    "fileId": "e55334acc02f524531f172be5348bfd2.svg",
+                    "name": "mail-2.svg",
+                    "assetType": "icon",
+                    "bucketsource": "static",
+                    "url": "f1352971179296/1b58b288e91e6a4cb64d90433880003d.svg",
+                    "targetSrc": "generated/1b58b288e91e6a4cb64d90433880003d_ffffff.svg",
+                    "color": "ffffff"
+                },
+                "actions": [{
+                    "title": "Interaction 1",
+                    "type": "tap",
+                    "actionId": "go-to-page",
+                    "pageId": "5",
+                    "animation": "slide",
+                    "animationEasing": "Cubic.easeOut",
+                    "duration": "400",
+                    "delay": "0",
+                    "callback": false,
+                    "guid": "769cff38-7b32-4f2a-b7e3-422be9bcfdce",
+                    "sort": null
+                }],
+                "linkedscreen": -1
+            }, {
+                "text": "<strong>Message</strong>",
+                "icon": {
+                    "fileId": "04b27f56e3cbdeedfafcf2b349de07f9.svg",
+                    "name": "mail-2.svg",
+                    "assetType": "icon",
+                    "bucketsource": "static",
+                    "url": "f1352971179296/1b58b288e91e6a4cb64d90433880003d.svg",
+                    "targetSrc": "generated/04b27f56e3cbdeedfafcf2b349de07f9_ff6849.svg",
+                    "color": "FF6849"
+                },
+                "activeicon": {
+                    "fileId": "a764f2746aa43431594a25b3e9d5dc34.svg",
+                    "name": "star.svg",
+                    "assetType": "icon",
+                    "bucketsource": "static",
+                    "url": "f1352971179296/94a90bf9a645dba63ad7a41d18f82ea7.svg",
+                    "targetSrc": "generated/94a90bf9a645dba63ad7a41d18f82ea7_ffffff.svg",
+                    "color": "ffffff"
+                },
+                "actions": [],
+                "linkedscreen": -1
+            }, {
+                "text": "<strong>Me</strong>",
+                "icon": {
+                    "fileId": "4be5930104be6d1e006e57cd7e4fa4e7.svg",
+                    "name": "avatar-3.svg",
+                    "assetType": "icon",
+                    "bucketsource": "static",
+                    "url": "f1352971179296/b09befaf7ddd0d10dd549b999c17760f.svg",
+                    "targetSrc": "generated/4be5930104be6d1e006e57cd7e4fa4e7_f26100.svg",
+                    "color": "F26100"
+                },
+                "activeicon": {
+                    "fileId": "a764f2746aa43431594a25b3e9d5dc34.svg",
+                    "name": "star.svg",
+                    "assetType": "icon",
+                    "bucketsource": "static",
+                    "url": "f1352971179296/94a90bf9a645dba63ad7a41d18f82ea7.svg",
+                    "targetSrc": "generated/94a90bf9a645dba63ad7a41d18f82ea7_ffffff.svg",
+                    "color": "ffffff"
+                },
+                "actions": [{
+                    "title": "Interaction 1",
+                    "type": "tap",
+                    "actionId": "go-to-page",
+                    "pageId": "6",
+                    "animation": "slide",
+                    "animationEasing": "Cubic.easeOut",
+                    "duration": "400",
+                    "delay": "0",
+                    "callback": false,
+                    "guid": "87a95985-01f0-467b-ad62-5d4e4a2ee303",
+                    "sort": null
+                }],
+                "linkedscreen": -1
+            }],
+            "left": 0,
+            "top": 1765,
+            "hpos": "left",
+            "visible": true,
+            "id": "box-372",
+            "group": "root",
+            "zindex": 6,
+            "wtype": "fixed",
+            "htype": "fixed",
+            "opacity": 1,
+            "changeActive": false,
+            "rotation": 0,
+            "scale": 1,
+            "aspectratio": false
+        }]
+    },
+    "fonts": [],
+    "grid": {
+        "grid": {
+            "size": 50,
+            "subdivisions": 5
+        },
+        "gridsystem": {
+            "portrait": {
+                "col_number": 3,
+                "col_width": 105,
+                "gutter_width": 20,
+                "margins": 10
+            },
+            "landscape": {
+                "col_number": 3,
+                "col_width": 250.66666666666666,
+                "gutter_width": 20,
+                "margins": 10
+            }
+        },
+        "guides": {}
+    },
+    "savedColors": [],
+    "iSelectedPage": 2,
+    "iSelectedTemplate": -1,
+    "iSelectedSymbol": -1,
+    "iSelectedState": 0,
+    "libraries": {
+        "common": true,
+        "icons": true,
+        "sounds": true,
+        "material": true,
+        "ios7": true
+    },
+    "maxpageid": 7,
+    "maxsymbolid": 9,
+    "maxtemplateid": 0,
+    "project": {
+        "startscreenlandscape": 1,
+        "navigationbar": "0",
+        "statusbar": "0",
+        "startscreen": 1,
+        "projectid": "8244619f-53bb-41b9-874e-7b876570dd02"
+    },
+    "sort": {
+        "pages": {
+            "type": "custom",
+            "custom": []
+        },
+        "containers": {
+            "type": "custom",
+            "custom": []
+        },
+        "templates": {
+            "type": "custom",
+            "custom": []
+        }
+    },
+    "variables": {},
+    "v5": true,
+    "v5x11": true,
+    "richtext": true,
+    "iscrolljs": true,
+    "expandableCompat": true,
+    "dropboxfs": true,
+    "ios9": true,
+    "galleryAssetsToStaticV2": true,
+    "templatesCompatibility": "done",
+    "groupsV2": true,
+    "stateTransitionUpgraded": true,
+    "groupToContainerCompatibilityV2": true,
+    "device": {
+        "dpr": 3,
+        "portrait_applies": 1,
+        "landscape_applies": 1,
+        "portrait": [1080, 1920],
+        "landscape": [1920, 1080],
+        "uuid": "ed622799-31ac-4b1f-b50e-1232e370ebb7",
+        "defaultOrientation": "portrait"
+    },
+    "transition": "{\"duration\":250,\"delay\":0,\"easing\":\"out\"}",
+    "customEasings": {},
+    "stateTransitionToMSUpgraded": true,
+    "pages": [{
+        "navigationbar": 0,
+        "statusbar": 0,
+        "orientation": "portrait",
+        "actions": [],
+        "title": "sign in",
+        "id": 1,
+        "states": [{
+            "data": "[{\"name\":\"image\",\"type\":\"image\",\"lib\":\"common\",\"caption\":\"Proto.gif\",\"imgSrc\":{\"fileId\":\"a28a8768d8fac9f40443e48c9192f266.gif\",\"assetType\":\"project\",\"bucketsource\":\"main\",\"name\":\"Proto.gif\"},\"repeat\":false,\"width\":1141,\"height\":2032,\"borderWidth\":0,\"borderRadius\":0,\"borderColor\":\"#D1D1D1\",\"borderPos\":\"inside\",\"propagateEvents\":false,\"actions\":[],\"overlay\":false,\"autoResize\":false,\"aspectratio\":0.5625,\"left\":0,\"top\":0,\"visible\":true,\"id\":\"box-15\",\"group\":\"root\",\"zindex\":10,\"hpos\":\"left\",\"vpos\":\"top\",\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"borderStyle\":\"solid\",\"rotation\":0,\"scale\":1},{\"name\":\"ios11_titlebar\",\"type\":\"ios11_titlebar\",\"lib\":\"ios7\",\"caption\":\"Titlebar 1\",\"width\":523,\"height\":52,\"backgroundColor\":\"#FFF\",\"title\":\"Don't have an account?\",\"textFont\":\"San Francisco UI Display Regular\",\"textSize\":42,\"textColor\":\"#E2E2E2\",\"textProperties\":[],\"left\":187,\"top\":1597,\"vpos\":\"top\",\"hpos\":\"left\",\"visible\":true,\"id\":\"box-13\",\"group\":\"root\",\"zindex\":8,\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"rotation\":0,\"scale\":1,\"aspectratio\":false},{\"name\":\"ios7_textfield\",\"type\":\"ios7_textfield\",\"lib\":\"ios7\",\"caption\":\"Text Field 2\",\"width\":778,\"height\":121,\"value\":\"\",\"placeholder\":\"Password\",\"inputtype\":\"text\",\"backgroundColor\":\"rgba(226,226,226,0.73)\",\"textFont\":\"San Francisco UI Text Regular\",\"textSize\":54,\"textColor\":\"000000\",\"placeholderColor\":\"rgba(0,0,0,0.40)\",\"borderWidth\":3,\"borderRadius\":9,\"borderColor\":\"#F26100\",\"textAlign\":\"left\",\"left\":151,\"top\":1216,\"vpos\":\"top\",\"hpos\":\"left\",\"visible\":true,\"id\":\"box-9\",\"group\":\"root\",\"zindex\":6,\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"rotation\":0,\"scale\":1,\"aspectratio\":false,\"textProperties\":[]},{\"name\":\"ios7_textfield\",\"type\":\"ios7_textfield\",\"lib\":\"ios7\",\"caption\":\"Text Field 1\",\"width\":778,\"height\":121,\"value\":\"\",\"placeholder\":\"E-mail/Username\",\"inputtype\":\"text\",\"backgroundColor\":\"rgba(226,226,226,0.73)\",\"textFont\":\"San Francisco UI Text Regular\",\"textSize\":54,\"textColor\":\"000000\",\"placeholderColor\":\"rgba(0,0,0,0.40)\",\"borderWidth\":3,\"borderRadius\":9,\"borderColor\":\"#F26100\",\"textAlign\":\"left\",\"left\":151,\"top\":1038,\"vpos\":\"top\",\"hpos\":\"left\",\"visible\":true,\"id\":\"box-8\",\"group\":\"root\",\"zindex\":5,\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"rotation\":0,\"scale\":1,\"aspectratio\":false,\"textProperties\":[]},{\"name\":\"image\",\"type\":\"image\",\"lib\":\"common\",\"caption\":\"ASIPLOGO.png\",\"imgSrc\":{\"fileId\":\"69e4f1bf892aaaa50c204fb783a177aa.png\",\"assetType\":\"project\",\"bucketsource\":\"main\",\"name\":\"ASIPLOGO.png\"},\"repeat\":false,\"width\":573,\"height\":455,\"borderWidth\":0,\"borderRadius\":0,\"borderColor\":\"#D1D1D1\",\"borderPos\":\"inside\",\"propagateEvents\":false,\"actions\":[],\"overlay\":false,\"autoResize\":false,\"aspectratio\":1.2628255722178374,\"left\":254,\"top\":194,\"visible\":true,\"id\":\"box-4\",\"group\":\"root\",\"zindex\":3,\"hpos\":\"left\",\"vpos\":\"top\",\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"borderStyle\":\"solid\",\"rotation\":0,\"scale\":1},{\"name\":\"ios7_button_bg\",\"type\":\"ios7_button_bg\",\"lib\":\"ios7\",\"caption\":\"Button with Background 1\",\"image\":\"https://dteyv52hbg2at.cloudfront.net/devices/ios7/button_bg/image.png\",\"width\":455,\"height\":98,\"backgroundColor\":\"rgba(255,104,73,0.78)\",\"borderWidth\":0,\"borderColor\":\"#FFFFFF\",\"borderRadius\":24,\"text\":\"Log in\",\"textFont\":\"San Francisco UI Text Light\",\"textSize\":60,\"textColor\":\"#FFFFFF\",\"textProperties\":[],\"textAlign\":\"center\",\"iconpos\":\"none\",\"img\":{\"fileId\":\"c0877fc419aa836a4097f4f982a53a59.svg\",\"name\":\"chevron-left.svg\",\"assetType\":\"icon\",\"bucketsource\":\"static\",\"url\":\"f1352971179296/b0a2a6e58cba73da2d0b8dc3e0ac8fe8.svg\",\"targetSrc\":\"generated/b0a2a6e58cba73da2d0b8dc3e0ac8fe8_ffffff.svg\",\"color\":\"ffffff\"},\"left\":312,\"top\":1418,\"vpos\":\"top\",\"hpos\":\"left\",\"visible\":true,\"id\":\"box-18\",\"group\":\"root\",\"zindex\":11,\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"rotation\":0,\"scale\":1,\"aspectratio\":false,\"actions\":[{\"title\":\"Interaction 1\",\"type\":\"tap\",\"actionId\":\"go-to-page\",\"pageId\":\"2\",\"animation\":\"slide\",\"animationEasing\":\"Cubic.easeOut\",\"duration\":\"400\",\"delay\":\"0\",\"callback\":false,\"guid\":\"e0938f8b-21ae-4a35-a56e-3e091fe28b5b\",\"sort\":null}]},{\"name\":\"ios7_button_bg\",\"type\":\"ios7_button_bg\",\"lib\":\"ios7\",\"caption\":\"Button with Background 2\",\"image\":\"https://dteyv52hbg2at.cloudfront.net/devices/ios7/button_bg/image.png\",\"width\":239,\"height\":72,\"backgroundColor\":\"rgba(255,104,73,0.78)\",\"borderWidth\":0,\"borderColor\":\"#FFFFFF\",\"borderRadius\":24,\"text\":\"Sign up\",\"textFont\":\"San Francisco UI Text Light\",\"textSize\":51,\"textColor\":\"#FFFFFF\",\"textProperties\":[],\"textAlign\":\"center\",\"iconpos\":\"none\",\"img\":{\"fileId\":\"c0877fc419aa836a4097f4f982a53a59.svg\",\"name\":\"chevron-left.svg\",\"assetType\":\"icon\",\"bucketsource\":\"static\",\"url\":\"f1352971179296/b0a2a6e58cba73da2d0b8dc3e0ac8fe8.svg\",\"targetSrc\":\"generated/b0a2a6e58cba73da2d0b8dc3e0ac8fe8_ffffff.svg\",\"color\":\"ffffff\"},\"left\":667,\"top\":1587,\"vpos\":\"top\",\"hpos\":\"left\",\"visible\":true,\"id\":\"box-19\",\"group\":\"root\",\"zindex\":12,\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"rotation\":0,\"scale\":1,\"aspectratio\":false},{\"name\":\"ios11_titlebar\",\"type\":\"ios11_titlebar\",\"lib\":\"ios7\",\"caption\":\"Titlebar 2\",\"width\":311,\"height\":75,\"backgroundColor\":\"#FFF\",\"title\":\"Sign in with\",\"textFont\":\"San Francisco UI Display Regular\",\"textSize\":54,\"textColor\":\"#FFFFFF\",\"textProperties\":[],\"left\":189,\"top\":1762,\"vpos\":\"top\",\"hpos\":\"left\",\"visible\":true,\"id\":\"box-20\",\"group\":\"root\",\"zindex\":13,\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"rotation\":0,\"scale\":1,\"aspectratio\":false},{\"name\":\"image\",\"type\":\"image\",\"lib\":\"common\",\"caption\":\"非死不可.png\",\"imgSrc\":{\"bucketsource\":\"main\",\"fileId\":\"224eb183392d737697cfcc2cd9bf0376.png\",\"name\":\"非死不可.png\",\"assetType\":\"account\"},\"repeat\":false,\"width\":89,\"height\":89,\"borderWidth\":0,\"borderRadius\":0,\"borderColor\":\"#D1D1D1\",\"borderPos\":\"inside\",\"propagateEvents\":false,\"actions\":[],\"overlay\":false,\"autoResize\":false,\"aspectratio\":1,\"left\":526,\"top\":1756,\"vpos\":\"top\",\"hpos\":\"left\",\"visible\":true,\"id\":\"box-23\",\"group\":\"root\",\"zindex\":14,\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"borderStyle\":\"solid\",\"rotation\":0,\"scale\":1},{\"name\":\"image\",\"type\":\"image\",\"lib\":\"common\",\"caption\":\"推特.png\",\"imgSrc\":{\"bucketsource\":\"main\",\"fileId\":\"69852a516cfd36fe28a50a56ef3ea4d9.png\",\"name\":\"推特.png\",\"assetType\":\"account\"},\"repeat\":false,\"width\":75,\"height\":75,\"borderWidth\":0,\"borderRadius\":0,\"borderColor\":\"#D1D1D1\",\"borderPos\":\"inside\",\"propagateEvents\":false,\"actions\":[],\"overlay\":false,\"autoResize\":false,\"aspectratio\":1,\"left\":675,\"top\":1770,\"vpos\":\"top\",\"hpos\":\"left\",\"visible\":true,\"id\":\"box-24\",\"group\":\"root\",\"zindex\":15,\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"borderStyle\":\"solid\",\"rotation\":0,\"scale\":1},{\"name\":\"image\",\"type\":\"image\",\"lib\":\"common\",\"caption\":\"wechat.png\",\"imgSrc\":{\"bucketsource\":\"main\",\"fileId\":\"2345262010dbc7b7bfe11dbe11e039a4.png\",\"name\":\"wechat.png\",\"assetType\":\"account\"},\"repeat\":false,\"width\":75,\"height\":75,\"borderWidth\":0,\"borderRadius\":0,\"borderColor\":\"#D1D1D1\",\"borderPos\":\"inside\",\"propagateEvents\":false,\"actions\":[],\"overlay\":false,\"autoResize\":false,\"aspectratio\":1,\"left\":818,\"top\":1763,\"vpos\":\"top\",\"hpos\":\"left\",\"visible\":true,\"id\":\"box-25\",\"group\":\"root\",\"zindex\":16,\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"borderStyle\":\"solid\",\"rotation\":0,\"scale\":1},{\"name\":\"image\",\"type\":\"image\",\"lib\":\"common\",\"caption\":\"Name.png\",\"imgSrc\":{\"fileId\":\"923d9a35df8c1ff2b7eab1209375326f.png\",\"assetType\":\"project\",\"bucketsource\":\"main\",\"name\":\"Name.png\"},\"repeat\":false,\"width\":544,\"height\":207,\"borderWidth\":0,\"borderRadius\":0,\"borderColor\":\"#D1D1D1\",\"borderPos\":\"inside\",\"propagateEvents\":false,\"actions\":[],\"overlay\":false,\"autoResize\":false,\"aspectratio\":2.638640429338104,\"left\":269,\"top\":730,\"visible\":true,\"id\":\"box-239\",\"group\":\"root\",\"zindex\":17,\"hpos\":\"left\",\"vpos\":\"top\",\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"borderStyle\":\"solid\",\"rotation\":0,\"scale\":1}]",
+            "actions": [],
+            "title": "State 1",
+            "template": {
+                "id": "",
+                "stateid": ""
+            },
+            "id": "F66CA52C-05A9-0928-8BFE21000150F786",
+            "background": "none",
+            "history": [],
+            "groups": {}
+        }]
+    }, {
+        "id": 2,
+        "title": "home",
+        "orientation": "portrait",
+        "statusbar": "0",
+        "navigationbar": "0",
+        "actions": [],
+        "states": [{
+            "title": "State 1",
+            "background": "none",
+            "data": "[{\"left\":0,\"top\":156,\"width\":1080,\"height\":1608,\"type\":\"symbol\",\"group\":\"root\",\"text\":\"\",\"symbolid\":1,\"caption\":\"Scrolling feed\",\"visible\":true,\"scroll\":\"vertical\",\"scrollsnap\":false,\"pinchzoom\":false,\"lockdirection\":true,\"scrollbars\":false,\"momentum\":true,\"zindex\":1,\"id\":\"box-36\",\"hpos\":\"left\",\"vpos\":\"top\",\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"propagateevents\":false,\"rotation\":0,\"scale\":1,\"aspectratio\":false,\"symbolstateid\":\"e8e6b45e-c849-4fa4-a47d-374f33c672d7\",\"bounce\":true,\"lib\":\"undefined\",\"actions\":[{\"title\":\"Interaction 1\",\"type\":\"tap\",\"actionId\":\"go-to-page\",\"pageId\":\"3\",\"animation\":\"slide\",\"animationEasing\":\"Cubic.easeOut\",\"duration\":\"400\",\"delay\":\"0\",\"callback\":false,\"guid\":\"959c72fb-6871-4bde-9dd0-d41c97693f9c\",\"sort\":null}],\"scrollToX\":\"0\",\"scrollToY\":\"0\",\"patternGuid\":\"28bad2d3-7fd7-4a2c-8594-f965be831707\"},{\"name\":\"image\",\"type\":\"image\",\"lib\":\"common\",\"caption\":\"ASIPLOGO.png\",\"imgSrc\":{\"fileId\":\"69e4f1bf892aaaa50c204fb783a177aa.png\",\"assetType\":\"project\",\"bucketsource\":\"main\",\"name\":\"ASIPLOGO.png\"},\"repeat\":false,\"width\":190,\"height\":150,\"borderWidth\":0,\"borderRadius\":0,\"borderColor\":\"#D1D1D1\",\"borderPos\":\"inside\",\"propagateEvents\":false,\"actions\":[],\"overlay\":false,\"autoResize\":false,\"aspectratio\":1.2628255722178374,\"left\":79,\"top\":32,\"visible\":true,\"id\":\"box-28\",\"group\":\"root\",\"zindex\":3,\"hpos\":\"left\",\"vpos\":\"top\",\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"borderStyle\":\"solid\",\"rotation\":0,\"scale\":1},{\"name\":\"ios8_searchbar\",\"type\":\"ios8_searchbar\",\"lib\":\"ios7\",\"caption\":\"Search Bar 1\",\"width\":648,\"height\":86,\"value\":\"\",\"placeholder\":\"Search\",\"backgroundColor\":\"ffffff\",\"textFont\":\"San Francisco UI Text Regular\",\"textSize\":42,\"textColor\":\"000000\",\"placeholderColor\":\"999999\",\"borderWidth\":3,\"borderRadius\":18,\"borderColor\":\"cccccc\",\"imgSrc\":{\"fileId\":\"3e49eaab00dc41aaa07e1f7e39779c39.svg\",\"name\":\"search.svg\",\"assetType\":\"icon\",\"bucketsource\":\"static\",\"url\":\"f1352971179296/14870b88002e540a4d1fc9c2d2a88384.svg\",\"targetSrc\":\"generated/14870b88002e540a4d1fc9c2d2a88384_999999.svg\",\"color\":\"999999\"},\"imgSrc2\":{\"fileId\":\"e648f99b268782f39ea1442529369aa3.svg\",\"name\":\"cr-delete.svg\",\"assetType\":\"icon\",\"bucketsource\":\"static\",\"url\":\"f1352449307873/61a2922cfa9b623512ce97a21983a037.svg\",\"targetSrc\":\"generated/61a2922cfa9b623512ce97a21983a037_999999.svg\",\"color\":\"999999\"},\"left\":353,\"top\":64,\"vpos\":\"top\",\"hpos\":\"left\",\"visible\":true,\"id\":\"box-29\",\"group\":\"root\",\"zindex\":5,\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"rotation\":0,\"scale\":1,\"aspectratio\":false,\"textProperties\":[]},{\"name\":\"basic_tabbar\",\"type\":\"basic_tabbar\",\"lib\":\"common\",\"caption\":\"Basic Tabbar 1\",\"width\":1080,\"height\":155,\"vpos\":\"top\",\"backgroundColor\":\"FFFFFF\",\"borderWidth\":0,\"borderColor\":\"C6C6C6\",\"textFont\":\"sans-serif,Helvetica Neue,Arial\",\"textSize\":30,\"textColor\":\"#AAAAAA\",\"textProperties\":[\"bold\"],\"iconpos\":\"top\",\"iconSize\":3,\"activeBackgroundColor\":\"rgba(242,133,0,0.59)\",\"activeTextColor\":\"FFFFFF\",\"maskEnabled\":true,\"maskInactive\":\"383838\",\"maskActive\":\"FFFFFF\",\"activeTab\":0,\"overlay\":false,\"tabs\":[{\"text\":\"<strong>Home</strong>\",\"icon\":{\"fileId\":\"e4e7dbcddba77b96954aa3602719162c.svg\",\"name\":\"kub-home.svg\",\"assetType\":\"icon\",\"bucketsource\":\"static\",\"url\":\"f1352971179296/e6a1ba573190139ceda51280e9fdad9c.svg\",\"targetSrc\":\"generated/e4e7dbcddba77b96954aa3602719162c_ff6849.svg\",\"color\":\"FF6849\"},\"activeicon\":{\"fileId\":\"e4e7dbcddba77b96954aa3602719162c.svg\",\"name\":\"kub-home.svg\",\"assetType\":\"icon\",\"bucketsource\":\"static\",\"url\":\"f1352971179296/e6a1ba573190139ceda51280e9fdad9c.svg\",\"targetSrc\":\"generated/e6a1ba573190139ceda51280e9fdad9c_ffffff.svg\",\"color\":\"ffffff\"},\"actions\":[{\"title\":\"Interaction 1\",\"type\":\"tap\",\"actionId\":\"go-to-page\",\"pageId\":\"2\",\"animation\":\"slide\",\"animationEasing\":\"Cubic.easeOut\",\"duration\":\"400\",\"delay\":\"0\",\"callback\":false,\"guid\":\"ea13601e-4792-4ab5-a64f-44bae354aebb\",\"sort\":null}],\"linkedscreen\":-1},{\"text\":\"Post\",\"icon\":{\"fileId\":\"9f51e6dd9adaacbc69eb39a3b11e2069.svg\",\"name\":\"plus.svg\",\"assetType\":\"icon\",\"bucketsource\":\"static\",\"url\":\"f1352971179296/558b9ee9b4a9123e4df38f815f297650.svg\",\"targetSrc\":\"generated/9f51e6dd9adaacbc69eb39a3b11e2069_ff6849.svg\",\"color\":\"FF6849\"},\"activeicon\":{\"fileId\":\"e55334acc02f524531f172be5348bfd2.svg\",\"name\":\"mail-2.svg\",\"assetType\":\"icon\",\"bucketsource\":\"static\",\"url\":\"f1352971179296/1b58b288e91e6a4cb64d90433880003d.svg\",\"targetSrc\":\"generated/1b58b288e91e6a4cb64d90433880003d_ffffff.svg\",\"color\":\"ffffff\"},\"actions\":[{\"title\":\"Interaction 1\",\"type\":\"tap\",\"actionId\":\"go-to-page\",\"pageId\":\"5\",\"animation\":\"slide\",\"animationEasing\":\"Cubic.easeOut\",\"duration\":\"400\",\"delay\":\"0\",\"callback\":false,\"guid\":\"6f2492f4-f13d-47e4-93e3-a73a2fb9b71c\",\"sort\":null}],\"linkedscreen\":-1},{\"text\":\"<strong>Message</strong>\",\"icon\":{\"fileId\":\"04b27f56e3cbdeedfafcf2b349de07f9.svg\",\"name\":\"mail-2.svg\",\"assetType\":\"icon\",\"bucketsource\":\"static\",\"url\":\"f1352971179296/1b58b288e91e6a4cb64d90433880003d.svg\",\"targetSrc\":\"generated/04b27f56e3cbdeedfafcf2b349de07f9_ff6849.svg\",\"color\":\"FF6849\"},\"activeicon\":{\"fileId\":\"a764f2746aa43431594a25b3e9d5dc34.svg\",\"name\":\"star.svg\",\"assetType\":\"icon\",\"bucketsource\":\"static\",\"url\":\"f1352971179296/94a90bf9a645dba63ad7a41d18f82ea7.svg\",\"targetSrc\":\"generated/94a90bf9a645dba63ad7a41d18f82ea7_ffffff.svg\",\"color\":\"ffffff\"},\"actions\":[],\"linkedscreen\":-1},{\"text\":\"<strong>Me</strong>\",\"icon\":{\"fileId\":\"4be5930104be6d1e006e57cd7e4fa4e7.svg\",\"name\":\"avatar-3.svg\",\"assetType\":\"icon\",\"bucketsource\":\"static\",\"url\":\"f1352971179296/b09befaf7ddd0d10dd549b999c17760f.svg\",\"targetSrc\":\"generated/4be5930104be6d1e006e57cd7e4fa4e7_f26100.svg\",\"color\":\"F26100\"},\"activeicon\":{\"fileId\":\"a764f2746aa43431594a25b3e9d5dc34.svg\",\"name\":\"star.svg\",\"assetType\":\"icon\",\"bucketsource\":\"static\",\"url\":\"f1352971179296/94a90bf9a645dba63ad7a41d18f82ea7.svg\",\"targetSrc\":\"generated/94a90bf9a645dba63ad7a41d18f82ea7_ffffff.svg\",\"color\":\"ffffff\"},\"actions\":[{\"title\":\"Interaction 1\",\"type\":\"tap\",\"actionId\":\"go-to-page\",\"pageId\":\"6\",\"animation\":\"slide\",\"animationEasing\":\"Cubic.easeOut\",\"duration\":\"400\",\"delay\":\"0\",\"callback\":false,\"guid\":\"df65dd39-f00f-4646-8ab3-fe996f2ac4c5\",\"sort\":null}],\"linkedscreen\":-1}],\"left\":0,\"top\":1765,\"hpos\":\"left\",\"visible\":true,\"id\":\"box-153\",\"group\":\"root\",\"zindex\":6,\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"changeActive\":false,\"rotation\":0,\"scale\":1,\"aspectratio\":false}]",
+            "template": {
+                "id": "",
+                "stateid": ""
+            },
+            "history": [],
+            "id": "0d1ff149-3792-4eb2-9f04-d467d75299de",
+            "actions": [],
+            "groups": {}
+        }]
+    }, {
+        "id": 3,
+        "title": "a zheshaya",
+        "orientation": "portrait",
+        "statusbar": "0",
+        "navigationbar": "0",
+        "actions": [],
+        "states": [{
+            "title": "State 1",
+            "background": "none",
+            "data": "[{\"left\":0,\"top\":196,\"width\":1080,\"height\":1428,\"type\":\"symbol\",\"group\":\"root\",\"text\":\"\",\"symbolid\":5,\"caption\":\"Scrolling feed\",\"visible\":true,\"scroll\":\"vertical\",\"scrollsnap\":false,\"pinchzoom\":false,\"lockdirection\":true,\"scrollbars\":false,\"momentum\":true,\"zindex\":1,\"id\":\"box-113\",\"hpos\":\"left\",\"vpos\":\"top\",\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"propagateevents\":false,\"rotation\":0,\"scale\":1,\"aspectratio\":false,\"symbolstateid\":\"577f3b3a-f84a-4e3f-a138-2980f79b9415\",\"bounce\":true,\"lib\":\"undefined\",\"actions\":[],\"scrollToX\":\"0\",\"scrollToY\":\"0\",\"patternGuid\":\"89f5572f-3d9f-4dde-a977-1ea8c78ecf7a\"},{\"name\":\"image\",\"type\":\"image\",\"lib\":\"common\",\"caption\":\"ASIPLOGO.png\",\"imgSrc\":{\"fileId\":\"69e4f1bf892aaaa50c204fb783a177aa.png\",\"assetType\":\"project\",\"bucketsource\":\"main\",\"name\":\"ASIPLOGO.png\"},\"repeat\":false,\"width\":190,\"height\":150,\"borderWidth\":0,\"borderRadius\":0,\"borderColor\":\"#D1D1D1\",\"borderPos\":\"inside\",\"propagateEvents\":false,\"actions\":[],\"overlay\":false,\"autoResize\":false,\"aspectratio\":1.2628255722178374,\"left\":445,\"top\":25,\"visible\":true,\"id\":\"box-114\",\"group\":\"root\",\"zindex\":3,\"hpos\":\"left\",\"vpos\":\"top\",\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"borderStyle\":\"solid\",\"rotation\":0,\"scale\":1},{\"name\":\"material_morphing_lines_close\",\"type\":\"material_morphing_lines\",\"lib\":\"material\",\"caption\":\"Morphing Icon Close\",\"width\":161,\"height\":161,\"backgroundColor\":\"#FF6849\",\"backgroundColorActive\":\"#E26100\",\"active\":false,\"itemtype\":\"lines-close\",\"checkboxActionsOnActive\":[],\"checkboxActionsOnDeactive\":[],\"aspectratio\":1,\"rippleEffect\":true,\"rippleEffectType\":\"dark\",\"rippleEffectColor\":\"rgba(0,0,0,0.1)\",\"left\":927,\"top\":25,\"vpos\":\"top\",\"hpos\":\"left\",\"visible\":true,\"id\":\"box-191\",\"group\":\"root\",\"zindex\":5,\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"rotation\":0,\"scale\":1},{\"name\":\"ios7_button_icon\",\"type\":\"ios7_button_icon\",\"lib\":\"ios7\",\"caption\":\"Icon Button 1\",\"image\":\"https://dteyv52hbg2at.cloudfront.net/devices/ios7/button_icon/image.png\",\"width\":127,\"height\":127,\"textAlign\":\"center\",\"iconpos\":\"notext\",\"img\":{\"fileId\":\"c0877fc419aa836a4097f4f982a53a59.svg\",\"name\":\"chevron-left.svg\",\"assetType\":\"icon\",\"bucketsource\":\"static\",\"url\":\"f1352971179296/b0a2a6e58cba73da2d0b8dc3e0ac8fe8.svg\",\"targetSrc\":\"generated/c0877fc419aa836a4097f4f982a53a59_ff6849.svg\",\"color\":\"FF6849\"},\"left\":0,\"top\":25,\"vpos\":\"top\",\"hpos\":\"left\",\"visible\":true,\"id\":\"box-192\",\"group\":\"root\",\"zindex\":6,\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"rotation\":0,\"scale\":1,\"aspectratio\":false,\"actions\":[{\"title\":\"Interaction 1\",\"type\":\"tap\",\"actionId\":\"go-to-page\",\"pageId\":\"2\",\"animation\":\"slide\",\"animationEasing\":\"Cubic.easeOut\",\"duration\":\"400\",\"delay\":\"0\",\"callback\":false,\"guid\":\"ea03e675-aa69-4ab4-b305-5c157f551426\",\"sort\":null}]},{\"name\":\"ios7_tabbar\",\"type\":\"ios7_tabbar\",\"lib\":\"ios7\",\"caption\":\"Tabbar 1\",\"width\":1088,\"height\":141,\"vpos\":\"top\",\"backgroundColor\":\"rgba(235,235,235,0.95)\",\"borderWidth\":0,\"borderColor\":\"transparent\",\"textFont\":\"San Francisco UI Text Regular\",\"textSize\":30,\"textColor\":\"#000000\",\"textProperties\":[],\"iconpos\":\"top\",\"iconSize\":3,\"activeBackgroundColor\":\"as-inactive\",\"activeTextColor\":\"#000000\",\"maskEnabled\":true,\"maskInactive\":\"#8D8D8D\",\"maskActive\":\"#F26100\",\"activeTab\":0,\"overlay\":false,\"tabs\":[{\"text\":\"Like\",\"icon\":{\"fileId\":\"a3c129a0b51f005fcc78d342c50f1da5.svg\",\"name\":\"like-3.svg\",\"assetType\":\"icon\",\"bucketsource\":\"static\",\"url\":\"f1352971179296/f838e7169e051607ad6a0ffc8e6f423c.svg\",\"targetSrc\":\"generated/a3c129a0b51f005fcc78d342c50f1da5_000000.svg\",\"color\":\"000000\"},\"activeicon\":{\"fileId\":\"e4e7dbcddba77b96954aa3602719162c.svg\",\"name\":\"kub-home.svg\",\"assetType\":\"icon\",\"bucketsource\":\"static\",\"url\":\"f1352971179296/e6a1ba573190139ceda51280e9fdad9c.svg\",\"targetSrc\":\"generated/e6a1ba573190139ceda51280e9fdad9c_ffffff.svg\",\"color\":\"ffffff\"},\"actions\":[],\"linkedscreen\":-1},{\"text\":\"Messages\",\"icon\":{\"fileId\":\"324879579bf3ecf9c4b49ef0c151501b.svg\",\"name\":\"speech-1.svg\",\"assetType\":\"icon\",\"bucketsource\":\"static\",\"url\":\"f1352971179296/693bf32e7424f6bf747696ddab19cdf5.svg\",\"targetSrc\":\"generated/324879579bf3ecf9c4b49ef0c151501b_383838.svg\",\"color\":\"383838\"},\"activeicon\":{\"fileId\":\"e55334acc02f524531f172be5348bfd2.svg\",\"name\":\"mail-2.svg\",\"assetType\":\"icon\",\"bucketsource\":\"static\",\"url\":\"f1352971179296/1b58b288e91e6a4cb64d90433880003d.svg\",\"targetSrc\":\"generated/1b58b288e91e6a4cb64d90433880003d_ffffff.svg\",\"color\":\"ffffff\"},\"actions\":[],\"linkedscreen\":-1},{\"text\":\"Share\",\"icon\":{\"bucketsource\":\"main\",\"fileId\":\"5798b1ce822f718554c401bedfbd5c83.png\",\"name\":\"17704-200.png\",\"assetType\":\"account\"},\"activeicon\":{\"fileId\":\"a764f2746aa43431594a25b3e9d5dc34.svg\",\"name\":\"star.svg\",\"assetType\":\"icon\",\"bucketsource\":\"static\",\"url\":\"f1352971179296/94a90bf9a645dba63ad7a41d18f82ea7.svg\",\"targetSrc\":\"generated/94a90bf9a645dba63ad7a41d18f82ea7_1b9af7.svg\",\"color\":\"1b9af7\"},\"actions\":[{\"title\":\"Interaction 1\",\"type\":\"tap\",\"actionId\":\"show-item\",\"pageId\":\"3\",\"itemId\":\"group-42448998-485d-4599-9760-01258f4c018b\",\"animationEasing\":\"out\",\"duration\":\"400\",\"delay\":\"0\",\"callback\":false,\"guid\":\"46fde401-b60f-4912-9aab-1a0da5484053\",\"sort\":null}],\"linkedscreen\":-1}],\"left\":0,\"top\":1624,\"hpos\":\"left\",\"visible\":true,\"id\":\"box-199\",\"group\":\"root\",\"zindex\":12,\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"changeActive\":true,\"rotation\":0,\"scale\":1,\"aspectratio\":false,\"userCaption\":true},{\"name\":\"ios10_widget\",\"type\":\"ios10_widget\",\"lib\":\"ios7\",\"caption\":\"Widget 1\",\"width\":1080,\"height\":406,\"title\":\"Share with\",\"titleSize\":54,\"titleFont\":\"San Francisco UI Text Light\",\"titleColor\":\"7F7F7F\",\"titleProperties\":[],\"more\":\"\",\"text\":\"\",\"textSize\":45,\"textFont\":\"San Francisco UI Text Regular\",\"textColor\":\"000000\",\"textProperties\":[],\"textAlign\":\"left\",\"imgSrc\":{\"bucketsource\":\"main\",\"fileId\":\"5798b1ce822f718554c401bedfbd5c83.png\",\"name\":\"17704-200.png\",\"assetType\":\"account\"},\"titleBackgroundColor\":\"rgba(226,226,226,0.9)\",\"backgroundColor\":\"rgba(235,235,235,0.9)\",\"borderRadius\":12,\"left\":0,\"top\":1835,\"vpos\":\"top\",\"hpos\":\"left\",\"visible\":true,\"id\":\"box-194\",\"group\":\"42448998-485d-4599-9760-01258f4c018b\",\"zindex\":7,\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"rotation\":0,\"scale\":1,\"aspectratio\":false},{\"name\":\"image\",\"type\":\"image\",\"lib\":\"common\",\"caption\":\"twitter.png\",\"imgSrc\":{\"fileId\":\"bc08e0a5615217a29474b465bc7d7d74.png\",\"assetType\":\"project\",\"bucketsource\":\"main\",\"name\":\"twitter.png\"},\"repeat\":false,\"width\":179,\"height\":179,\"borderWidth\":0,\"borderRadius\":0,\"borderColor\":\"#D1D1D1\",\"borderPos\":\"inside\",\"propagateEvents\":false,\"actions\":[],\"overlay\":false,\"autoResize\":false,\"aspectratio\":1,\"left\":35,\"top\":1990,\"visible\":true,\"id\":\"box-195\",\"group\":\"42448998-485d-4599-9760-01258f4c018b\",\"zindex\":8,\"hpos\":\"left\",\"vpos\":\"top\",\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"borderStyle\":\"solid\",\"rotation\":0,\"scale\":1},{\"name\":\"image\",\"type\":\"image\",\"lib\":\"common\",\"caption\":\"wechat.png\",\"imgSrc\":{\"fileId\":\"f943db42f5e79480913974747d35263f.png\",\"assetType\":\"project\",\"bucketsource\":\"main\",\"name\":\"wechat.png\"},\"repeat\":false,\"width\":179,\"height\":179,\"borderWidth\":0,\"borderRadius\":0,\"borderColor\":\"#D1D1D1\",\"borderPos\":\"inside\",\"propagateEvents\":false,\"actions\":[],\"overlay\":false,\"autoResize\":false,\"aspectratio\":1,\"left\":285,\"top\":1990,\"visible\":true,\"id\":\"box-196\",\"group\":\"42448998-485d-4599-9760-01258f4c018b\",\"zindex\":9,\"hpos\":\"left\",\"vpos\":\"top\",\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"borderStyle\":\"solid\",\"rotation\":0,\"scale\":1},{\"name\":\"image\",\"type\":\"image\",\"lib\":\"common\",\"caption\":\"Facebook.png\",\"imgSrc\":{\"fileId\":\"b18a17809c6ab7df11fbec9d7968bd98.png\",\"assetType\":\"project\",\"bucketsource\":\"main\",\"name\":\"Facebook.png\"},\"repeat\":false,\"width\":179,\"height\":179,\"borderWidth\":0,\"borderRadius\":0,\"borderColor\":\"#D1D1D1\",\"borderPos\":\"inside\",\"propagateEvents\":false,\"actions\":[],\"overlay\":false,\"autoResize\":false,\"aspectratio\":1,\"left\":530,\"top\":1990,\"visible\":true,\"id\":\"box-197\",\"group\":\"42448998-485d-4599-9760-01258f4c018b\",\"zindex\":10,\"hpos\":\"left\",\"vpos\":\"top\",\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"borderStyle\":\"solid\",\"rotation\":0,\"scale\":1},{\"name\":\"image\",\"type\":\"image\",\"lib\":\"common\",\"caption\":\"weibo.png\",\"imgSrc\":{\"fileId\":\"378768375fd233502ad306ef20f9e06d.png\",\"assetType\":\"project\",\"bucketsource\":\"main\",\"name\":\"weibo.png\"},\"repeat\":false,\"width\":179,\"height\":179,\"borderWidth\":0,\"borderRadius\":0,\"borderColor\":\"#D1D1D1\",\"borderPos\":\"inside\",\"propagateEvents\":false,\"actions\":[],\"overlay\":false,\"autoResize\":false,\"aspectratio\":1,\"left\":786,\"top\":1990,\"visible\":true,\"id\":\"box-198\",\"group\":\"42448998-485d-4599-9760-01258f4c018b\",\"zindex\":11,\"hpos\":\"left\",\"vpos\":\"top\",\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"borderStyle\":\"solid\",\"rotation\":0,\"scale\":1},{\"name\":\"basic_tabbar\",\"type\":\"basic_tabbar\",\"lib\":\"common\",\"caption\":\"Basic Tabbar 1\",\"width\":1080,\"height\":155,\"vpos\":\"top\",\"backgroundColor\":\"FFFFFF\",\"borderWidth\":0,\"borderColor\":\"C6C6C6\",\"textFont\":\"sans-serif,Helvetica Neue,Arial\",\"textSize\":30,\"textColor\":\"#AAAAAA\",\"textProperties\":[\"bold\"],\"iconpos\":\"top\",\"iconSize\":3,\"activeBackgroundColor\":\"rgba(242,133,0,0.59)\",\"activeTextColor\":\"FFFFFF\",\"maskEnabled\":true,\"maskInactive\":\"383838\",\"maskActive\":\"FFFFFF\",\"activeTab\":\"999\",\"overlay\":false,\"tabs\":[{\"text\":\"<strong>Home</strong>\",\"icon\":{\"fileId\":\"e4e7dbcddba77b96954aa3602719162c.svg\",\"name\":\"kub-home.svg\",\"assetType\":\"icon\",\"bucketsource\":\"static\",\"url\":\"f1352971179296/e6a1ba573190139ceda51280e9fdad9c.svg\",\"targetSrc\":\"generated/e4e7dbcddba77b96954aa3602719162c_ff6849.svg\",\"color\":\"FF6849\"},\"activeicon\":{\"fileId\":\"e4e7dbcddba77b96954aa3602719162c.svg\",\"name\":\"kub-home.svg\",\"assetType\":\"icon\",\"bucketsource\":\"static\",\"url\":\"f1352971179296/e6a1ba573190139ceda51280e9fdad9c.svg\",\"targetSrc\":\"generated/e6a1ba573190139ceda51280e9fdad9c_ffffff.svg\",\"color\":\"ffffff\"},\"actions\":[{\"title\":\"Interaction 1\",\"type\":\"tap\",\"actionId\":\"go-to-page\",\"pageId\":\"2\",\"animation\":\"slide\",\"animationEasing\":\"Cubic.easeOut\",\"duration\":\"400\",\"delay\":\"0\",\"callback\":false,\"guid\":\"250147b9-eac4-4684-8381-3406e49ecbbe\",\"sort\":null}],\"linkedscreen\":-1},{\"text\":\"Post\",\"icon\":{\"fileId\":\"9f51e6dd9adaacbc69eb39a3b11e2069.svg\",\"name\":\"plus.svg\",\"assetType\":\"icon\",\"bucketsource\":\"static\",\"url\":\"f1352971179296/558b9ee9b4a9123e4df38f815f297650.svg\",\"targetSrc\":\"generated/9f51e6dd9adaacbc69eb39a3b11e2069_ff6849.svg\",\"color\":\"FF6849\"},\"activeicon\":{\"fileId\":\"e55334acc02f524531f172be5348bfd2.svg\",\"name\":\"mail-2.svg\",\"assetType\":\"icon\",\"bucketsource\":\"static\",\"url\":\"f1352971179296/1b58b288e91e6a4cb64d90433880003d.svg\",\"targetSrc\":\"generated/1b58b288e91e6a4cb64d90433880003d_ffffff.svg\",\"color\":\"ffffff\"},\"actions\":[{\"title\":\"Interaction 1\",\"type\":\"tap\",\"actionId\":\"go-to-page\",\"pageId\":\"5\",\"animation\":\"slide\",\"animationEasing\":\"Cubic.easeOut\",\"duration\":\"400\",\"delay\":\"0\",\"callback\":false,\"guid\":\"769cff38-7b32-4f2a-b7e3-422be9bcfdce\",\"sort\":null}],\"linkedscreen\":-1},{\"text\":\"<strong>Message</strong>\",\"icon\":{\"fileId\":\"04b27f56e3cbdeedfafcf2b349de07f9.svg\",\"name\":\"mail-2.svg\",\"assetType\":\"icon\",\"bucketsource\":\"static\",\"url\":\"f1352971179296/1b58b288e91e6a4cb64d90433880003d.svg\",\"targetSrc\":\"generated/04b27f56e3cbdeedfafcf2b349de07f9_ff6849.svg\",\"color\":\"FF6849\"},\"activeicon\":{\"fileId\":\"a764f2746aa43431594a25b3e9d5dc34.svg\",\"name\":\"star.svg\",\"assetType\":\"icon\",\"bucketsource\":\"static\",\"url\":\"f1352971179296/94a90bf9a645dba63ad7a41d18f82ea7.svg\",\"targetSrc\":\"generated/94a90bf9a645dba63ad7a41d18f82ea7_ffffff.svg\",\"color\":\"ffffff\"},\"actions\":[],\"linkedscreen\":-1},{\"text\":\"<strong>Me</strong>\",\"icon\":{\"fileId\":\"4be5930104be6d1e006e57cd7e4fa4e7.svg\",\"name\":\"avatar-3.svg\",\"assetType\":\"icon\",\"bucketsource\":\"static\",\"url\":\"f1352971179296/b09befaf7ddd0d10dd549b999c17760f.svg\",\"targetSrc\":\"generated/4be5930104be6d1e006e57cd7e4fa4e7_f26100.svg\",\"color\":\"F26100\"},\"activeicon\":{\"fileId\":\"a764f2746aa43431594a25b3e9d5dc34.svg\",\"name\":\"star.svg\",\"assetType\":\"icon\",\"bucketsource\":\"static\",\"url\":\"f1352971179296/94a90bf9a645dba63ad7a41d18f82ea7.svg\",\"targetSrc\":\"generated/94a90bf9a645dba63ad7a41d18f82ea7_ffffff.svg\",\"color\":\"ffffff\"},\"actions\":[{\"title\":\"Interaction 1\",\"type\":\"tap\",\"actionId\":\"go-to-page\",\"pageId\":\"6\",\"animation\":\"slide\",\"animationEasing\":\"Cubic.easeOut\",\"duration\":\"400\",\"delay\":\"0\",\"callback\":false,\"guid\":\"87a95985-01f0-467b-ad62-5d4e4a2ee303\",\"sort\":null}],\"linkedscreen\":-1}],\"left\":0,\"top\":1765,\"hpos\":\"left\",\"visible\":true,\"id\":\"box-372\",\"group\":\"root\",\"zindex\":6,\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"changeActive\":false,\"rotation\":0,\"scale\":1,\"aspectratio\":false}]",
+            "template": {
+                "id": "",
+                "stateid": ""
+            },
+            "history": [],
+            "id": "93824ade-760f-4033-ba77-9b81d2b21ff9",
+            "actions": [],
+            "groups": {
+                "42448998-485d-4599-9760-01258f4c018b": {
+                    "parent": "root",
+                    "id": "42448998-485d-4599-9760-01258f4c018b",
+                    "label": "Group",
+                    "visible": false,
+                    "rotation": 0,
+                    "opacity": 1,
+                    "actions": [{
+                        "title": "Interaction 1",
+                        "type": "tap",
+                        "actionId": "hide-item",
+                        "pageId": "3",
+                        "itemId": "group-42448998-485d-4599-9760-01258f4c018b",
+                        "animationEasing": "out",
+                        "duration": "400",
+                        "delay": "0",
+                        "callback": false,
+                        "guid": "48fd2eea-6a2c-499a-9f28-28a7552cacda",
+                        "sort": null
+                    }]
+                }
+            }
+        }]
+    }, {
+        "id": 4,
+        "title": "map",
+        "orientation": "portrait",
+        "statusbar": "0",
+        "navigationbar": "0",
+        "actions": [],
+        "states": [{
+            "title": "State 1",
+            "background": "none",
+            "data": "[{\"name\":\"material_morphing_lines_close\",\"type\":\"material_morphing_lines\",\"lib\":\"material\",\"caption\":\"Morphing Icon Close\",\"width\":124,\"height\":124,\"backgroundColor\":\"#FF6849\",\"backgroundColorActive\":\"#E26100\",\"active\":false,\"itemtype\":\"lines-close\",\"checkboxActionsOnActive\":[],\"checkboxActionsOnDeactive\":[],\"aspectratio\":1,\"rippleEffect\":true,\"rippleEffectType\":\"dark\",\"rippleEffectColor\":\"rgba(0,0,0,0.1)\",\"left\":956,\"top\":31,\"vpos\":\"top\",\"hpos\":\"left\",\"visible\":true,\"id\":\"box-202\",\"group\":\"root\",\"zindex\":5,\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"rotation\":0,\"scale\":1},{\"name\":\"ios7_button_icon\",\"type\":\"ios7_button_icon\",\"lib\":\"ios7\",\"caption\":\"Icon Button 1\",\"image\":\"https://dteyv52hbg2at.cloudfront.net/devices/ios7/button_icon/image.png\",\"width\":127,\"height\":127,\"textAlign\":\"center\",\"iconpos\":\"notext\",\"img\":{\"fileId\":\"c0877fc419aa836a4097f4f982a53a59.svg\",\"name\":\"chevron-left.svg\",\"assetType\":\"icon\",\"bucketsource\":\"static\",\"url\":\"f1352971179296/b0a2a6e58cba73da2d0b8dc3e0ac8fe8.svg\",\"targetSrc\":\"generated/c0877fc419aa836a4097f4f982a53a59_ff6849.svg\",\"color\":\"FF6849\"},\"left\":0,\"top\":25,\"vpos\":\"top\",\"hpos\":\"left\",\"visible\":true,\"id\":\"box-203\",\"group\":\"root\",\"zindex\":6,\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"rotation\":0,\"scale\":1,\"aspectratio\":false,\"actions\":[{\"title\":\"Interaction 1\",\"type\":\"tap\",\"actionId\":\"go-to-page\",\"pageId\":\"3\",\"animation\":\"slideback\",\"animationEasing\":\"Cubic.easeOut\",\"duration\":\"400\",\"delay\":\"0\",\"callback\":false,\"guid\":\"11240753-3310-4f0a-9c21-a4bafcb67978\",\"sort\":null}]},{\"name\":\"image\",\"type\":\"image\",\"lib\":\"common\",\"caption\":\"微信截图_20180720184155.png\",\"imgSrc\":{\"fileId\":\".png\",\"assetType\":\"project\",\"bucketsource\":\"main\",\"name\":\"微信截图_20180720184155.png\"},\"repeat\":false,\"width\":1080,\"height\":1720,\"borderWidth\":0,\"borderRadius\":0,\"borderColor\":\"#D1D1D1\",\"borderPos\":\"inside\",\"propagateEvents\":false,\"actions\":[],\"overlay\":false,\"autoResize\":false,\"aspectratio\":false,\"left\":0,\"top\":200,\"visible\":true,\"id\":\"box-207\",\"group\":\"root\",\"zindex\":8,\"hpos\":\"left\",\"vpos\":\"top\",\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"borderStyle\":\"solid\",\"rotation\":0,\"scale\":1,\"mask\":{\"inner_width\":1725,\"inner_height\":1720,\"rotation\":0,\"aspectratio\":1.0029761904761905,\"borderRadius\":0,\"borderColor\":\"#000000\",\"borderPos\":\"inside\",\"borderStyle\":\"solid\",\"borderWidth\":0,\"y\":0,\"x\":-280,\"isMasked\":true,\"width\":1080,\"height\":1720,\"editing\":false,\"last_aspectratio\":0.627906976744186}},{\"name\":\"image\",\"type\":\"image\",\"lib\":\"common\",\"caption\":\"ASIPLOGO.png\",\"imgSrc\":{\"fileId\":\"69e4f1bf892aaaa50c204fb783a177aa.png\",\"assetType\":\"project\",\"bucketsource\":\"main\",\"name\":\"ASIPLOGO.png\"},\"repeat\":false,\"width\":190,\"height\":150,\"borderWidth\":0,\"borderRadius\":0,\"borderColor\":\"#D1D1D1\",\"borderPos\":\"inside\",\"propagateEvents\":false,\"actions\":[],\"overlay\":false,\"autoResize\":false,\"aspectratio\":1.2628255722178374,\"left\":445,\"top\":25,\"visible\":true,\"id\":\"box-309\",\"group\":\"root\",\"zindex\":3,\"hpos\":\"left\",\"vpos\":\"top\",\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"borderStyle\":\"solid\",\"rotation\":0,\"scale\":1},{\"name\":\"basic_tabbar\",\"type\":\"basic_tabbar\",\"lib\":\"common\",\"caption\":\"Basic Tabbar 1\",\"width\":1080,\"height\":155,\"vpos\":\"top\",\"backgroundColor\":\"FFFFFF\",\"borderWidth\":0,\"borderColor\":\"C6C6C6\",\"textFont\":\"sans-serif,Helvetica Neue,Arial\",\"textSize\":30,\"textColor\":\"#AAAAAA\",\"textProperties\":[\"bold\"],\"iconpos\":\"top\",\"iconSize\":3,\"activeBackgroundColor\":\"rgba(242,133,0,0.59)\",\"activeTextColor\":\"FFFFFF\",\"maskEnabled\":true,\"maskInactive\":\"383838\",\"maskActive\":\"FFFFFF\",\"activeTab\":\"999\",\"overlay\":false,\"tabs\":[{\"text\":\"<strong>Home</strong>\",\"icon\":{\"fileId\":\"e4e7dbcddba77b96954aa3602719162c.svg\",\"name\":\"kub-home.svg\",\"assetType\":\"icon\",\"bucketsource\":\"static\",\"url\":\"f1352971179296/e6a1ba573190139ceda51280e9fdad9c.svg\",\"targetSrc\":\"generated/e4e7dbcddba77b96954aa3602719162c_ff6849.svg\",\"color\":\"FF6849\"},\"activeicon\":{\"fileId\":\"e4e7dbcddba77b96954aa3602719162c.svg\",\"name\":\"kub-home.svg\",\"assetType\":\"icon\",\"bucketsource\":\"static\",\"url\":\"f1352971179296/e6a1ba573190139ceda51280e9fdad9c.svg\",\"targetSrc\":\"generated/e6a1ba573190139ceda51280e9fdad9c_ffffff.svg\",\"color\":\"ffffff\"},\"actions\":[{\"title\":\"Interaction 1\",\"type\":\"tap\",\"actionId\":\"go-to-page\",\"pageId\":\"2\",\"animation\":\"slide\",\"animationEasing\":\"Cubic.easeOut\",\"duration\":\"400\",\"delay\":\"0\",\"callback\":false,\"guid\":\"b5bae27f-0423-4e57-bcec-6bf90882ece4\",\"sort\":null}],\"linkedscreen\":-1},{\"text\":\"Post\",\"icon\":{\"fileId\":\"9f51e6dd9adaacbc69eb39a3b11e2069.svg\",\"name\":\"plus.svg\",\"assetType\":\"icon\",\"bucketsource\":\"static\",\"url\":\"f1352971179296/558b9ee9b4a9123e4df38f815f297650.svg\",\"targetSrc\":\"generated/9f51e6dd9adaacbc69eb39a3b11e2069_ff6849.svg\",\"color\":\"FF6849\"},\"activeicon\":{\"fileId\":\"e55334acc02f524531f172be5348bfd2.svg\",\"name\":\"mail-2.svg\",\"assetType\":\"icon\",\"bucketsource\":\"static\",\"url\":\"f1352971179296/1b58b288e91e6a4cb64d90433880003d.svg\",\"targetSrc\":\"generated/1b58b288e91e6a4cb64d90433880003d_ffffff.svg\",\"color\":\"ffffff\"},\"actions\":[{\"title\":\"Interaction 1\",\"type\":\"tap\",\"actionId\":\"go-to-page\",\"pageId\":\"5\",\"animation\":\"slide\",\"animationEasing\":\"Cubic.easeOut\",\"duration\":\"400\",\"delay\":\"0\",\"callback\":false,\"guid\":\"668ecd6c-f811-45e6-96b4-27a790aa59ac\",\"sort\":null}],\"linkedscreen\":-1},{\"text\":\"<strong>Message</strong>\",\"icon\":{\"fileId\":\"04b27f56e3cbdeedfafcf2b349de07f9.svg\",\"name\":\"mail-2.svg\",\"assetType\":\"icon\",\"bucketsource\":\"static\",\"url\":\"f1352971179296/1b58b288e91e6a4cb64d90433880003d.svg\",\"targetSrc\":\"generated/04b27f56e3cbdeedfafcf2b349de07f9_ff6849.svg\",\"color\":\"FF6849\"},\"activeicon\":{\"fileId\":\"a764f2746aa43431594a25b3e9d5dc34.svg\",\"name\":\"star.svg\",\"assetType\":\"icon\",\"bucketsource\":\"static\",\"url\":\"f1352971179296/94a90bf9a645dba63ad7a41d18f82ea7.svg\",\"targetSrc\":\"generated/94a90bf9a645dba63ad7a41d18f82ea7_ffffff.svg\",\"color\":\"ffffff\"},\"actions\":[],\"linkedscreen\":-1},{\"text\":\"<strong>Me</strong>\",\"icon\":{\"fileId\":\"4be5930104be6d1e006e57cd7e4fa4e7.svg\",\"name\":\"avatar-3.svg\",\"assetType\":\"icon\",\"bucketsource\":\"static\",\"url\":\"f1352971179296/b09befaf7ddd0d10dd549b999c17760f.svg\",\"targetSrc\":\"generated/4be5930104be6d1e006e57cd7e4fa4e7_f26100.svg\",\"color\":\"F26100\"},\"activeicon\":{\"fileId\":\"a764f2746aa43431594a25b3e9d5dc34.svg\",\"name\":\"star.svg\",\"assetType\":\"icon\",\"bucketsource\":\"static\",\"url\":\"f1352971179296/94a90bf9a645dba63ad7a41d18f82ea7.svg\",\"targetSrc\":\"generated/94a90bf9a645dba63ad7a41d18f82ea7_ffffff.svg\",\"color\":\"ffffff\"},\"actions\":[{\"title\":\"Interaction 1\",\"type\":\"tap\",\"actionId\":\"go-to-page\",\"pageId\":\"6\",\"animation\":\"slide\",\"animationEasing\":\"Cubic.easeOut\",\"duration\":\"400\",\"delay\":\"0\",\"callback\":false,\"guid\":\"9bd8966d-4ce0-4e25-b978-3bf73948e0dd\",\"sort\":null}],\"linkedscreen\":-1}],\"left\":0,\"top\":1765,\"hpos\":\"left\",\"visible\":true,\"id\":\"box-373\",\"group\":\"root\",\"zindex\":6,\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"changeActive\":true,\"rotation\":0,\"scale\":1,\"aspectratio\":false}]",
+            "template": {
+                "id": "",
+                "stateid": ""
+            },
+            "history": [],
+            "id": "d66585cf-1f8d-4d53-b08f-5d7662518415",
+            "actions": [],
+            "groups": {}
+        }]
+    }, {
+        "id": 5,
+        "title": "post",
+        "orientation": "portrait",
+        "statusbar": "0",
+        "navigationbar": "0",
+        "actions": [],
+        "states": [{
+            "title": "State 1",
+            "background": "none",
+            "data": "[{\"name\":\"ios7_button_icon\",\"type\":\"ios7_button_icon\",\"lib\":\"ios7\",\"caption\":\"Icon Button 1\",\"image\":\"https://dteyv52hbg2at.cloudfront.net/devices/ios7/button_icon/image.png\",\"width\":127,\"height\":127,\"textAlign\":\"center\",\"iconpos\":\"notext\",\"img\":{\"fileId\":\"c0877fc419aa836a4097f4f982a53a59.svg\",\"name\":\"chevron-left.svg\",\"assetType\":\"icon\",\"bucketsource\":\"static\",\"url\":\"f1352971179296/b0a2a6e58cba73da2d0b8dc3e0ac8fe8.svg\",\"targetSrc\":\"generated/c0877fc419aa836a4097f4f982a53a59_f26100.svg\",\"color\":\"F26100\"},\"left\":12,\"top\":23,\"vpos\":\"top\",\"hpos\":\"left\",\"visible\":true,\"id\":\"box-211\",\"group\":\"root\",\"zindex\":6,\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"rotation\":0,\"scale\":1,\"aspectratio\":false,\"actions\":[{\"title\":\"Interaction 1\",\"type\":\"tap\",\"actionId\":\"go-to-page\",\"pageId\":\"2\",\"animation\":\"slide\",\"animationEasing\":\"Cubic.easeOut\",\"duration\":\"400\",\"delay\":\"0\",\"callback\":false,\"guid\":\"9efe2b1e-9696-41a3-ab05-19d3d0615888\",\"sort\":null}]},{\"name\":\"text\",\"type\":\"text\",\"lib\":\"common\",\"caption\":\"Post\",\"text\":\"Post\",\"textFont\":\"sans-serif,Helvetica Neue,Arial\",\"textSize\":60,\"textColor\":\"#F26100\",\"backgroundColor\":\"none\",\"width\":130,\"height\":69,\"lineHeight\":72,\"textProperties\":[],\"textAlign\":\"left\",\"textSpacing\":\"0\",\"enableShadow\":false,\"autoResize\":true,\"v2\":true,\"left\":938,\"top\":52,\"vpos\":\"top\",\"hpos\":\"left\",\"visible\":true,\"id\":\"box-213\",\"group\":\"root\",\"zindex\":7,\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"propagateEvents\":false,\"lineHeightAuto\":true,\"rotation\":0,\"scale\":1,\"aspectratio\":false},{\"left\":27,\"top\":194,\"width\":1025,\"height\":1571,\"type\":\"symbol\",\"group\":\"root\",\"text\":\"\",\"symbolid\":8,\"scroll\":\"\",\"scrollsnap\":false,\"pinchzoom\":false,\"caption\":\"Container 8\",\"visible\":true,\"scrollbars\":true,\"momentum\":true,\"scrollToX\":0,\"scrollToY\":0,\"id\":\"box-335\",\"zindex\":17,\"hpos\":\"left\",\"vpos\":\"top\",\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"propagateevents\":false,\"rotation\":0,\"scale\":1,\"aspectratio\":false,\"symbolstateid\":\"487af144-592a-4915-a306-5fc304b6b3ce\",\"bounce\":true,\"lib\":\"undefined\"},{\"name\":\"image\",\"type\":\"image\",\"lib\":\"common\",\"caption\":\"ASIPLOGO.png\",\"imgSrc\":{\"fileId\":\"69e4f1bf892aaaa50c204fb783a177aa.png\",\"assetType\":\"project\",\"bucketsource\":\"main\",\"name\":\"ASIPLOGO.png\"},\"repeat\":false,\"width\":190,\"height\":150,\"borderWidth\":0,\"borderRadius\":0,\"borderColor\":\"#D1D1D1\",\"borderPos\":\"inside\",\"propagateEvents\":false,\"actions\":[],\"overlay\":false,\"autoResize\":false,\"aspectratio\":1.2628255722178374,\"left\":445,\"top\":25,\"visible\":true,\"id\":\"box-310\",\"group\":\"root\",\"zindex\":3,\"hpos\":\"left\",\"vpos\":\"top\",\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"borderStyle\":\"solid\",\"rotation\":0,\"scale\":1},{\"name\":\"basic_tabbar\",\"type\":\"basic_tabbar\",\"lib\":\"common\",\"caption\":\"Basic Tabbar 1\",\"width\":1080,\"height\":155,\"vpos\":\"top\",\"backgroundColor\":\"FFFFFF\",\"borderWidth\":0,\"borderColor\":\"C6C6C6\",\"textFont\":\"sans-serif,Helvetica Neue,Arial\",\"textSize\":30,\"textColor\":\"#AAAAAA\",\"textProperties\":[\"bold\"],\"iconpos\":\"top\",\"iconSize\":3,\"activeBackgroundColor\":\"rgba(242,133,0,0.59)\",\"activeTextColor\":\"FFFFFF\",\"maskEnabled\":true,\"maskInactive\":\"383838\",\"maskActive\":\"FFFFFF\",\"activeTab\":\"1\",\"overlay\":false,\"tabs\":[{\"text\":\"<strong>Home</strong>\",\"icon\":{\"fileId\":\"e4e7dbcddba77b96954aa3602719162c.svg\",\"name\":\"kub-home.svg\",\"assetType\":\"icon\",\"bucketsource\":\"static\",\"url\":\"f1352971179296/e6a1ba573190139ceda51280e9fdad9c.svg\",\"targetSrc\":\"generated/e4e7dbcddba77b96954aa3602719162c_ff6849.svg\",\"color\":\"FF6849\"},\"activeicon\":{\"fileId\":\"e4e7dbcddba77b96954aa3602719162c.svg\",\"name\":\"kub-home.svg\",\"assetType\":\"icon\",\"bucketsource\":\"static\",\"url\":\"f1352971179296/e6a1ba573190139ceda51280e9fdad9c.svg\",\"targetSrc\":\"generated/e6a1ba573190139ceda51280e9fdad9c_ffffff.svg\",\"color\":\"ffffff\"},\"actions\":[{\"title\":\"Interaction 1\",\"type\":\"tap\",\"actionId\":\"go-to-page\",\"pageId\":\"2\",\"animation\":\"slide\",\"animationEasing\":\"Cubic.easeOut\",\"duration\":\"400\",\"delay\":\"0\",\"callback\":false,\"guid\":\"5b8d0e4c-d1f5-4465-b43c-c8cc5b507fce\",\"sort\":null}],\"linkedscreen\":-1},{\"text\":\"Post\",\"icon\":{\"fileId\":\"9f51e6dd9adaacbc69eb39a3b11e2069.svg\",\"name\":\"plus.svg\",\"assetType\":\"icon\",\"bucketsource\":\"static\",\"url\":\"f1352971179296/558b9ee9b4a9123e4df38f815f297650.svg\",\"targetSrc\":\"generated/9f51e6dd9adaacbc69eb39a3b11e2069_ff6849.svg\",\"color\":\"FF6849\"},\"activeicon\":{\"fileId\":\"e55334acc02f524531f172be5348bfd2.svg\",\"name\":\"mail-2.svg\",\"assetType\":\"icon\",\"bucketsource\":\"static\",\"url\":\"f1352971179296/1b58b288e91e6a4cb64d90433880003d.svg\",\"targetSrc\":\"generated/1b58b288e91e6a4cb64d90433880003d_ffffff.svg\",\"color\":\"ffffff\"},\"actions\":[{\"title\":\"Interaction 1\",\"type\":\"tap\",\"actionId\":\"go-to-page\",\"pageId\":\"5\",\"animation\":\"slide\",\"animationEasing\":\"Cubic.easeOut\",\"duration\":\"400\",\"delay\":\"0\",\"callback\":false,\"guid\":\"890d90f9-78b8-4a1a-994f-89fe0ded1abc\",\"sort\":null}],\"linkedscreen\":-1},{\"text\":\"<strong>Message</strong>\",\"icon\":{\"fileId\":\"04b27f56e3cbdeedfafcf2b349de07f9.svg\",\"name\":\"mail-2.svg\",\"assetType\":\"icon\",\"bucketsource\":\"static\",\"url\":\"f1352971179296/1b58b288e91e6a4cb64d90433880003d.svg\",\"targetSrc\":\"generated/04b27f56e3cbdeedfafcf2b349de07f9_ff6849.svg\",\"color\":\"FF6849\"},\"activeicon\":{\"fileId\":\"a764f2746aa43431594a25b3e9d5dc34.svg\",\"name\":\"star.svg\",\"assetType\":\"icon\",\"bucketsource\":\"static\",\"url\":\"f1352971179296/94a90bf9a645dba63ad7a41d18f82ea7.svg\",\"targetSrc\":\"generated/94a90bf9a645dba63ad7a41d18f82ea7_ffffff.svg\",\"color\":\"ffffff\"},\"actions\":[],\"linkedscreen\":-1},{\"text\":\"<strong>Me</strong>\",\"icon\":{\"fileId\":\"4be5930104be6d1e006e57cd7e4fa4e7.svg\",\"name\":\"avatar-3.svg\",\"assetType\":\"icon\",\"bucketsource\":\"static\",\"url\":\"f1352971179296/b09befaf7ddd0d10dd549b999c17760f.svg\",\"targetSrc\":\"generated/4be5930104be6d1e006e57cd7e4fa4e7_f26100.svg\",\"color\":\"F26100\"},\"activeicon\":{\"fileId\":\"a764f2746aa43431594a25b3e9d5dc34.svg\",\"name\":\"star.svg\",\"assetType\":\"icon\",\"bucketsource\":\"static\",\"url\":\"f1352971179296/94a90bf9a645dba63ad7a41d18f82ea7.svg\",\"targetSrc\":\"generated/94a90bf9a645dba63ad7a41d18f82ea7_ffffff.svg\",\"color\":\"ffffff\"},\"actions\":[{\"title\":\"Interaction 1\",\"type\":\"tap\",\"actionId\":\"go-to-page\",\"pageId\":\"6\",\"animation\":\"slide\",\"animationEasing\":\"Cubic.easeOut\",\"duration\":\"400\",\"delay\":\"0\",\"callback\":false,\"guid\":\"994d022a-2f0a-44cc-b4c5-2757618fdf35\",\"sort\":null}],\"linkedscreen\":-1}],\"left\":0,\"top\":1765,\"hpos\":\"left\",\"visible\":true,\"id\":\"box-374\",\"group\":\"root\",\"zindex\":6,\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"changeActive\":true,\"rotation\":0,\"scale\":1,\"aspectratio\":false}]",
+            "template": {
+                "id": "",
+                "stateid": ""
+            },
+            "history": [],
+            "id": "37087587-cf76-4477-8f70-4a5a9553f90d",
+            "actions": [],
+            "groups": {}
+        }]
+    }, {
+        "id": 6,
+        "title": "profile",
+        "orientation": "portrait",
+        "statusbar": "0",
+        "navigationbar": "0",
+        "actions": [],
+        "states": [{
+            "title": "State 1",
+            "background": "none",
+            "data": "[{\"left\":-3,\"top\":-8,\"width\":1083,\"height\":1779,\"type\":\"symbol\",\"group\":\"root\",\"text\":\"\",\"symbolid\":9,\"scroll\":\"\",\"scrollsnap\":false,\"pinchzoom\":false,\"caption\":\"Container 9\",\"visible\":true,\"scrollbars\":true,\"momentum\":true,\"scrollToX\":0,\"scrollToY\":0,\"id\":\"box-370\",\"zindex\":23,\"hpos\":\"left\",\"vpos\":\"top\",\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"propagateevents\":false,\"rotation\":0,\"scale\":1,\"aspectratio\":false,\"symbolstateid\":\"e58b3632-7b02-4fd7-a8d4-0d07d182febd\",\"bounce\":true,\"lib\":\"undefined\"},{\"name\":\"basic_tabbar\",\"type\":\"basic_tabbar\",\"lib\":\"common\",\"caption\":\"Basic Tabbar 1\",\"width\":1080,\"height\":155,\"vpos\":\"top\",\"backgroundColor\":\"FFFFFF\",\"borderWidth\":0,\"borderColor\":\"C6C6C6\",\"textFont\":\"sans-serif,Helvetica Neue,Arial\",\"textSize\":30,\"textColor\":\"#AAAAAA\",\"textProperties\":[\"bold\"],\"iconpos\":\"top\",\"iconSize\":3,\"activeBackgroundColor\":\"rgba(242,133,0,0.59)\",\"activeTextColor\":\"FFFFFF\",\"maskEnabled\":true,\"maskInactive\":\"383838\",\"maskActive\":\"FFFFFF\",\"activeTab\":\"999\",\"overlay\":false,\"tabs\":[{\"text\":\"<strong>Home</strong>\",\"icon\":{\"fileId\":\"e4e7dbcddba77b96954aa3602719162c.svg\",\"name\":\"kub-home.svg\",\"assetType\":\"icon\",\"bucketsource\":\"static\",\"url\":\"f1352971179296/e6a1ba573190139ceda51280e9fdad9c.svg\",\"targetSrc\":\"generated/e4e7dbcddba77b96954aa3602719162c_ff6849.svg\",\"color\":\"FF6849\"},\"activeicon\":{\"fileId\":\"e4e7dbcddba77b96954aa3602719162c.svg\",\"name\":\"kub-home.svg\",\"assetType\":\"icon\",\"bucketsource\":\"static\",\"url\":\"f1352971179296/e6a1ba573190139ceda51280e9fdad9c.svg\",\"targetSrc\":\"generated/e6a1ba573190139ceda51280e9fdad9c_ffffff.svg\",\"color\":\"ffffff\"},\"actions\":[{\"title\":\"Interaction 1\",\"type\":\"tap\",\"actionId\":\"go-to-page\",\"pageId\":\"2\",\"animation\":\"slide\",\"animationEasing\":\"Cubic.easeOut\",\"duration\":\"400\",\"delay\":\"0\",\"callback\":false,\"guid\":\"42d2374c-3054-427d-b83d-81cb3b7d3cdb\",\"sort\":null}],\"linkedscreen\":-1},{\"text\":\"Post\",\"icon\":{\"fileId\":\"9f51e6dd9adaacbc69eb39a3b11e2069.svg\",\"name\":\"plus.svg\",\"assetType\":\"icon\",\"bucketsource\":\"static\",\"url\":\"f1352971179296/558b9ee9b4a9123e4df38f815f297650.svg\",\"targetSrc\":\"generated/9f51e6dd9adaacbc69eb39a3b11e2069_ff6849.svg\",\"color\":\"FF6849\"},\"activeicon\":{\"fileId\":\"e55334acc02f524531f172be5348bfd2.svg\",\"name\":\"mail-2.svg\",\"assetType\":\"icon\",\"bucketsource\":\"static\",\"url\":\"f1352971179296/1b58b288e91e6a4cb64d90433880003d.svg\",\"targetSrc\":\"generated/1b58b288e91e6a4cb64d90433880003d_ffffff.svg\",\"color\":\"ffffff\"},\"actions\":[{\"title\":\"Interaction 1\",\"type\":\"tap\",\"actionId\":\"go-to-page\",\"pageId\":\"5\",\"animation\":\"slide\",\"animationEasing\":\"Cubic.easeOut\",\"duration\":\"400\",\"delay\":\"0\",\"callback\":false,\"guid\":\"7fe52d6e-6318-4267-9978-162db69c32f4\",\"sort\":null}],\"linkedscreen\":-1},{\"text\":\"<strong>Message</strong>\",\"icon\":{\"fileId\":\"04b27f56e3cbdeedfafcf2b349de07f9.svg\",\"name\":\"mail-2.svg\",\"assetType\":\"icon\",\"bucketsource\":\"static\",\"url\":\"f1352971179296/1b58b288e91e6a4cb64d90433880003d.svg\",\"targetSrc\":\"generated/04b27f56e3cbdeedfafcf2b349de07f9_ff6849.svg\",\"color\":\"FF6849\"},\"activeicon\":{\"fileId\":\"a764f2746aa43431594a25b3e9d5dc34.svg\",\"name\":\"star.svg\",\"assetType\":\"icon\",\"bucketsource\":\"static\",\"url\":\"f1352971179296/94a90bf9a645dba63ad7a41d18f82ea7.svg\",\"targetSrc\":\"generated/94a90bf9a645dba63ad7a41d18f82ea7_ffffff.svg\",\"color\":\"ffffff\"},\"actions\":[],\"linkedscreen\":-1},{\"text\":\"<strong>Me</strong>\",\"icon\":{\"fileId\":\"4be5930104be6d1e006e57cd7e4fa4e7.svg\",\"name\":\"avatar-3.svg\",\"assetType\":\"icon\",\"bucketsource\":\"static\",\"url\":\"f1352971179296/b09befaf7ddd0d10dd549b999c17760f.svg\",\"targetSrc\":\"generated/4be5930104be6d1e006e57cd7e4fa4e7_f26100.svg\",\"color\":\"F26100\"},\"activeicon\":{\"fileId\":\"a764f2746aa43431594a25b3e9d5dc34.svg\",\"name\":\"star.svg\",\"assetType\":\"icon\",\"bucketsource\":\"static\",\"url\":\"f1352971179296/94a90bf9a645dba63ad7a41d18f82ea7.svg\",\"targetSrc\":\"generated/94a90bf9a645dba63ad7a41d18f82ea7_ffffff.svg\",\"color\":\"ffffff\"},\"actions\":[{\"title\":\"Interaction 1\",\"type\":\"tap\",\"actionId\":\"go-to-page\",\"pageId\":\"6\",\"animation\":\"slide\",\"animationEasing\":\"Cubic.easeOut\",\"duration\":\"400\",\"delay\":\"0\",\"callback\":false,\"guid\":\"20a516d5-1304-45f0-b944-dd0e46c197f0\",\"sort\":null}],\"linkedscreen\":-1}],\"left\":0,\"top\":1765,\"hpos\":\"left\",\"visible\":true,\"id\":\"box-375\",\"group\":\"root\",\"zindex\":6,\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"changeActive\":true,\"rotation\":0,\"scale\":1,\"aspectratio\":false}]",
+            "template": {
+                "id": "",
+                "stateid": ""
+            },
+            "history": [],
+            "id": "ca7c38e0-3e17-4bdf-b35e-cd0044ae5b36",
+            "actions": [],
+            "groups": {}
+        }]
+    }],
+    "templates": [],
+    "symbols": [{
+        "id": 1,
+        "title": "Scrolling Feed",
+        "sort": 0,
+        "patternId": "scrollablecontainer",
+        "patternGuid": "28bad2d3-7fd7-4a2c-8594-f965be831707",
+        "orientation": "portrait",
+        "grid": {
+            "col_number": 3,
+            "col_width": 105,
+            "gutter_width": 20,
+            "margins": 10
+        },
+        "states": [{
+            "id": "e8e6b45e-c849-4fa4-a47d-374f33c672d7",
+            "title": "State 1",
+            "background": "#FFFFFF",
+            "groups": {},
+            "dimensions": [1080, 2067],
+            "multipliers": ["1", "1"],
+            "data": "[{\"name\":\"rectangle\",\"type\":\"rectangle\",\"lib\":\"common\",\"caption\":\"Rectangle 3\",\"backgroundColor\":\"rgba(0,0,0,0)\",\"borderWidth\":3,\"borderColor\":\"#E2E2E2\",\"borderRadius\":0,\"width\":403,\"height\":582,\"lineHeight\":60,\"lineHeightAuto\":true,\"actions\":[],\"textFont\":\"sans-serif,Helvetica Neue,Arial\",\"textSize\":42,\"textColor\":\"#000000\",\"textProperties\":[],\"textSpacing\":\"0\",\"textAlign\":\"center\",\"text\":\"\",\"typeName\":\"rectangle\",\"left\":73,\"top\":74,\"vpos\":\"top\",\"hpos\":\"left\",\"visible\":true,\"id\":\"box-78\",\"group\":\"root\",\"zindex\":2,\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"borderStyle\":\"solid\",\"rotation\":0,\"scale\":1,\"aspectratio\":false},{\"name\":\"rectangle\",\"type\":\"rectangle\",\"lib\":\"common\",\"caption\":\"Rectangle 4\",\"backgroundColor\":\"rgba(0,0,0,0)\",\"borderWidth\":3,\"borderColor\":\"#C6C6C6\",\"borderRadius\":0,\"width\":406,\"height\":582,\"lineHeight\":60,\"lineHeightAuto\":true,\"actions\":[],\"textFont\":\"sans-serif,Helvetica Neue,Arial\",\"textSize\":42,\"textColor\":\"#000000\",\"textProperties\":[],\"textSpacing\":\"0\",\"textAlign\":\"center\",\"text\":\"\",\"typeName\":\"rectangle\",\"left\":589,\"top\":74,\"vpos\":\"top\",\"hpos\":\"left\",\"visible\":true,\"id\":\"box-80\",\"group\":\"root\",\"zindex\":2,\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"borderStyle\":\"solid\",\"rotation\":0,\"scale\":1,\"aspectratio\":false},{\"name\":\"rectangle\",\"type\":\"rectangle\",\"lib\":\"common\",\"caption\":\"Rectangle 5\",\"backgroundColor\":\"rgba(0,0,0,0)\",\"borderWidth\":3,\"borderColor\":\"D1D1D1\",\"borderRadius\":0,\"width\":403,\"height\":582,\"lineHeight\":60,\"lineHeightAuto\":true,\"actions\":[],\"textFont\":\"sans-serif,Helvetica Neue,Arial\",\"textSize\":42,\"textColor\":\"#000000\",\"textProperties\":[],\"textSpacing\":\"0\",\"textAlign\":\"center\",\"text\":\"\",\"typeName\":\"rectangle\",\"left\":73,\"top\":760,\"vpos\":\"top\",\"hpos\":\"left\",\"visible\":true,\"id\":\"box-81\",\"group\":\"root\",\"zindex\":2,\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"borderStyle\":\"solid\",\"rotation\":0,\"scale\":1,\"aspectratio\":false},{\"name\":\"rectangle\",\"type\":\"rectangle\",\"lib\":\"common\",\"caption\":\"Rectangle 6\",\"backgroundColor\":\"rgba(0,0,0,0)\",\"borderWidth\":3,\"borderColor\":\"D1D1D1\",\"borderRadius\":0,\"width\":406,\"height\":582,\"lineHeight\":60,\"lineHeightAuto\":true,\"actions\":[],\"textFont\":\"sans-serif,Helvetica Neue,Arial\",\"textSize\":42,\"textColor\":\"#000000\",\"textProperties\":[],\"textSpacing\":\"0\",\"textAlign\":\"center\",\"text\":\"\",\"typeName\":\"rectangle\",\"left\":591,\"top\":760,\"vpos\":\"top\",\"hpos\":\"left\",\"visible\":true,\"id\":\"box-82\",\"group\":\"root\",\"zindex\":2,\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"borderStyle\":\"solid\",\"rotation\":0,\"scale\":1,\"aspectratio\":false},{\"name\":\"rectangle\",\"type\":\"rectangle\",\"lib\":\"common\",\"caption\":\"Rectangle 7\",\"backgroundColor\":\"rgba(0,0,0,0)\",\"borderWidth\":3,\"borderColor\":\"D1D1D1\",\"borderRadius\":0,\"width\":403,\"height\":582,\"lineHeight\":60,\"lineHeightAuto\":true,\"actions\":[],\"textFont\":\"sans-serif,Helvetica Neue,Arial\",\"textSize\":42,\"textColor\":\"#000000\",\"textProperties\":[],\"textSpacing\":\"0\",\"textAlign\":\"center\",\"text\":\"\",\"typeName\":\"rectangle\",\"left\":73,\"top\":1428,\"vpos\":\"top\",\"hpos\":\"left\",\"visible\":true,\"id\":\"box-83\",\"group\":\"root\",\"zindex\":2,\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"borderStyle\":\"solid\",\"rotation\":0,\"scale\":1,\"aspectratio\":false},{\"name\":\"rectangle\",\"type\":\"rectangle\",\"lib\":\"common\",\"caption\":\"Rectangle 8\",\"backgroundColor\":\"rgba(0,0,0,0)\",\"borderWidth\":3,\"borderColor\":\"D1D1D1\",\"borderRadius\":0,\"width\":406,\"height\":582,\"lineHeight\":60,\"lineHeightAuto\":true,\"actions\":[],\"textFont\":\"sans-serif,Helvetica Neue,Arial\",\"textSize\":42,\"textColor\":\"#000000\",\"textProperties\":[],\"textSpacing\":\"0\",\"textAlign\":\"center\",\"text\":\"\",\"typeName\":\"rectangle\",\"left\":600,\"top\":1428,\"vpos\":\"top\",\"hpos\":\"left\",\"visible\":true,\"id\":\"box-84\",\"group\":\"root\",\"zindex\":2,\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"borderStyle\":\"solid\",\"rotation\":0,\"scale\":1,\"aspectratio\":false},{\"name\":\"image\",\"type\":\"image\",\"lib\":\"common\",\"caption\":\"hd450x300.jpg\",\"imgSrc\":{\"bucketsource\":\"main\",\"fileId\":\"97e5fa8bdb7675032f575171813975ca.jpg\",\"name\":\"hd450x300.jpg\",\"assetType\":\"project\"},\"repeat\":false,\"width\":403,\"height\":419,\"borderWidth\":0,\"borderRadius\":0,\"borderColor\":\"#D1D1D1\",\"borderPos\":\"inside\",\"propagateEvents\":false,\"actions\":[],\"overlay\":false,\"autoResize\":false,\"aspectratio\":false,\"left\":73,\"top\":760,\"visible\":true,\"id\":\"box-93\",\"group\":\"root\",\"zindex\":5,\"hpos\":\"left\",\"vpos\":\"top\",\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"borderStyle\":\"solid\",\"rotation\":0,\"scale\":1,\"mask\":{\"inner_width\":565,\"inner_height\":419,\"rotation\":0,\"aspectratio\":1.3484486873508352,\"borderRadius\":0,\"borderColor\":\"#000000\",\"borderPos\":\"inside\",\"borderStyle\":\"solid\",\"borderWidth\":0,\"x\":-67,\"y\":0,\"isMasked\":true,\"width\":379,\"height\":355,\"editing\":false,\"last_aspectratio\":1.0676056338028168}},{\"name\":\"image\",\"type\":\"image\",\"lib\":\"common\",\"caption\":\"TB2NzUJE41YBuNjy1zcXXbNcXXa_!!36739055.jpg\",\"imgSrc\":{\"bucketsource\":\"main\",\"fileId\":\"53a8571fc0cb6e31d6c07798d39ddb5e.jpg\",\"name\":\"TB2NzUJE41YBuNjy1zcXXbNcXXa_!!36739055.jpg\",\"assetType\":\"account\"},\"repeat\":false,\"width\":403,\"height\":419,\"borderWidth\":0,\"borderRadius\":0,\"borderColor\":\"#D1D1D1\",\"borderPos\":\"inside\",\"propagateEvents\":false,\"actions\":[],\"overlay\":false,\"autoResize\":false,\"aspectratio\":false,\"left\":73,\"top\":74,\"visible\":true,\"id\":\"box-94\",\"group\":\"root\",\"zindex\":6,\"hpos\":\"left\",\"vpos\":\"top\",\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"borderStyle\":\"solid\",\"rotation\":0,\"scale\":1,\"mask\":{\"inner_width\":174,\"inner_height\":139,\"rotation\":0,\"aspectratio\":false,\"borderRadius\":0,\"borderColor\":\"#000000\",\"borderPos\":\"inside\",\"borderStyle\":\"solid\",\"borderWidth\":0,\"x\":-17,\"y\":0,\"isMasked\":false,\"width\":403,\"height\":400,\"editing\":false,\"last_aspectratio\":1.0075}},{\"name\":\"image\",\"type\":\"image\",\"lib\":\"common\",\"caption\":\"taichijianbing_i.jpg\",\"imgSrc\":{\"bucketsource\":\"main\",\"fileId\":\"08a8fc9fd3f839aed2b00ba7a3ec6c0d.jpg\",\"name\":\"taichijianbing_i.jpg\",\"assetType\":\"project\"},\"repeat\":false,\"width\":410,\"height\":419,\"borderWidth\":0,\"borderRadius\":0,\"borderColor\":\"#D1D1D1\",\"borderPos\":\"inside\",\"propagateEvents\":false,\"actions\":[],\"overlay\":false,\"autoResize\":false,\"aspectratio\":false,\"left\":589,\"top\":74,\"visible\":true,\"id\":\"box-96\",\"group\":\"root\",\"zindex\":8,\"hpos\":\"left\",\"vpos\":\"top\",\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"borderStyle\":\"solid\",\"rotation\":0,\"scale\":1,\"mask\":{\"inner_width\":184,\"inner_height\":161.552,\"rotation\":0,\"aspectratio\":false,\"borderRadius\":0,\"borderColor\":\"#000000\",\"borderPos\":\"inside\",\"borderStyle\":\"solid\",\"borderWidth\":0,\"x\":0,\"y\":0,\"isMasked\":false,\"width\":400,\"height\":400,\"editing\":false,\"last_aspectratio\":1}},{\"name\":\"image\",\"type\":\"image\",\"lib\":\"common\",\"caption\":\"plato-4895.jpg\",\"imgSrc\":{\"bucketsource\":\"main\",\"fileId\":\"81f98e95309a6838c6df36f4f397f9ba.jpg\",\"name\":\"plato-4895.jpg\",\"assetType\":\"project\"},\"repeat\":false,\"width\":403,\"height\":419,\"borderWidth\":0,\"borderRadius\":0,\"borderColor\":\"#D1D1D1\",\"borderPos\":\"inside\",\"propagateEvents\":false,\"actions\":[],\"overlay\":false,\"autoResize\":false,\"aspectratio\":false,\"left\":594,\"top\":760,\"visible\":true,\"id\":\"box-97\",\"group\":\"root\",\"zindex\":9,\"hpos\":\"left\",\"vpos\":\"top\",\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"borderStyle\":\"solid\",\"rotation\":0,\"scale\":1,\"mask\":{\"inner_width\":517,\"inner_height\":419,\"rotation\":0,\"aspectratio\":1.233890214797136,\"borderRadius\":0,\"borderColor\":\"#000000\",\"borderPos\":\"inside\",\"borderStyle\":\"solid\",\"borderWidth\":0,\"x\":-56,\"y\":0,\"isMasked\":true,\"width\":400,\"height\":392,\"editing\":false,\"last_aspectratio\":1.0204081632653061}},{\"name\":\"image\",\"type\":\"image\",\"lib\":\"common\",\"caption\":\"5c7f6kyrkwowcggogwsskgswos8c8808.jpg.png\",\"imgSrc\":{\"bucketsource\":\"main\",\"fileId\":\"4f441969c7e220bc664311d4391a4f99.png\",\"name\":\"5c7f6kyrkwowcggogwsskgswos8c8808.jpg.png\",\"assetType\":\"project\"},\"repeat\":false,\"width\":104,\"height\":104,\"borderWidth\":0,\"borderRadius\":0,\"borderColor\":\"#D1D1D1\",\"borderPos\":\"inside\",\"propagateEvents\":false,\"actions\":[],\"overlay\":false,\"autoResize\":false,\"aspectratio\":1,\"left\":96,\"top\":515,\"visible\":true,\"id\":\"box-98\",\"group\":\"root\",\"zindex\":10,\"hpos\":\"left\",\"vpos\":\"top\",\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"borderStyle\":\"solid\",\"rotation\":0,\"scale\":1},{\"name\":\"text\",\"type\":\"text\",\"lib\":\"common\",\"caption\":\"660m\",\"text\":\"660m\",\"textFont\":\"sans-serif,Helvetica Neue,Arial\",\"textSize\":42,\"textColor\":\"#C6C6C6\",\"backgroundColor\":\"none\",\"width\":115,\"height\":49,\"lineHeight\":51,\"textProperties\":[],\"textAlign\":\"left\",\"textSpacing\":\"0\",\"enableShadow\":false,\"autoResize\":true,\"v2\":true,\"left\":859,\"top\":569,\"vpos\":\"top\",\"hpos\":\"left\",\"visible\":true,\"id\":\"box-99\",\"group\":\"root\",\"zindex\":11,\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"propagateEvents\":false,\"lineHeightAuto\":true,\"rotation\":0,\"scale\":1,\"aspectratio\":false},{\"name\":\"image\",\"type\":\"image\",\"lib\":\"common\",\"caption\":\"6caje8diiswskgkowsc0k8w4g4s80ooo.jpg\",\"imgSrc\":{\"bucketsource\":\"main\",\"fileId\":\"0b8333bc9cc9e790a623ae5b37433970.jpg\",\"name\":\"6caje8diiswskgkowsc0k8w4g4s80ooo.jpg\",\"assetType\":\"project\"},\"repeat\":false,\"width\":104,\"height\":104,\"borderWidth\":0,\"borderRadius\":0,\"borderColor\":\"#D1D1D1\",\"borderPos\":\"inside\",\"propagateEvents\":false,\"actions\":[],\"overlay\":false,\"autoResize\":false,\"aspectratio\":1,\"left\":635,\"top\":515,\"visible\":true,\"id\":\"box-100\",\"group\":\"root\",\"zindex\":12,\"hpos\":\"left\",\"vpos\":\"top\",\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"borderStyle\":\"solid\",\"rotation\":0,\"scale\":1},{\"name\":\"text\",\"type\":\"text\",\"lib\":\"common\",\"caption\":\"330m\",\"text\":\"330m\",\"textFont\":\"sans-serif,Helvetica Neue,Arial\",\"textSize\":42,\"textColor\":\"#C6C6C6\",\"backgroundColor\":\"none\",\"width\":115,\"height\":49,\"lineHeight\":51,\"textProperties\":[],\"textAlign\":\"left\",\"textSpacing\":\"0\",\"enableShadow\":false,\"autoResize\":true,\"v2\":true,\"left\":344,\"top\":569,\"vpos\":\"top\",\"hpos\":\"left\",\"visible\":true,\"id\":\"box-101\",\"group\":\"root\",\"zindex\":13,\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"propagateEvents\":false,\"lineHeightAuto\":true,\"rotation\":0,\"scale\":1,\"aspectratio\":false},{\"name\":\"image\",\"type\":\"image\",\"lib\":\"common\",\"caption\":\"5eau1b9gntcss4c8448o84wscows0ko0.jpg\",\"imgSrc\":{\"bucketsource\":\"main\",\"fileId\":\"beca598fe245d097163b8795859f5085.jpg\",\"name\":\"5eau1b9gntcss4c8448o84wscows0ko0.jpg\",\"assetType\":\"project\"},\"repeat\":false,\"width\":104,\"height\":104,\"borderWidth\":0,\"borderRadius\":0,\"borderColor\":\"#D1D1D1\",\"borderPos\":\"inside\",\"propagateEvents\":false,\"actions\":[],\"overlay\":false,\"autoResize\":false,\"aspectratio\":1,\"left\":96,\"top\":1203,\"visible\":true,\"id\":\"box-102\",\"group\":\"root\",\"zindex\":14,\"hpos\":\"left\",\"vpos\":\"top\",\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"borderStyle\":\"solid\",\"rotation\":0,\"scale\":1},{\"name\":\"image\",\"type\":\"image\",\"lib\":\"common\",\"caption\":\"2mgbwb23z3eog08wokws8gow4ss0wkck.jpg\",\"imgSrc\":{\"bucketsource\":\"main\",\"fileId\":\"830d153492563d9d38265aeba882a486.jpg\",\"name\":\"2mgbwb23z3eog08wokws8gow4ss0wkck.jpg\",\"assetType\":\"project\"},\"repeat\":false,\"width\":104,\"height\":104,\"borderWidth\":0,\"borderRadius\":0,\"borderColor\":\"#D1D1D1\",\"borderPos\":\"inside\",\"propagateEvents\":false,\"actions\":[],\"overlay\":false,\"autoResize\":false,\"aspectratio\":1,\"left\":637,\"top\":1203,\"visible\":true,\"id\":\"box-103\",\"group\":\"root\",\"zindex\":15,\"hpos\":\"left\",\"vpos\":\"top\",\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"borderStyle\":\"solid\",\"rotation\":0,\"scale\":1},{\"name\":\"image\",\"type\":\"image\",\"lib\":\"common\",\"caption\":\"index.jpg\",\"imgSrc\":{\"bucketsource\":\"main\",\"fileId\":\"7fd54ea7e113130cec0bb944dfe4f400.jpg\",\"name\":\"index.jpg\",\"assetType\":\"project\"},\"repeat\":false,\"width\":104,\"height\":104,\"borderWidth\":0,\"borderRadius\":0,\"borderColor\":\"#D1D1D1\",\"borderPos\":\"inside\",\"propagateEvents\":false,\"actions\":[],\"overlay\":false,\"autoResize\":false,\"aspectratio\":1,\"left\":96,\"top\":1880,\"visible\":true,\"id\":\"box-104\",\"group\":\"root\",\"zindex\":16,\"hpos\":\"left\",\"vpos\":\"top\",\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"borderStyle\":\"solid\",\"rotation\":0,\"scale\":1},{\"name\":\"image\",\"type\":\"image\",\"lib\":\"common\",\"caption\":\"paella-valenciana-bote-gastraval_2.jpg\",\"imgSrc\":{\"bucketsource\":\"main\",\"fileId\":\"85709f9d31994010d002642b176d9d20.jpg\",\"name\":\"paella-valenciana-bote-gastraval_2.jpg\",\"assetType\":\"project\"},\"repeat\":false,\"width\":403,\"height\":424,\"borderWidth\":0,\"borderRadius\":0,\"borderColor\":\"#D1D1D1\",\"borderPos\":\"inside\",\"propagateEvents\":false,\"actions\":[],\"overlay\":false,\"autoResize\":false,\"aspectratio\":false,\"left\":73,\"top\":1428,\"visible\":true,\"id\":\"box-106\",\"group\":\"root\",\"zindex\":18,\"hpos\":\"left\",\"vpos\":\"top\",\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"borderStyle\":\"solid\",\"rotation\":0,\"scale\":1,\"mask\":{\"inner_width\":588,\"inner_height\":424,\"rotation\":0,\"aspectratio\":false,\"borderRadius\":0,\"borderColor\":\"#000000\",\"borderPos\":\"inside\",\"borderStyle\":\"solid\",\"borderWidth\":0,\"x\":-92,\"y\":0,\"isMasked\":true,\"width\":371,\"height\":363,\"editing\":false,\"last_aspectratio\":1.022038567493113}},{\"name\":\"image\",\"type\":\"image\",\"lib\":\"common\",\"caption\":\"ratatouille-s (2).jpg\",\"imgSrc\":{\"bucketsource\":\"main\",\"fileId\":\"4ceecf16a6301208477aa973c594077d.jpg\",\"name\":\"ratatouille-s (2).jpg\",\"assetType\":\"project\"},\"repeat\":false,\"width\":400,\"height\":424,\"borderWidth\":0,\"borderRadius\":0,\"borderColor\":\"#D1D1D1\",\"borderPos\":\"inside\",\"propagateEvents\":false,\"actions\":[],\"overlay\":false,\"autoResize\":false,\"aspectratio\":false,\"left\":603,\"top\":1428,\"visible\":true,\"id\":\"box-116\",\"group\":\"root\",\"zindex\":19,\"hpos\":\"left\",\"vpos\":\"top\",\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"borderStyle\":\"solid\",\"rotation\":0,\"scale\":1},{\"name\":\"text\",\"type\":\"text\",\"lib\":\"common\",\"caption\":\"Annie\",\"text\":\"Annie\",\"textFont\":\"sans-serif,Helvetica Neue,Arial\",\"textSize\":42,\"textColor\":\"#F26100\",\"backgroundColor\":\"none\",\"width\":118,\"height\":49,\"lineHeight\":51,\"textProperties\":[],\"textAlign\":\"left\",\"textSpacing\":\"0\",\"enableShadow\":false,\"autoResize\":true,\"v2\":true,\"left\":226,\"top\":515,\"vpos\":\"top\",\"hpos\":\"left\",\"visible\":true,\"id\":\"box-117\",\"group\":\"root\",\"zindex\":20,\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"propagateEvents\":false,\"lineHeightAuto\":true,\"rotation\":0,\"scale\":1,\"aspectratio\":false},{\"name\":\"text\",\"type\":\"text\",\"lib\":\"common\",\"caption\":\"Chris\",\"text\":\"Chris\",\"textFont\":\"sans-serif,Helvetica Neue,Arial\",\"textSize\":42,\"textColor\":\"#F26100\",\"backgroundColor\":\"none\",\"width\":109,\"height\":49,\"lineHeight\":51,\"textProperties\":[],\"textAlign\":\"left\",\"textSpacing\":\"0\",\"enableShadow\":false,\"autoResize\":true,\"v2\":true,\"left\":776,\"top\":515,\"vpos\":\"top\",\"hpos\":\"left\",\"visible\":true,\"id\":\"box-137\",\"group\":\"root\",\"zindex\":20,\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"propagateEvents\":false,\"lineHeightAuto\":true,\"rotation\":0,\"scale\":1,\"aspectratio\":false},{\"name\":\"text\",\"type\":\"text\",\"lib\":\"common\",\"caption\":\"Mar\",\"text\":\"Mar\",\"textFont\":\"sans-serif,Helvetica Neue,Arial\",\"textSize\":42,\"textColor\":\"#F26100\",\"backgroundColor\":\"none\",\"width\":84,\"height\":49,\"lineHeight\":51,\"textProperties\":[],\"textAlign\":\"left\",\"textSpacing\":\"0\",\"enableShadow\":false,\"autoResize\":true,\"v2\":true,\"left\":243,\"top\":1203,\"vpos\":\"top\",\"hpos\":\"left\",\"visible\":true,\"id\":\"box-138\",\"group\":\"root\",\"zindex\":20,\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"propagateEvents\":false,\"lineHeightAuto\":true,\"rotation\":0,\"scale\":1,\"aspectratio\":false},{\"name\":\"text\",\"type\":\"text\",\"lib\":\"common\",\"caption\":\"Kevin\",\"text\":\"Kevin\",\"textFont\":\"sans-serif,Helvetica Neue,Arial\",\"textSize\":42,\"textColor\":\"#F26100\",\"backgroundColor\":\"none\",\"width\":115,\"height\":49,\"lineHeight\":51,\"textProperties\":[],\"textAlign\":\"left\",\"textSpacing\":\"0\",\"enableShadow\":false,\"autoResize\":true,\"v2\":true,\"left\":773,\"top\":1203,\"vpos\":\"top\",\"hpos\":\"left\",\"visible\":true,\"id\":\"box-139\",\"group\":\"root\",\"zindex\":20,\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"propagateEvents\":false,\"lineHeightAuto\":true,\"rotation\":0,\"scale\":1,\"aspectratio\":false},{\"name\":\"text\",\"type\":\"text\",\"lib\":\"common\",\"caption\":\"830m\",\"text\":\"830m\",\"textFont\":\"sans-serif,Helvetica Neue,Arial\",\"textSize\":42,\"textColor\":\"#C6C6C6\",\"backgroundColor\":\"none\",\"width\":115,\"height\":49,\"lineHeight\":51,\"textProperties\":[],\"textAlign\":\"left\",\"textSpacing\":\"0\",\"enableShadow\":false,\"autoResize\":true,\"v2\":true,\"left\":335,\"top\":1252,\"vpos\":\"top\",\"hpos\":\"left\",\"visible\":true,\"id\":\"box-140\",\"group\":\"root\",\"zindex\":13,\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"propagateEvents\":false,\"lineHeightAuto\":true,\"rotation\":0,\"scale\":1,\"aspectratio\":false},{\"name\":\"text\",\"type\":\"text\",\"lib\":\"common\",\"caption\":\"900m\",\"text\":\"900m\",\"textFont\":\"sans-serif,Helvetica Neue,Arial\",\"textSize\":42,\"textColor\":\"#C6C6C6\",\"backgroundColor\":\"none\",\"width\":115,\"height\":49,\"lineHeight\":51,\"textProperties\":[],\"textAlign\":\"left\",\"textSpacing\":\"0\",\"enableShadow\":false,\"autoResize\":true,\"v2\":true,\"left\":862,\"top\":1258,\"vpos\":\"top\",\"hpos\":\"left\",\"visible\":true,\"id\":\"box-141\",\"group\":\"root\",\"zindex\":13,\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"propagateEvents\":false,\"lineHeightAuto\":true,\"rotation\":0,\"scale\":1,\"aspectratio\":false},{\"name\":\"image\",\"type\":\"image\",\"lib\":\"common\",\"caption\":\"images.jpg\",\"imgSrc\":{\"fileId\":\"563346896215407d6795c5a4f221c185.jpg\",\"assetType\":\"project\",\"bucketsource\":\"main\",\"name\":\"images.jpg\"},\"repeat\":false,\"width\":89,\"height\":104,\"borderWidth\":0,\"borderRadius\":0,\"borderColor\":\"#D1D1D1\",\"borderPos\":\"inside\",\"propagateEvents\":false,\"actions\":[],\"overlay\":false,\"autoResize\":false,\"aspectratio\":0.875,\"left\":646,\"top\":1880,\"visible\":true,\"id\":\"box-142\",\"group\":\"root\",\"zindex\":21,\"hpos\":\"left\",\"vpos\":\"top\",\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"borderStyle\":\"solid\",\"rotation\":0,\"scale\":1},{\"name\":\"text\",\"type\":\"text\",\"lib\":\"common\",\"caption\":\"Leslie\",\"text\":\"Leslie\",\"textFont\":\"sans-serif,Helvetica Neue,Arial\",\"textSize\":42,\"textColor\":\"#F26100\",\"backgroundColor\":\"none\",\"width\":121,\"height\":49,\"lineHeight\":51,\"textProperties\":[],\"textAlign\":\"left\",\"textSpacing\":\"0\",\"enableShadow\":false,\"autoResize\":true,\"v2\":true,\"left\":231,\"top\":1880,\"vpos\":\"top\",\"hpos\":\"left\",\"visible\":true,\"id\":\"box-143\",\"group\":\"root\",\"zindex\":20,\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"propagateEvents\":false,\"lineHeightAuto\":true,\"rotation\":0,\"scale\":1,\"aspectratio\":false},{\"name\":\"text\",\"type\":\"text\",\"lib\":\"common\",\"caption\":\"July\",\"text\":\"July\",\"textFont\":\"sans-serif,Helvetica Neue,Arial\",\"textSize\":42,\"textColor\":\"#F26100\",\"backgroundColor\":\"none\",\"width\":86,\"height\":49,\"lineHeight\":51,\"textProperties\":[],\"textAlign\":\"left\",\"textSpacing\":\"0\",\"enableShadow\":false,\"autoResize\":true,\"v2\":true,\"left\":781,\"top\":1880,\"vpos\":\"top\",\"hpos\":\"left\",\"visible\":true,\"id\":\"box-144\",\"group\":\"root\",\"zindex\":20,\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"propagateEvents\":false,\"lineHeightAuto\":true,\"rotation\":0,\"scale\":1,\"aspectratio\":false},{\"name\":\"text\",\"type\":\"text\",\"lib\":\"common\",\"caption\":\"900m\",\"text\":\"900m\",\"textFont\":\"sans-serif,Helvetica Neue,Arial\",\"textSize\":42,\"textColor\":\"#C6C6C6\",\"backgroundColor\":\"none\",\"width\":115,\"height\":49,\"lineHeight\":51,\"textProperties\":[],\"textAlign\":\"left\",\"textSpacing\":\"0\",\"enableShadow\":false,\"autoResize\":true,\"v2\":true,\"left\":347,\"top\":1935,\"vpos\":\"top\",\"hpos\":\"left\",\"visible\":true,\"id\":\"box-145\",\"group\":\"root\",\"zindex\":13,\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"propagateEvents\":false,\"lineHeightAuto\":true,\"rotation\":0,\"scale\":1,\"aspectratio\":false},{\"name\":\"text\",\"type\":\"text\",\"lib\":\"common\",\"caption\":\"980m\",\"text\":\"980m\",\"textFont\":\"sans-serif,Helvetica Neue,Arial\",\"textSize\":42,\"textColor\":\"#C6C6C6\",\"backgroundColor\":\"none\",\"width\":115,\"height\":49,\"lineHeight\":51,\"textProperties\":[],\"textAlign\":\"left\",\"textSpacing\":\"0\",\"enableShadow\":false,\"autoResize\":true,\"v2\":true,\"left\":891,\"top\":1935,\"vpos\":\"top\",\"hpos\":\"left\",\"visible\":true,\"id\":\"box-146\",\"group\":\"root\",\"zindex\":13,\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"propagateEvents\":false,\"lineHeightAuto\":true,\"rotation\":0,\"scale\":1,\"aspectratio\":false},{\"name\":\"image\",\"type\":\"image\",\"lib\":\"common\",\"caption\":\"like.png\",\"imgSrc\":{\"fileId\":\"b7245d349154b8765f5d6d1abc247c15.png\",\"assetType\":\"project\",\"bucketsource\":\"main\",\"name\":\"like.png\"},\"repeat\":false,\"width\":69,\"height\":69,\"borderWidth\":0,\"borderRadius\":0,\"borderColor\":\"#D1D1D1\",\"borderPos\":\"inside\",\"propagateEvents\":false,\"actions\":[],\"overlay\":false,\"autoResize\":false,\"aspectratio\":1,\"left\":407,\"top\":405,\"visible\":true,\"id\":\"box-147\",\"group\":\"root\",\"zindex\":22,\"hpos\":\"left\",\"vpos\":\"top\",\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"borderStyle\":\"solid\",\"rotation\":0,\"scale\":1,\"dropShadowXB\":3,\"dropShadowYB\":1,\"dropShadowBlurB\":3,\"dropShadowColorB\":\"#E2E2E2\"},{\"name\":\"image\",\"type\":\"image\",\"lib\":\"common\",\"caption\":\"like.png 2\",\"imgSrc\":{\"fileId\":\"b7245d349154b8765f5d6d1abc247c15.png\",\"assetType\":\"project\",\"bucketsource\":\"main\",\"name\":\"like.png\"},\"repeat\":false,\"width\":69,\"height\":69,\"borderWidth\":0,\"borderRadius\":0,\"borderColor\":\"#D1D1D1\",\"borderPos\":\"inside\",\"propagateEvents\":false,\"actions\":[],\"overlay\":false,\"autoResize\":false,\"aspectratio\":1,\"left\":923,\"top\":405,\"visible\":true,\"id\":\"box-148\",\"group\":\"root\",\"zindex\":22,\"hpos\":\"left\",\"vpos\":\"top\",\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"borderStyle\":\"solid\",\"rotation\":0,\"scale\":1,\"dropShadowXB\":3,\"dropShadowYB\":1,\"dropShadowBlurB\":3,\"dropShadowColorB\":\"#E2E2E2\"},{\"name\":\"image\",\"type\":\"image\",\"lib\":\"common\",\"caption\":\"like.png 3\",\"imgSrc\":{\"fileId\":\"b7245d349154b8765f5d6d1abc247c15.png\",\"assetType\":\"project\",\"bucketsource\":\"main\",\"name\":\"like.png\"},\"repeat\":false,\"width\":69,\"height\":69,\"borderWidth\":0,\"borderRadius\":0,\"borderColor\":\"#D1D1D1\",\"borderPos\":\"inside\",\"propagateEvents\":false,\"actions\":[],\"overlay\":false,\"autoResize\":false,\"aspectratio\":1,\"left\":407,\"top\":1071,\"visible\":true,\"id\":\"box-149\",\"group\":\"root\",\"zindex\":22,\"hpos\":\"left\",\"vpos\":\"top\",\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"borderStyle\":\"solid\",\"rotation\":0,\"scale\":1,\"dropShadowXB\":3,\"dropShadowYB\":1,\"dropShadowBlurB\":3,\"dropShadowColorB\":\"#E2E2E2\"},{\"name\":\"image\",\"type\":\"image\",\"lib\":\"common\",\"caption\":\"like.png 4\",\"imgSrc\":{\"fileId\":\"b7245d349154b8765f5d6d1abc247c15.png\",\"assetType\":\"project\",\"bucketsource\":\"main\",\"name\":\"like.png\"},\"repeat\":false,\"width\":69,\"height\":69,\"borderWidth\":0,\"borderRadius\":0,\"borderColor\":\"#D1D1D1\",\"borderPos\":\"inside\",\"propagateEvents\":false,\"actions\":[],\"overlay\":false,\"autoResize\":false,\"aspectratio\":1,\"left\":925,\"top\":1071,\"visible\":true,\"id\":\"box-150\",\"group\":\"root\",\"zindex\":22,\"hpos\":\"left\",\"vpos\":\"top\",\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"borderStyle\":\"solid\",\"rotation\":0,\"scale\":1,\"dropShadowXB\":3,\"dropShadowYB\":1,\"dropShadowBlurB\":3,\"dropShadowColorB\":\"#E2E2E2\"},{\"name\":\"image\",\"type\":\"image\",\"lib\":\"common\",\"caption\":\"like.png 5\",\"imgSrc\":{\"fileId\":\"b7245d349154b8765f5d6d1abc247c15.png\",\"assetType\":\"project\",\"bucketsource\":\"main\",\"name\":\"like.png\"},\"repeat\":false,\"width\":69,\"height\":69,\"borderWidth\":0,\"borderRadius\":0,\"borderColor\":\"#D1D1D1\",\"borderPos\":\"inside\",\"propagateEvents\":false,\"actions\":[],\"overlay\":false,\"autoResize\":false,\"aspectratio\":1,\"left\":407,\"top\":1759,\"visible\":true,\"id\":\"box-151\",\"group\":\"root\",\"zindex\":22,\"hpos\":\"left\",\"vpos\":\"top\",\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"borderStyle\":\"solid\",\"rotation\":0,\"scale\":1,\"dropShadowXB\":3,\"dropShadowYB\":1,\"dropShadowBlurB\":3,\"dropShadowColorB\":\"#E2E2E2\"},{\"name\":\"image\",\"type\":\"image\",\"lib\":\"common\",\"caption\":\"like.png 6\",\"imgSrc\":{\"fileId\":\"b7245d349154b8765f5d6d1abc247c15.png\",\"assetType\":\"project\",\"bucketsource\":\"main\",\"name\":\"like.png\"},\"repeat\":false,\"width\":69,\"height\":69,\"borderWidth\":0,\"borderRadius\":0,\"borderColor\":\"#D1D1D1\",\"borderPos\":\"inside\",\"propagateEvents\":false,\"actions\":[],\"overlay\":false,\"autoResize\":false,\"aspectratio\":1,\"left\":934,\"top\":1759,\"visible\":true,\"id\":\"box-152\",\"group\":\"root\",\"zindex\":22,\"hpos\":\"left\",\"vpos\":\"top\",\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"borderStyle\":\"solid\",\"rotation\":0,\"scale\":1,\"dropShadowXB\":3,\"dropShadowYB\":1,\"dropShadowBlurB\":3,\"dropShadowColorB\":\"#E2E2E2\"}]",
+            "history": []
+        }]
+    }, {
+        "id": 5,
+        "title": "Scrolling Feed",
+        "sort": 0,
+        "patternId": "scrollablecontainer",
+        "patternGuid": "89f5572f-3d9f-4dde-a977-1ea8c78ecf7a",
+        "orientation": "portrait",
+        "grid": {
+            "col_number": 3,
+            "col_width": 105,
+            "gutter_width": 20,
+            "margins": 10
+        },
+        "states": [{
+            "id": "577f3b3a-f84a-4e3f-a138-2980f79b9415",
+            "title": "State 1",
+            "background": "#FFFFFF",
+            "groups": {
+                "af284758-b8cb-436b-87aa-79587f5dd352": {
+                    "parent": "root",
+                    "id": "af284758-b8cb-436b-87aa-79587f5dd352",
+                    "label": "Group",
+                    "visible": true,
+                    "rotation": 0,
+                    "opacity": 1,
+                    "actions": [{
+                        "title": "Interaction 1",
+                        "type": "tap",
+                        "actionId": "go-to-page",
+                        "pageId": "4",
+                        "animation": "slide",
+                        "animationEasing": "Cubic.easeOut",
+                        "duration": "400",
+                        "delay": "0",
+                        "callback": false,
+                        "guid": "5966d1fe-8ded-4459-9030-9f75047427cc",
+                        "sort": null
+                    }]
+                }
+            },
+            "dimensions": [1080, 2851],
+            "multipliers": ["1", "1"],
+            "data": "[{\"name\":\"rectangle\",\"type\":\"rectangle\",\"lib\":\"common\",\"caption\":\"Rectangle 3\",\"backgroundColor\":\"rgba(0,0,0,0)\",\"borderWidth\":3,\"borderColor\":\"D1D1D1\",\"borderRadius\":0,\"width\":994,\"height\":196,\"lineHeight\":60,\"lineHeightAuto\":true,\"actions\":[],\"textFont\":\"sans-serif,Helvetica Neue,Arial\",\"textSize\":42,\"textColor\":\"#000000\",\"textProperties\":[],\"textSpacing\":\"0\",\"textAlign\":\"center\",\"text\":\"\",\"typeName\":\"rectangle\",\"left\":32,\"top\":2591,\"vpos\":\"top\",\"hpos\":\"left\",\"visible\":true,\"id\":\"box-244\",\"group\":\"root\",\"zindex\":19,\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"borderStyle\":\"solid\",\"rotation\":0,\"scale\":1,\"aspectratio\":false},{\"name\":\"rectangle\",\"type\":\"rectangle\",\"lib\":\"common\",\"caption\":\"Rectangle 2\",\"backgroundColor\":\"#FFFFFF\",\"borderWidth\":0,\"borderColor\":\"E0E0E0\",\"borderRadius\":6,\"width\":965,\"height\":965,\"actions\":[],\"textFont\":\"sans-serif,Helvetica Neue,Arial\",\"textSize\":null,\"textColor\":\"#424242\",\"textProperties\":[],\"textAlign\":\"center\",\"text\":\"\",\"left\":58,\"top\":728,\"visible\":true,\"id\":\"box-110\",\"group\":\"root\",\"zindex\":1,\"hpos\":\"left\",\"vpos\":\"top\",\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"borderStyle\":\"solid\",\"rotation\":0,\"scale\":1,\"aspectratio\":false,\"lineHeight\":0,\"lineHeightAuto\":true,\"textSpacing\":\"0\"},{\"name\":\"image\",\"type\":\"image\",\"lib\":\"common\",\"caption\":\"TB2NzUJE41YBuNjy1zcXXbNcXXa_!!36739055.jpg\",\"imgSrc\":{\"bucketsource\":\"main\",\"fileId\":\"81aea9cbf78ca9fd990283cedbc23690.jpg\",\"name\":\"TB2NzUJE41YBuNjy1zcXXbNcXXa_!!36739055.jpg\",\"assetType\":\"project\"},\"repeat\":false,\"width\":1080,\"height\":1132,\"borderWidth\":0,\"borderRadius\":0,\"borderColor\":\"#D1D1D1\",\"borderPos\":\"inside\",\"propagateEvents\":false,\"actions\":[],\"overlay\":false,\"autoResize\":false,\"aspectratio\":false,\"left\":0,\"top\":2,\"visible\":true,\"id\":\"box-119\",\"group\":\"root\",\"zindex\":3,\"hpos\":\"left\",\"vpos\":\"top\",\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"borderStyle\":\"solid\",\"rotation\":0,\"scale\":1},{\"name\":\"image\",\"type\":\"image\",\"lib\":\"common\",\"caption\":\"5c7f6kyrkwowcggogwsskgswos8c8808.jpg.png\",\"imgSrc\":{\"fileId\":\"4f441969c7e220bc664311d4391a4f99.png\",\"assetType\":\"project\",\"bucketsource\":\"main\",\"name\":\"5c7f6kyrkwowcggogwsskgswos8c8808.jpg.png\"},\"repeat\":false,\"width\":225,\"height\":225,\"borderWidth\":0,\"borderRadius\":0,\"borderColor\":\"#D1D1D1\",\"borderPos\":\"inside\",\"propagateEvents\":false,\"actions\":[{\"title\":\"Interaction 1\",\"type\":\"tap\",\"actionId\":\"go-to-page\",\"pageId\":\"6\",\"animation\":\"slide\",\"animationEasing\":\"Cubic.easeOut\",\"duration\":\"400\",\"delay\":\"0\",\"callback\":false,\"guid\":\"916fd5d3-41d1-4222-b99a-161c3ecb3e84\",\"sort\":null}],\"overlay\":false,\"autoResize\":false,\"aspectratio\":1,\"left\":98,\"top\":1278,\"visible\":true,\"id\":\"box-121\",\"group\":\"root\",\"zindex\":4,\"hpos\":\"left\",\"vpos\":\"top\",\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"borderStyle\":\"solid\",\"rotation\":0,\"scale\":1},{\"name\":\"text\",\"type\":\"text\",\"lib\":\"common\",\"caption\":\"The shrimp is very f...\",\"text\":\"<span>The shrimp is very fresh and big.</span><br><span>It is so delicious that I forgot to take pictures when I was eating.&nbsp;</span> \",\"textFont\":\"sans-serif,Helvetica Neue,Arial\",\"textSize\":60,\"textColor\":\"000000\",\"backgroundColor\":\"none\",\"width\":971,\"height\":207,\"lineHeight\":72,\"textProperties\":[],\"textAlign\":\"left\",\"textSpacing\":\"0\",\"enableShadow\":false,\"autoResize\":false,\"v2\":true,\"left\":43,\"top\":1753,\"vpos\":\"top\",\"hpos\":\"left\",\"visible\":true,\"id\":\"box-122\",\"group\":\"root\",\"zindex\":5,\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"propagateEvents\":false,\"lineHeightAuto\":true,\"rotation\":0,\"scale\":1,\"aspectratio\":false},{\"name\":\"text\",\"type\":\"text\",\"lib\":\"common\",\"caption\":\"Annie\",\"text\":\"Annie\",\"textFont\":\"sans-serif,Helvetica Neue,Arial\",\"textSize\":60,\"textColor\":\"000000\",\"backgroundColor\":\"none\",\"width\":161,\"height\":69,\"lineHeight\":72,\"textProperties\":[],\"textAlign\":\"left\",\"textSpacing\":\"0\",\"enableShadow\":false,\"autoResize\":true,\"v2\":true,\"left\":412,\"top\":1295,\"vpos\":\"top\",\"hpos\":\"left\",\"visible\":true,\"id\":\"box-123\",\"group\":\"root\",\"zindex\":6,\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"propagateEvents\":false,\"lineHeightAuto\":true,\"rotation\":0,\"scale\":1,\"aspectratio\":false},{\"name\":\"ios7_button_bg\",\"type\":\"ios7_button_bg\",\"lib\":\"ios7\",\"caption\":\"Button with Background 1\",\"image\":\"https://dteyv52hbg2at.cloudfront.net/devices/ios7/button_bg/image.png\",\"width\":236,\"height\":86,\"backgroundColor\":\"#FF6849\",\"borderWidth\":0,\"borderColor\":\"#FFFFFF\",\"borderRadius\":30,\"text\":\"<strong>Follow</strong>\",\"textFont\":\"San Francisco UI Text Light\",\"textSize\":54,\"textColor\":\"#FFFFFF\",\"textProperties\":[\"bold\"],\"textAlign\":\"center\",\"iconpos\":\"none\",\"img\":{\"fileId\":\"c0877fc419aa836a4097f4f982a53a59.svg\",\"name\":\"chevron-left.svg\",\"assetType\":\"icon\",\"bucketsource\":\"static\",\"url\":\"f1352971179296/b0a2a6e58cba73da2d0b8dc3e0ac8fe8.svg\",\"targetSrc\":\"generated/b0a2a6e58cba73da2d0b8dc3e0ac8fe8_ffffff.svg\",\"color\":\"ffffff\"},\"left\":786,\"top\":1327,\"vpos\":\"top\",\"hpos\":\"left\",\"visible\":true,\"id\":\"box-124\",\"group\":\"root\",\"zindex\":7,\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"rotation\":0,\"scale\":1,\"aspectratio\":false},{\"name\":\"horizontalline\",\"type\":\"horizontalline\",\"lib\":\"common\",\"caption\":\"Horizontal line 1\",\"width\":1022,\"height\":6,\"color\":\"rgba(255,104,73,0.71)\",\"weight\":6,\"left\":29,\"top\":1592,\"vpos\":\"top\",\"hpos\":\"left\",\"visible\":true,\"id\":\"box-125\",\"group\":\"root\",\"zindex\":8,\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"borderStyle\":\"solid\",\"rotation\":0,\"scale\":1,\"aspectratio\":false},{\"name\":\"horizontalline\",\"type\":\"horizontalline\",\"lib\":\"common\",\"caption\":\"Horizontal line 2\",\"width\":1022,\"height\":6,\"color\":\"rgba(255,104,73,0.71)\",\"weight\":6,\"left\":17,\"top\":2148,\"vpos\":\"top\",\"hpos\":\"left\",\"visible\":true,\"id\":\"box-126\",\"group\":\"root\",\"zindex\":8,\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"borderStyle\":\"solid\",\"rotation\":0,\"scale\":1,\"aspectratio\":false},{\"name\":\"text\",\"type\":\"text\",\"lib\":\"common\",\"caption\":\"Super delicious spic...\",\"text\":\"<strong>Super delicious spicy crayfish nearby</strong>！\",\"textFont\":\"sans-serif,Helvetica Neue,Arial\",\"textSize\":54,\"textColor\":\"#000000\",\"backgroundColor\":\"none\",\"width\":996,\"height\":63,\"lineHeight\":66,\"textProperties\":[\"bold\"],\"textAlign\":\"left\",\"textSpacing\":\"0\",\"enableShadow\":false,\"autoResize\":true,\"v2\":true,\"left\":58,\"top\":1661,\"vpos\":\"top\",\"hpos\":\"left\",\"visible\":true,\"id\":\"box-127\",\"group\":\"root\",\"zindex\":9,\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"propagateEvents\":false,\"lineHeightAuto\":true,\"rotation\":0,\"scale\":1,\"aspectratio\":false},{\"name\":\"ios7_button_bg\",\"type\":\"ios7_button_bg\",\"lib\":\"ios7\",\"caption\":\"Button with Background 2\",\"image\":\"https://dteyv52hbg2at.cloudfront.net/devices/ios7/button_bg/image.png\",\"width\":282,\"height\":55,\"backgroundColor\":\"rgba(255,104,73,0.7)\",\"borderWidth\":0,\"borderColor\":\"#FFFFFF\",\"borderRadius\":24,\"text\":\"Chinese Food\",\"textFont\":\"San Francisco UI Text Light\",\"textSize\":39,\"textColor\":\"#FFFFFF\",\"textProperties\":[],\"textAlign\":\"center\",\"iconpos\":\"none\",\"img\":{\"fileId\":\"c0877fc419aa836a4097f4f982a53a59.svg\",\"name\":\"chevron-left.svg\",\"assetType\":\"icon\",\"bucketsource\":\"static\",\"url\":\"f1352971179296/b0a2a6e58cba73da2d0b8dc3e0ac8fe8.svg\",\"targetSrc\":\"generated/b0a2a6e58cba73da2d0b8dc3e0ac8fe8_ffffff.svg\",\"color\":\"ffffff\"},\"left\":58,\"top\":2024,\"vpos\":\"top\",\"hpos\":\"left\",\"visible\":true,\"id\":\"box-128\",\"group\":\"root\",\"zindex\":10,\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"rotation\":0,\"scale\":1,\"aspectratio\":false,\"weight\":\"\"},{\"name\":\"ios7_button_bg\",\"type\":\"ios7_button_bg\",\"lib\":\"ios7\",\"caption\":\"Button with Background 3\",\"image\":\"https://dteyv52hbg2at.cloudfront.net/devices/ios7/button_bg/image.png\",\"width\":179,\"height\":55,\"backgroundColor\":\"rgba(255,104,73,0.7)\",\"borderWidth\":0,\"borderColor\":\"#FFFFFF\",\"borderRadius\":24,\"text\":\"Spicy\",\"textFont\":\"San Francisco UI Text Light\",\"textSize\":39,\"textColor\":\"#FFFFFF\",\"textProperties\":[],\"textAlign\":\"center\",\"iconpos\":\"none\",\"img\":{\"fileId\":\"c0877fc419aa836a4097f4f982a53a59.svg\",\"name\":\"chevron-left.svg\",\"assetType\":\"icon\",\"bucketsource\":\"static\",\"url\":\"f1352971179296/b0a2a6e58cba73da2d0b8dc3e0ac8fe8.svg\",\"targetSrc\":\"generated/b0a2a6e58cba73da2d0b8dc3e0ac8fe8_ffffff.svg\",\"color\":\"ffffff\"},\"left\":363,\"top\":2024,\"vpos\":\"top\",\"hpos\":\"left\",\"visible\":true,\"id\":\"box-129\",\"group\":\"root\",\"zindex\":10,\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"rotation\":0,\"scale\":1,\"aspectratio\":false,\"weight\":\"\"},{\"name\":\"ios7_button_bg\",\"type\":\"ios7_button_bg\",\"lib\":\"ios7\",\"caption\":\"Button with Background 4\",\"image\":\"https://dteyv52hbg2at.cloudfront.net/devices/ios7/button_bg/image.png\",\"width\":164,\"height\":55,\"backgroundColor\":\"rgba(255,104,73,0.7)\",\"borderWidth\":0,\"borderColor\":\"#FFFFFF\",\"borderRadius\":24,\"text\":\"Turin\",\"textFont\":\"San Francisco UI Text Light\",\"textSize\":39,\"textColor\":\"#FFFFFF\",\"textProperties\":[],\"textAlign\":\"center\",\"iconpos\":\"none\",\"img\":{\"fileId\":\"c0877fc419aa836a4097f4f982a53a59.svg\",\"name\":\"chevron-left.svg\",\"assetType\":\"icon\",\"bucketsource\":\"static\",\"url\":\"f1352971179296/b0a2a6e58cba73da2d0b8dc3e0ac8fe8.svg\",\"targetSrc\":\"generated/b0a2a6e58cba73da2d0b8dc3e0ac8fe8_ffffff.svg\",\"color\":\"ffffff\"},\"left\":562,\"top\":2024,\"vpos\":\"top\",\"hpos\":\"left\",\"visible\":true,\"id\":\"box-130\",\"group\":\"root\",\"zindex\":10,\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"rotation\":0,\"scale\":1,\"aspectratio\":false,\"weight\":\"\"},{\"name\":\"ios7_button_bg\",\"type\":\"ios7_button_bg\",\"lib\":\"ios7\",\"caption\":\"Button with Background 5\",\"image\":\"https://dteyv52hbg2at.cloudfront.net/devices/ios7/button_bg/image.png\",\"width\":193,\"height\":55,\"backgroundColor\":\"rgba(255,104,73,0.7)\",\"borderWidth\":0,\"borderColor\":\"#FFFFFF\",\"borderRadius\":24,\"text\":\"Crayfish\",\"textFont\":\"San Francisco UI Text Light\",\"textSize\":39,\"textColor\":\"#FFFFFF\",\"textProperties\":[],\"textAlign\":\"center\",\"iconpos\":\"none\",\"img\":{\"fileId\":\"c0877fc419aa836a4097f4f982a53a59.svg\",\"name\":\"chevron-left.svg\",\"assetType\":\"icon\",\"bucketsource\":\"static\",\"url\":\"f1352971179296/b0a2a6e58cba73da2d0b8dc3e0ac8fe8.svg\",\"targetSrc\":\"generated/b0a2a6e58cba73da2d0b8dc3e0ac8fe8_ffffff.svg\",\"color\":\"ffffff\"},\"left\":740,\"top\":2024,\"vpos\":\"top\",\"hpos\":\"left\",\"visible\":true,\"id\":\"box-131\",\"group\":\"root\",\"zindex\":10,\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"rotation\":0,\"scale\":1,\"aspectratio\":false,\"weight\":\"\"},{\"name\":\"text\",\"type\":\"text\",\"lib\":\"common\",\"caption\":\"Comments\",\"text\":\"<strong>Comments</strong>\",\"textFont\":\"sans-serif,Helvetica Neue,Arial\",\"textSize\":51,\"textColor\":\"#C6C6C6\",\"backgroundColor\":\"none\",\"width\":268,\"height\":58,\"lineHeight\":60,\"textProperties\":[\"bold\"],\"textAlign\":\"left\",\"textSpacing\":\"0\",\"enableShadow\":false,\"autoResize\":true,\"v2\":true,\"left\":43,\"top\":2195,\"vpos\":\"top\",\"hpos\":\"left\",\"visible\":true,\"id\":\"box-133\",\"group\":\"root\",\"zindex\":11,\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"propagateEvents\":false,\"lineHeightAuto\":true,\"rotation\":0,\"scale\":1,\"aspectratio\":false},{\"name\":\"image\",\"type\":\"image\",\"lib\":\"common\",\"caption\":\"位置.png\",\"imgSrc\":{\"fileId\":\"41c520e71baa521231da99b8d8554e60.png\",\"assetType\":\"project\",\"bucketsource\":\"main\",\"name\":\"位置.png\"},\"repeat\":false,\"width\":104,\"height\":104,\"borderWidth\":0,\"borderRadius\":0,\"borderColor\":\"#D1D1D1\",\"borderPos\":\"inside\",\"propagateEvents\":false,\"actions\":[],\"overlay\":false,\"autoResize\":false,\"aspectratio\":1,\"left\":374,\"top\":1413,\"visible\":true,\"id\":\"box-134\",\"group\":\"af284758-b8cb-436b-87aa-79587f5dd352\",\"zindex\":12,\"hpos\":\"left\",\"vpos\":\"top\",\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"borderStyle\":\"solid\",\"rotation\":0,\"scale\":1},{\"name\":\"text\",\"type\":\"text\",\"lib\":\"common\",\"caption\":\"Show map\",\"text\":\"Show map\",\"textFont\":\"sans-serif,Helvetica Neue,Arial\",\"textSize\":51,\"textColor\":\"#AAAAAA\",\"backgroundColor\":\"none\",\"width\":245,\"height\":58,\"lineHeight\":60,\"textProperties\":[],\"textAlign\":\"left\",\"textSpacing\":\"0\",\"enableShadow\":false,\"autoResize\":true,\"v2\":true,\"left\":492,\"top\":1436,\"vpos\":\"top\",\"hpos\":\"left\",\"visible\":true,\"id\":\"box-135\",\"group\":\"af284758-b8cb-436b-87aa-79587f5dd352\",\"zindex\":13,\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"propagateEvents\":false,\"lineHeightAuto\":true,\"rotation\":0,\"scale\":1,\"aspectratio\":false},{\"name\":\"image\",\"type\":\"image\",\"lib\":\"common\",\"caption\":\"like.png\",\"imgSrc\":{\"fileId\":\"b7245d349154b8765f5d6d1abc247c15.png\",\"assetType\":\"project\",\"bucketsource\":\"main\",\"name\":\"like.png\"},\"repeat\":false,\"width\":158,\"height\":158,\"borderWidth\":0,\"borderRadius\":0,\"borderColor\":\"#D1D1D1\",\"borderPos\":\"inside\",\"propagateEvents\":false,\"actions\":[{\"title\":\"Interaction 1\",\"type\":\"tap\",\"actionId\":\"hide-item\",\"pageId\":\"-1\",\"itemId\":\"box-136\",\"animationEasing\":\"out\",\"duration\":\"400\",\"delay\":\"0\",\"callback\":false,\"guid\":\"67ef85ba-abf8-4789-a431-a0108a3d2e5b\",\"sort\":null}],\"overlay\":false,\"autoResize\":false,\"aspectratio\":1,\"left\":901,\"top\":964,\"visible\":false,\"id\":\"box-136\",\"group\":\"root\",\"zindex\":14,\"hpos\":\"left\",\"vpos\":\"top\",\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"borderStyle\":\"solid\",\"rotation\":0,\"scale\":1},{\"name\":\"image\",\"type\":\"image\",\"lib\":\"common\",\"caption\":\"mages.jpg\",\"imgSrc\":{\"fileId\":\"203e1540308736b9a621b3e1e064811f.jpg\",\"assetType\":\"project\",\"bucketsource\":\"main\",\"name\":\"mages.jpg\"},\"repeat\":false,\"width\":147,\"height\":147,\"borderWidth\":0,\"borderRadius\":0,\"borderColor\":\"#D1D1D1\",\"borderPos\":\"inside\",\"propagateEvents\":false,\"actions\":[],\"overlay\":false,\"autoResize\":false,\"aspectratio\":1,\"left\":32,\"top\":2286,\"visible\":true,\"id\":\"box-240\",\"group\":\"root\",\"zindex\":15,\"hpos\":\"left\",\"vpos\":\"top\",\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"borderStyle\":\"solid\",\"rotation\":0,\"scale\":1},{\"name\":\"text\",\"type\":\"text\",\"lib\":\"common\",\"caption\":\"Thanks for sharing!...\",\"text\":\"Thanks for sharing!<br>I found for spicy crayfish for a long time!<br>I gonna try tomorrow!\",\"textFont\":\"sans-serif,Helvetica Neue,Arial\",\"textSize\":51,\"textColor\":\"000000\",\"backgroundColor\":\"none\",\"width\":778,\"height\":230,\"lineHeight\":60,\"textProperties\":[],\"textAlign\":\"left\",\"textSpacing\":\"0\",\"enableShadow\":false,\"autoResize\":false,\"v2\":true,\"left\":219,\"top\":2286,\"vpos\":\"top\",\"hpos\":\"left\",\"visible\":true,\"id\":\"box-241\",\"group\":\"root\",\"zindex\":16,\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"propagateEvents\":false,\"lineHeightAuto\":true,\"rotation\":0,\"scale\":1,\"aspectratio\":false},{\"name\":\"image\",\"type\":\"image\",\"lib\":\"common\",\"caption\":\"iges.jpg\",\"imgSrc\":{\"fileId\":\"3d6d317a80991e5a75da12bbf393c8ae.jpg\",\"assetType\":\"project\",\"bucketsource\":\"main\",\"name\":\"iges.jpg\"},\"repeat\":false,\"width\":147,\"height\":147,\"borderWidth\":0,\"borderRadius\":0,\"borderColor\":\"#D1D1D1\",\"borderPos\":\"inside\",\"propagateEvents\":false,\"actions\":[],\"overlay\":false,\"autoResize\":false,\"aspectratio\":1,\"left\":43,\"top\":2614,\"visible\":true,\"id\":\"box-242\",\"group\":\"root\",\"zindex\":17,\"hpos\":\"left\",\"vpos\":\"top\",\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"borderStyle\":\"solid\",\"rotation\":0,\"scale\":1},{\"name\":\"text\",\"type\":\"text\",\"lib\":\"common\",\"caption\":\"Type something......\",\"text\":\"Type something...<br><br><br>\",\"textFont\":\"sans-serif,Helvetica Neue,Arial\",\"textSize\":51,\"textColor\":\"#AAAAAA\",\"backgroundColor\":\"none\",\"width\":797,\"height\":180,\"lineHeight\":60,\"textProperties\":[],\"textAlign\":\"left\",\"textSpacing\":\"0\",\"enableShadow\":false,\"autoResize\":false,\"v2\":true,\"left\":225,\"top\":2607,\"vpos\":\"top\",\"hpos\":\"left\",\"visible\":true,\"id\":\"box-243\",\"group\":\"root\",\"zindex\":18,\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"propagateEvents\":false,\"lineHeightAuto\":true,\"rotation\":0,\"scale\":1,\"aspectratio\":false},{\"name\":\"image\",\"type\":\"image\",\"lib\":\"common\",\"caption\":\"like-4.svg\",\"imgSrc\":{\"fileId\":\"4d8d94a406b1e9ce5e2fc146a5bba5f5.svg\",\"name\":\"like-4.svg\",\"assetType\":\"icon\",\"bucketsource\":\"static\",\"url\":\"f1352971179296/f8c8c8ce19280e42c95e254da75aacca.svg\",\"targetSrc\":\"generated/4d8d94a406b1e9ce5e2fc146a5bba5f5_e20f00.svg\",\"color\":\"E20F00\"},\"repeat\":false,\"width\":158,\"height\":158,\"borderWidth\":0,\"borderRadius\":0,\"borderColor\":\"#D1D1D1\",\"borderPos\":\"inside\",\"propagateEvents\":false,\"actions\":[{\"title\":\"Interaction 1\",\"type\":\"tap\",\"actionId\":\"show-item\",\"pageId\":\"-1\",\"itemId\":\"box-136\",\"animationEasing\":\"out\",\"duration\":\"400\",\"delay\":\"0\",\"callback\":false,\"guid\":\"f17179ee-7e90-4aa7-add0-6f7ec02d7ec9\",\"sort\":null}],\"overlay\":false,\"autoResize\":false,\"aspectratio\":1,\"left\":901,\"top\":964,\"visible\":true,\"id\":\"box-308\",\"group\":\"root\",\"zindex\":14,\"hpos\":\"left\",\"vpos\":\"top\",\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"borderStyle\":\"solid\",\"rotation\":0,\"scale\":1}]",
+            "history": []
+        }]
+    }, {
+        "title": "Container 8",
+        "id": 8,
+        "states": [{
+            "title": "State 1",
+            "data": "[{\"name\":\"image\",\"type\":\"image\",\"lib\":\"common\",\"caption\":\"TB2NzUJE41YBuNjy1zcXXbNcXXa_!!36739055.jpg\",\"imgSrc\":{\"fileId\":\"81aea9cbf78ca9fd990283cedbc23690.jpg\",\"assetType\":\"project\",\"bucketsource\":\"main\",\"name\":\"TB2NzUJE41YBuNjy1zcXXbNcXXa_!!36739055.jpg\"},\"repeat\":false,\"width\":225,\"height\":225,\"borderWidth\":0,\"borderRadius\":0,\"borderColor\":\"#D1D1D1\",\"borderPos\":\"inside\",\"propagateEvents\":false,\"actions\":[],\"overlay\":false,\"autoResize\":false,\"aspectratio\":1,\"left\":37,\"top\":311,\"visible\":true,\"id\":\"box-311\",\"group\":\"root\",\"zindex\":18,\"hpos\":\"left\",\"vpos\":\"top\",\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"borderStyle\":\"solid\",\"rotation\":0,\"scale\":1},{\"name\":\"text\",\"type\":\"text\",\"lib\":\"common\",\"caption\":\"Talk about this food...\",\"text\":\"Talk about this food...\",\"textFont\":\"sans-serif,Helvetica Neue,Arial\",\"textSize\":51,\"textColor\":\"#C6C6C6\",\"backgroundColor\":\"none\",\"width\":590,\"height\":58,\"lineHeight\":60,\"textProperties\":[],\"textAlign\":\"left\",\"textSpacing\":\"0\",\"enableShadow\":false,\"autoResize\":false,\"v2\":true,\"left\":37,\"top\":0,\"vpos\":\"top\",\"hpos\":\"left\",\"visible\":true,\"id\":\"box-312\",\"group\":\"root\",\"zindex\":18,\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"propagateEvents\":false,\"lineHeightAuto\":true,\"rotation\":0,\"scale\":1,\"aspectratio\":false},{\"name\":\"horizontalline\",\"type\":\"horizontalline\",\"lib\":\"common\",\"caption\":\"Horizontal line 1\",\"width\":1025,\"height\":3,\"color\":\"#C6C6C6\",\"weight\":3,\"left\":0,\"top\":271,\"vpos\":\"top\",\"hpos\":\"left\",\"visible\":true,\"id\":\"box-313\",\"group\":\"root\",\"zindex\":18,\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"borderStyle\":\"solid\",\"rotation\":0,\"scale\":1,\"aspectratio\":false},{\"name\":\"material_button_action\",\"type\":\"material_button_raised\",\"lib\":\"material\",\"caption\":\"Action Button\",\"width\":193,\"height\":193,\"backgroundColor\":\"rgba(0,0,0,0)\",\"text\":\"BUTTON\",\"textFont\":\"Roboto Medium, sans-serif\",\"textSize\":42,\"textColor\":\"FFFFFF\",\"textProperties\":[\"bold\"],\"shadowColor\":\"rgba(0, 0, 0, 0.2)\",\"imgSrc\":{\"fileId\":\"afbf7d78ca89fe2f05ab67bc7ee7a8d2.svg\",\"name\":\"add.svg\",\"assetType\":\"icon\",\"bucketsource\":\"static\",\"url\":\"f1424091950266/b4468c977d5a8083541353d264cbb89d.svg\",\"targetSrc\":\"generated/afbf7d78ca89fe2f05ab67bc7ee7a8d2_9e9e9e.svg\",\"color\":\"9E9E9E\"},\"actions\":[],\"aspectratio\":1,\"rippleEffect\":false,\"rippleEffectType\":\"none\",\"rippleEffectColor\":\"rgba(0,0,0,0.1)\",\"left\":325,\"top\":325,\"vpos\":\"top\",\"hpos\":\"left\",\"visible\":true,\"id\":\"box-314\",\"group\":\"root\",\"zindex\":18,\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"rotation\":0,\"scale\":1},{\"name\":\"text\",\"type\":\"text\",\"lib\":\"common\",\"caption\":\"Add tag\",\"text\":\"Add tag\",\"textFont\":\"sans-serif,Helvetica Neue,Arial\",\"textSize\":51,\"textColor\":\"#C6C6C6\",\"backgroundColor\":\"none\",\"width\":184,\"height\":58,\"lineHeight\":60,\"textProperties\":[],\"textAlign\":\"left\",\"textSpacing\":\"0\",\"enableShadow\":false,\"autoResize\":true,\"v2\":true,\"left\":37,\"top\":780,\"vpos\":\"top\",\"hpos\":\"left\",\"visible\":true,\"id\":\"box-315\",\"group\":\"root\",\"zindex\":18,\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"propagateEvents\":false,\"lineHeightAuto\":true,\"rotation\":0,\"scale\":1,\"aspectratio\":false},{\"name\":\"rectangle\",\"type\":\"rectangle\",\"lib\":\"common\",\"caption\":\"Rectangle 1\",\"backgroundColor\":\"rgba(0,0,0,0)\",\"borderWidth\":3,\"borderColor\":\"D1D1D1\",\"borderRadius\":0,\"width\":1022,\"height\":403,\"lineHeight\":60,\"lineHeightAuto\":true,\"actions\":[],\"textFont\":\"sans-serif,Helvetica Neue,Arial\",\"textSize\":42,\"textColor\":\"#000000\",\"textProperties\":[],\"textSpacing\":\"0\",\"textAlign\":\"center\",\"text\":\"\",\"typeName\":\"rectangle\",\"left\":3,\"top\":852,\"vpos\":\"top\",\"hpos\":\"left\",\"visible\":true,\"id\":\"box-316\",\"group\":\"root\",\"zindex\":18,\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"borderStyle\":\"solid\",\"rotation\":0,\"scale\":1,\"aspectratio\":false},{\"name\":\"text\",\"type\":\"text\",\"lib\":\"common\",\"caption\":\"Recommended...\",\"text\":\"Recommended\",\"textFont\":\"sans-serif,Helvetica Neue,Arial\",\"textSize\":51,\"textColor\":\"#C6C6C6\",\"backgroundColor\":\"none\",\"width\":346,\"height\":58,\"lineHeight\":60,\"textProperties\":[],\"textAlign\":\"left\",\"textSpacing\":\"0\",\"enableShadow\":false,\"autoResize\":true,\"v2\":true,\"left\":72,\"top\":878,\"vpos\":\"top\",\"hpos\":\"left\",\"visible\":true,\"id\":\"box-317\",\"group\":\"root\",\"zindex\":18,\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"propagateEvents\":false,\"lineHeightAuto\":true,\"rotation\":0,\"scale\":1,\"aspectratio\":false},{\"name\":\"ios7_button_bg\",\"type\":\"ios7_button_bg\",\"lib\":\"ios7\",\"caption\":\"Button with Background 2\",\"image\":\"https://dteyv52hbg2at.cloudfront.net/devices/ios7/button_bg/image.png\",\"width\":282,\"height\":55,\"backgroundColor\":\"rgba(255,104,73,0.7)\",\"borderWidth\":0,\"borderColor\":\"#FFFFFF\",\"borderRadius\":24,\"text\":\"Chinese Food\",\"textFont\":\"San Francisco UI Text Light\",\"textSize\":39,\"textColor\":\"#FFFFFF\",\"textProperties\":[],\"textAlign\":\"center\",\"iconpos\":\"none\",\"img\":{\"fileId\":\"c0877fc419aa836a4097f4f982a53a59.svg\",\"name\":\"chevron-left.svg\",\"assetType\":\"icon\",\"bucketsource\":\"static\",\"url\":\"f1352971179296/b0a2a6e58cba73da2d0b8dc3e0ac8fe8.svg\",\"targetSrc\":\"generated/b0a2a6e58cba73da2d0b8dc3e0ac8fe8_ffffff.svg\",\"color\":\"ffffff\"},\"left\":101,\"top\":965,\"vpos\":\"top\",\"hpos\":\"left\",\"visible\":true,\"id\":\"box-318\",\"group\":\"root\",\"zindex\":18,\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"rotation\":0,\"scale\":1,\"aspectratio\":false,\"weight\":\"\"},{\"name\":\"ios7_button_bg\",\"type\":\"ios7_button_bg\",\"lib\":\"ios7\",\"caption\":\"Button with Background 3\",\"image\":\"https://dteyv52hbg2at.cloudfront.net/devices/ios7/button_bg/image.png\",\"width\":179,\"height\":55,\"backgroundColor\":\"rgba(255,104,73,0.7)\",\"borderWidth\":0,\"borderColor\":\"#FFFFFF\",\"borderRadius\":24,\"text\":\"Spicy\",\"textFont\":\"San Francisco UI Text Light\",\"textSize\":39,\"textColor\":\"#FFFFFF\",\"textProperties\":[],\"textAlign\":\"center\",\"iconpos\":\"none\",\"img\":{\"fileId\":\"c0877fc419aa836a4097f4f982a53a59.svg\",\"name\":\"chevron-left.svg\",\"assetType\":\"icon\",\"bucketsource\":\"static\",\"url\":\"f1352971179296/b0a2a6e58cba73da2d0b8dc3e0ac8fe8.svg\",\"targetSrc\":\"generated/b0a2a6e58cba73da2d0b8dc3e0ac8fe8_ffffff.svg\",\"color\":\"ffffff\"},\"left\":397,\"top\":965,\"vpos\":\"top\",\"hpos\":\"left\",\"visible\":true,\"id\":\"box-319\",\"group\":\"root\",\"zindex\":18,\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"rotation\":0,\"scale\":1,\"aspectratio\":false,\"weight\":\"\"},{\"name\":\"ios7_button_bg\",\"type\":\"ios7_button_bg\",\"lib\":\"ios7\",\"caption\":\"Button with Background 4\",\"image\":\"https://dteyv52hbg2at.cloudfront.net/devices/ios7/button_bg/image.png\",\"width\":164,\"height\":55,\"backgroundColor\":\"rgba(255,104,73,0.7)\",\"borderWidth\":0,\"borderColor\":\"#FFFFFF\",\"borderRadius\":24,\"text\":\"Turin\",\"textFont\":\"San Francisco UI Text Light\",\"textSize\":39,\"textColor\":\"#FFFFFF\",\"textProperties\":[],\"textAlign\":\"center\",\"iconpos\":\"none\",\"img\":{\"fileId\":\"c0877fc419aa836a4097f4f982a53a59.svg\",\"name\":\"chevron-left.svg\",\"assetType\":\"icon\",\"bucketsource\":\"static\",\"url\":\"f1352971179296/b0a2a6e58cba73da2d0b8dc3e0ac8fe8.svg\",\"targetSrc\":\"generated/b0a2a6e58cba73da2d0b8dc3e0ac8fe8_ffffff.svg\",\"color\":\"ffffff\"},\"left\":596,\"top\":965,\"vpos\":\"top\",\"hpos\":\"left\",\"visible\":true,\"id\":\"box-320\",\"group\":\"root\",\"zindex\":18,\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"rotation\":0,\"scale\":1,\"aspectratio\":false,\"weight\":\"\"},{\"name\":\"ios7_button_bg\",\"type\":\"ios7_button_bg\",\"lib\":\"ios7\",\"caption\":\"Button with Background 5\",\"image\":\"https://dteyv52hbg2at.cloudfront.net/devices/ios7/button_bg/image.png\",\"width\":161,\"height\":55,\"backgroundColor\":\"rgba(255,104,73,0.7)\",\"borderWidth\":0,\"borderColor\":\"#FFFFFF\",\"borderRadius\":24,\"text\":\"Type\",\"textFont\":\"San Francisco UI Text Light\",\"textSize\":39,\"textColor\":\"#FFFFFF\",\"textProperties\":[],\"textAlign\":\"center\",\"iconpos\":\"none\",\"img\":{\"fileId\":\"c0877fc419aa836a4097f4f982a53a59.svg\",\"name\":\"chevron-left.svg\",\"assetType\":\"icon\",\"bucketsource\":\"static\",\"url\":\"f1352971179296/b0a2a6e58cba73da2d0b8dc3e0ac8fe8.svg\",\"targetSrc\":\"generated/b0a2a6e58cba73da2d0b8dc3e0ac8fe8_ffffff.svg\",\"color\":\"ffffff\"},\"left\":101,\"top\":1158,\"vpos\":\"top\",\"hpos\":\"left\",\"visible\":true,\"id\":\"box-321\",\"group\":\"root\",\"zindex\":18,\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"rotation\":0,\"scale\":1,\"aspectratio\":false,\"weight\":\"\"},{\"name\":\"text\",\"type\":\"text\",\"lib\":\"common\",\"caption\":\"Self-define...\",\"text\":\"Self-define\",\"textFont\":\"sans-serif,Helvetica Neue,Arial\",\"textSize\":51,\"textColor\":\"#C6C6C6\",\"backgroundColor\":\"none\",\"width\":248,\"height\":58,\"lineHeight\":60,\"textProperties\":[],\"textAlign\":\"left\",\"textSpacing\":\"0\",\"enableShadow\":false,\"autoResize\":true,\"v2\":true,\"left\":72,\"top\":1063,\"vpos\":\"top\",\"hpos\":\"left\",\"visible\":true,\"id\":\"box-322\",\"group\":\"root\",\"zindex\":18,\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"propagateEvents\":false,\"lineHeightAuto\":true,\"rotation\":0,\"scale\":1,\"aspectratio\":false},{\"name\":\"text\",\"type\":\"text\",\"lib\":\"common\",\"caption\":\"Share to\",\"text\":\"Share to\",\"textFont\":\"sans-serif,Helvetica Neue,Arial\",\"textSize\":51,\"textColor\":\"#C6C6C6\",\"backgroundColor\":\"none\",\"width\":199,\"height\":58,\"lineHeight\":60,\"textProperties\":[],\"textAlign\":\"left\",\"textSpacing\":\"0\",\"enableShadow\":false,\"autoResize\":true,\"v2\":true,\"left\":37,\"top\":1313,\"vpos\":\"top\",\"hpos\":\"left\",\"visible\":true,\"id\":\"box-323\",\"group\":\"root\",\"zindex\":18,\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"propagateEvents\":false,\"lineHeightAuto\":true,\"rotation\":0,\"scale\":1,\"aspectratio\":false},{\"name\":\"text\",\"type\":\"text\",\"lib\":\"common\",\"caption\":\"Facebook\",\"text\":\"Facebook\",\"textFont\":\"sans-serif,Helvetica Neue,Arial\",\"textSize\":51,\"textColor\":\"000000\",\"backgroundColor\":\"none\",\"width\":230,\"height\":58,\"lineHeight\":60,\"textProperties\":[],\"textAlign\":\"left\",\"textSpacing\":\"0\",\"enableShadow\":false,\"autoResize\":true,\"v2\":true,\"left\":72,\"top\":1414,\"vpos\":\"top\",\"hpos\":\"left\",\"visible\":true,\"id\":\"box-324\",\"group\":\"root\",\"zindex\":18,\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"propagateEvents\":false,\"lineHeightAuto\":true,\"rotation\":0,\"scale\":1,\"aspectratio\":false},{\"name\":\"ios10_switch\",\"type\":\"ios7_switch\",\"lib\":\"ios7\",\"caption\":\"On/Off Switch\",\"width\":150,\"height\":72,\"inactiveLabelColor\":\"transparent\",\"activeLabelColor\":\"#FF6849\",\"borderWidth\":3,\"inactiveBorderColor\":\"#E5E5E5\",\"activeBorderColor\":\"#E5E5E5\",\"switchColor\":\"FFFFFF\",\"radioButtonsGroupName\":\"\",\"left\":832,\"top\":1400,\"vpos\":\"top\",\"hpos\":\"left\",\"visible\":true,\"id\":\"box-325\",\"group\":\"root\",\"zindex\":18,\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"rotation\":0,\"scale\":1,\"aspectratio\":false,\"backgroundColor\":\"\"},{\"name\":\"text\",\"type\":\"text\",\"lib\":\"common\",\"caption\":\"Twitter\",\"text\":\"Twitter\",\"textFont\":\"sans-serif,Helvetica Neue,Arial\",\"textSize\":51,\"textColor\":\"000000\",\"backgroundColor\":\"none\",\"width\":164,\"height\":58,\"lineHeight\":60,\"textProperties\":[],\"textAlign\":\"left\",\"textSpacing\":\"0\",\"enableShadow\":false,\"autoResize\":false,\"v2\":true,\"left\":66,\"top\":1521,\"vpos\":\"top\",\"hpos\":\"left\",\"visible\":true,\"id\":\"box-326\",\"group\":\"root\",\"zindex\":18,\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"propagateEvents\":false,\"lineHeightAuto\":true,\"rotation\":0,\"scale\":1,\"aspectratio\":false},{\"name\":\"text\",\"type\":\"text\",\"lib\":\"common\",\"caption\":\"Tumblr\",\"text\":\"Tumblr\",\"textFont\":\"sans-serif,Helvetica Neue,Arial\",\"textSize\":51,\"textColor\":\"000000\",\"backgroundColor\":\"none\",\"width\":190,\"height\":58,\"lineHeight\":60,\"textProperties\":[],\"textAlign\":\"left\",\"textSpacing\":\"0\",\"enableShadow\":false,\"autoResize\":false,\"v2\":true,\"left\":72,\"top\":1618,\"vpos\":\"top\",\"hpos\":\"left\",\"visible\":true,\"id\":\"box-327\",\"group\":\"root\",\"zindex\":18,\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"propagateEvents\":false,\"lineHeightAuto\":true,\"rotation\":0,\"scale\":1,\"aspectratio\":false},{\"name\":\"ios10_switch\",\"type\":\"ios7_switch\",\"lib\":\"ios7\",\"caption\":\"On/Off Switch 2\",\"width\":150,\"height\":72,\"inactiveLabelColor\":\"transparent\",\"activeLabelColor\":\"#FF6849\",\"borderWidth\":3,\"inactiveBorderColor\":\"#E5E5E5\",\"activeBorderColor\":\"#E5E5E5\",\"switchColor\":\"FFFFFF\",\"radioButtonsGroupName\":\"\",\"left\":832,\"top\":1506,\"vpos\":\"top\",\"hpos\":\"left\",\"visible\":true,\"id\":\"box-328\",\"group\":\"root\",\"zindex\":18,\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"rotation\":0,\"scale\":1,\"aspectratio\":false,\"backgroundColor\":\"\"},{\"name\":\"ios10_switch\",\"type\":\"ios7_switch\",\"lib\":\"ios7\",\"caption\":\"On/Off Switch 3\",\"width\":150,\"height\":72,\"inactiveLabelColor\":\"transparent\",\"activeLabelColor\":\"#FF6849\",\"borderWidth\":3,\"inactiveBorderColor\":\"#E5E5E5\",\"activeBorderColor\":\"#E5E5E5\",\"switchColor\":\"FFFFFF\",\"radioButtonsGroupName\":\"\",\"left\":832,\"top\":1613,\"vpos\":\"top\",\"hpos\":\"left\",\"visible\":true,\"id\":\"box-329\",\"group\":\"root\",\"zindex\":18,\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"rotation\":0,\"scale\":1,\"aspectratio\":false,\"backgroundColor\":\"\"},{\"name\":\"text\",\"type\":\"text\",\"lib\":\"common\",\"caption\":\"Instagram\",\"text\":\"Instagram\",\"textFont\":\"sans-serif,Helvetica Neue,Arial\",\"textSize\":51,\"textColor\":\"000000\",\"backgroundColor\":\"none\",\"width\":236,\"height\":58,\"lineHeight\":60,\"textProperties\":[],\"textAlign\":\"left\",\"textSpacing\":\"0\",\"enableShadow\":false,\"autoResize\":false,\"v2\":true,\"left\":78,\"top\":1722,\"vpos\":\"top\",\"hpos\":\"left\",\"visible\":true,\"id\":\"box-330\",\"group\":\"root\",\"zindex\":18,\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"propagateEvents\":false,\"lineHeightAuto\":true,\"rotation\":0,\"scale\":1,\"aspectratio\":false},{\"name\":\"ios10_switch\",\"type\":\"ios7_switch\",\"lib\":\"ios7\",\"caption\":\"On/Off Switch 4\",\"width\":150,\"height\":72,\"inactiveLabelColor\":\"transparent\",\"activeLabelColor\":\"#FF6849\",\"borderWidth\":3,\"inactiveBorderColor\":\"#E5E5E5\",\"activeBorderColor\":\"#E5E5E5\",\"switchColor\":\"FFFFFF\",\"radioButtonsGroupName\":\"\",\"left\":832,\"top\":1708,\"vpos\":\"top\",\"hpos\":\"left\",\"visible\":true,\"id\":\"box-331\",\"group\":\"root\",\"zindex\":18,\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"rotation\":0,\"scale\":1,\"aspectratio\":false,\"backgroundColor\":\"\"},{\"name\":\"text\",\"type\":\"text\",\"lib\":\"common\",\"caption\":\"Moment\",\"text\":\"Moment\",\"textFont\":\"sans-serif,Helvetica Neue,Arial\",\"textSize\":51,\"textColor\":\"000000\",\"backgroundColor\":\"none\",\"width\":236,\"height\":58,\"lineHeight\":60,\"textProperties\":[],\"textAlign\":\"left\",\"textSpacing\":\"0\",\"enableShadow\":false,\"autoResize\":false,\"v2\":true,\"left\":72,\"top\":1820,\"vpos\":\"top\",\"hpos\":\"left\",\"visible\":true,\"id\":\"box-332\",\"group\":\"root\",\"zindex\":18,\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"propagateEvents\":false,\"lineHeightAuto\":true,\"rotation\":0,\"scale\":1,\"aspectratio\":false},{\"name\":\"ios10_switch\",\"type\":\"ios7_switch\",\"lib\":\"ios7\",\"caption\":\"On/Off Switch 5\",\"width\":150,\"height\":86,\"inactiveLabelColor\":\"transparent\",\"activeLabelColor\":\"#FF6849\",\"borderWidth\":3,\"inactiveBorderColor\":\"#E5E5E5\",\"activeBorderColor\":\"#E5E5E5\",\"switchColor\":\"FFFFFF\",\"radioButtonsGroupName\":\"\",\"left\":832,\"top\":1806,\"vpos\":\"top\",\"hpos\":\"left\",\"visible\":true,\"id\":\"box-333\",\"group\":\"root\",\"zindex\":18,\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"rotation\":0,\"scale\":1,\"aspectratio\":false,\"backgroundColor\":\"\"}]",
+            "history": [],
+            "id": "487af144-592a-4915-a306-5fc304b6b3ce",
+            "dimensions": [1025, 1892],
+            "groups": {}
+        }]
+    }, {
+        "title": "Container 9",
+        "id": 9,
+        "states": [{
+            "title": "State 1",
+            "data": "[{\"name\":\"rectangle\",\"type\":\"rectangle\",\"lib\":\"common\",\"caption\":\"Rectangle 2\",\"backgroundColor\":\"rgba(237,237,237,0.28)\",\"borderWidth\":3,\"borderColor\":\"D1D1D1\",\"borderRadius\":0,\"width\":1054,\"height\":282,\"lineHeight\":60,\"lineHeightAuto\":true,\"actions\":[],\"textFont\":\"sans-serif,Helvetica Neue,Arial\",\"textSize\":42,\"textColor\":\"#000000\",\"textProperties\":[],\"textSpacing\":\"0\",\"textAlign\":\"center\",\"text\":\"\",\"typeName\":\"rectangle\",\"left\":12,\"top\":1198,\"vpos\":\"top\",\"hpos\":\"left\",\"visible\":true,\"id\":\"box-339\",\"group\":\"root\",\"zindex\":24,\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"borderStyle\":\"solid\",\"rotation\":0,\"scale\":1,\"aspectratio\":false},{\"name\":\"image\",\"type\":\"image\",\"lib\":\"common\",\"caption\":\"deemo-background-edited-copy.jpg\",\"imgSrc\":{\"fileId\":\"7b8e35aed50d71b9c32acbceefaa56b0.jpg\",\"assetType\":\"project\",\"bucketsource\":\"main\",\"name\":\"deemo-background-edited-copy.jpg\"},\"repeat\":false,\"width\":1080,\"height\":749,\"borderWidth\":0,\"borderRadius\":0,\"borderColor\":\"#D1D1D1\",\"borderPos\":\"inside\",\"propagateEvents\":false,\"actions\":[],\"overlay\":false,\"autoResize\":false,\"aspectratio\":1.4407582938388626,\"left\":3,\"top\":12,\"visible\":true,\"id\":\"box-340\",\"group\":\"root\",\"zindex\":24,\"hpos\":\"left\",\"vpos\":\"top\",\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"borderStyle\":\"solid\",\"rotation\":0,\"scale\":1,\"mask\":{\"inner_width\":462,\"inner_height\":260,\"rotation\":0,\"aspectratio\":1.7769230769230768,\"borderRadius\":0,\"borderColor\":\"#000000\",\"borderPos\":\"inside\",\"borderStyle\":\"solid\",\"borderWidth\":0,\"x\":-43,\"y\":0,\"isMasked\":true,\"width\":304,\"height\":211,\"editing\":false,\"last_aspectratio\":1.4407582938388626}},{\"name\":\"rectangle\",\"type\":\"rectangle\",\"lib\":\"common\",\"caption\":\"Rectangle 1\",\"backgroundColor\":\"rgba(170,170,170,0.71)\",\"borderWidth\":0,\"borderColor\":\"D1D1D1\",\"borderRadius\":0,\"width\":1080,\"height\":749,\"lineHeight\":60,\"lineHeightAuto\":true,\"actions\":[],\"textFont\":\"sans-serif,Helvetica Neue,Arial\",\"textSize\":42,\"textColor\":\"#000000\",\"textProperties\":[],\"textSpacing\":\"0\",\"textAlign\":\"center\",\"text\":\"\",\"typeName\":\"rectangle\",\"left\":3,\"top\":12,\"vpos\":\"top\",\"hpos\":\"left\",\"visible\":true,\"id\":\"box-341\",\"group\":\"root\",\"zindex\":24,\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"borderStyle\":\"solid\",\"rotation\":0,\"scale\":1,\"aspectratio\":false},{\"name\":\"material_morphing_lines_close\",\"type\":\"material_morphing_lines\",\"lib\":\"material\",\"caption\":\"Morphing Icon Close\",\"width\":161,\"height\":161,\"backgroundColor\":\"#FF6849\",\"backgroundColorActive\":\"#E26100\",\"active\":false,\"itemtype\":\"lines-close\",\"checkboxActionsOnActive\":[],\"checkboxActionsOnDeactive\":[],\"aspectratio\":1,\"rippleEffect\":true,\"rippleEffectType\":\"dark\",\"rippleEffectColor\":\"rgba(0,0,0,0.1)\",\"left\":922,\"top\":0,\"vpos\":\"top\",\"hpos\":\"left\",\"visible\":true,\"id\":\"box-342\",\"group\":\"root\",\"zindex\":24,\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"rotation\":0,\"scale\":1},{\"name\":\"ios7_button_icon\",\"type\":\"ios7_button_icon\",\"lib\":\"ios7\",\"caption\":\"Icon Button 1\",\"image\":\"https://dteyv52hbg2at.cloudfront.net/devices/ios7/button_icon/image.png\",\"width\":127,\"height\":127,\"textAlign\":\"center\",\"iconpos\":\"notext\",\"img\":{\"fileId\":\"c0877fc419aa836a4097f4f982a53a59.svg\",\"name\":\"chevron-left.svg\",\"assetType\":\"icon\",\"bucketsource\":\"static\",\"url\":\"f1352971179296/b0a2a6e58cba73da2d0b8dc3e0ac8fe8.svg\",\"targetSrc\":\"generated/c0877fc419aa836a4097f4f982a53a59_ff6849.svg\",\"color\":\"FF6849\"},\"left\":3,\"top\":35,\"vpos\":\"top\",\"hpos\":\"left\",\"visible\":true,\"id\":\"box-343\",\"group\":\"root\",\"zindex\":24,\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"rotation\":0,\"scale\":1,\"aspectratio\":false,\"actions\":[{\"title\":\"Interaction 1\",\"type\":\"tap\",\"actionId\":\"go-to-page\",\"pageId\":\"2\",\"animation\":\"slideback\",\"animationEasing\":\"Cubic.easeOut\",\"duration\":\"400\",\"delay\":\"0\",\"callback\":false,\"guid\":\"777b5626-e843-43d7-98b7-eca7b4e9af80\",\"sort\":null}]},{\"name\":\"image\",\"type\":\"image\",\"lib\":\"common\",\"caption\":\"5c7f6kyrkwowcggogwsskgswos8c8808.jpg.png\",\"imgSrc\":{\"fileId\":\"4f441969c7e220bc664311d4391a4f99.png\",\"assetType\":\"project\",\"bucketsource\":\"main\",\"name\":\"5c7f6kyrkwowcggogwsskgswos8c8808.jpg.png\"},\"repeat\":false,\"width\":271,\"height\":271,\"borderWidth\":0,\"borderRadius\":0,\"borderColor\":\"#D1D1D1\",\"borderPos\":\"inside\",\"propagateEvents\":false,\"actions\":[],\"overlay\":false,\"autoResize\":false,\"aspectratio\":1,\"left\":406,\"top\":139,\"visible\":true,\"id\":\"box-344\",\"group\":\"root\",\"zindex\":24,\"hpos\":\"left\",\"vpos\":\"top\",\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"borderStyle\":\"solid\",\"rotation\":0,\"scale\":1},{\"name\":\"text\",\"type\":\"text\",\"lib\":\"common\",\"caption\":\"Annie\",\"text\":\"<strong>Annie</strong>\",\"textFont\":\"sans-serif,Helvetica Neue,Arial\",\"textSize\":51,\"textColor\":\"#FFFFFF\",\"backgroundColor\":\"none\",\"width\":161,\"height\":58,\"lineHeight\":60,\"textProperties\":[\"bold\"],\"textAlign\":\"left\",\"textSpacing\":\"0\",\"enableShadow\":false,\"autoResize\":false,\"v2\":true,\"left\":475,\"top\":473,\"vpos\":\"top\",\"hpos\":\"left\",\"visible\":true,\"id\":\"box-345\",\"group\":\"root\",\"zindex\":24,\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"propagateEvents\":false,\"lineHeightAuto\":true,\"rotation\":0,\"scale\":1,\"aspectratio\":false},{\"name\":\"text\",\"type\":\"text\",\"lib\":\"common\",\"caption\":\"22\\nfollowing...\",\"text\":\"22<br>following\",\"textFont\":\"sans-serif,Helvetica Neue,Arial\",\"textSize\":39,\"textColor\":\"#FFFFFF\",\"backgroundColor\":\"none\",\"width\":161,\"height\":92,\"lineHeight\":48,\"textProperties\":[],\"textAlign\":\"center\",\"textSpacing\":\"0\",\"enableShadow\":false,\"autoResize\":true,\"v2\":true,\"left\":268,\"top\":622,\"vpos\":\"top\",\"hpos\":\"left\",\"visible\":true,\"id\":\"box-346\",\"group\":\"root\",\"zindex\":24,\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"propagateEvents\":false,\"lineHeightAuto\":true,\"rotation\":0,\"scale\":1,\"aspectratio\":false},{\"name\":\"text\",\"type\":\"text\",\"lib\":\"common\",\"caption\":\"233\\nfollowers...\",\"text\":\"233<br>followers\",\"textFont\":\"sans-serif,Helvetica Neue,Arial\",\"textSize\":39,\"textColor\":\"#FFFFFF\",\"backgroundColor\":\"none\",\"width\":161,\"height\":92,\"lineHeight\":48,\"textProperties\":[],\"textAlign\":\"center\",\"textSpacing\":\"0\",\"enableShadow\":false,\"autoResize\":true,\"v2\":true,\"left\":484,\"top\":622,\"vpos\":\"top\",\"hpos\":\"left\",\"visible\":true,\"id\":\"box-347\",\"group\":\"root\",\"zindex\":24,\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"propagateEvents\":false,\"lineHeightAuto\":true,\"rotation\":0,\"scale\":1,\"aspectratio\":false},{\"name\":\"text\",\"type\":\"text\",\"lib\":\"common\",\"caption\":\"666\\nliked\",\"text\":\"666<br>liked\",\"textFont\":\"sans-serif,Helvetica Neue,Arial\",\"textSize\":39,\"textColor\":\"#FFFFFF\",\"backgroundColor\":\"none\",\"width\":92,\"height\":92,\"lineHeight\":48,\"textProperties\":[],\"textAlign\":\"center\",\"textSpacing\":\"0\",\"enableShadow\":false,\"autoResize\":true,\"v2\":true,\"left\":723,\"top\":622,\"vpos\":\"top\",\"hpos\":\"left\",\"visible\":true,\"id\":\"box-348\",\"group\":\"root\",\"zindex\":24,\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"propagateEvents\":false,\"lineHeightAuto\":true,\"rotation\":0,\"scale\":1,\"aspectratio\":false},{\"name\":\"ios7_button_bg\",\"type\":\"ios7_button_bg\",\"lib\":\"ios7\",\"caption\":\"Button with Background 1\",\"image\":\"https://dteyv52hbg2at.cloudfront.net/devices/ios7/button_bg/image.png\",\"width\":236,\"height\":86,\"backgroundColor\":\"#FF6849\",\"borderWidth\":0,\"borderColor\":\"#FFFFFF\",\"borderRadius\":30,\"text\":\"<strong>Follow</strong>\",\"textFont\":\"San Francisco UI Text Light\",\"textSize\":54,\"textColor\":\"#FFFFFF\",\"textProperties\":[\"bold\"],\"textAlign\":\"center\",\"iconpos\":\"none\",\"img\":{\"fileId\":\"c0877fc419aa836a4097f4f982a53a59.svg\",\"name\":\"chevron-left.svg\",\"assetType\":\"icon\",\"bucketsource\":\"static\",\"url\":\"f1352971179296/b0a2a6e58cba73da2d0b8dc3e0ac8fe8.svg\",\"targetSrc\":\"generated/b0a2a6e58cba73da2d0b8dc3e0ac8fe8_ffffff.svg\",\"color\":\"ffffff\"},\"left\":423,\"top\":833,\"vpos\":\"top\",\"hpos\":\"left\",\"visible\":true,\"id\":\"box-349\",\"group\":\"root\",\"zindex\":24,\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"rotation\":0,\"scale\":1,\"aspectratio\":false},{\"name\":\"text\",\"type\":\"text\",\"lib\":\"common\",\"caption\":\"Intro:Work hard and...\",\"text\":\"Intro:&nbsp;<span>Work hard and work harder</span>\",\"textFont\":\"sans-serif,Helvetica Neue,Arial\",\"textSize\":51,\"textColor\":\"000000\",\"backgroundColor\":\"none\",\"width\":962,\"height\":58,\"lineHeight\":60,\"textProperties\":[],\"textAlign\":\"left\",\"textSpacing\":\"0\",\"enableShadow\":false,\"autoResize\":false,\"v2\":true,\"left\":43,\"top\":985,\"vpos\":\"top\",\"hpos\":\"left\",\"visible\":true,\"id\":\"box-350\",\"group\":\"root\",\"zindex\":24,\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"propagateEvents\":false,\"lineHeightAuto\":true,\"rotation\":0,\"scale\":1,\"aspectratio\":false},{\"name\":\"horizontalline\",\"type\":\"horizontalline\",\"lib\":\"common\",\"caption\":\"Horizontal line 1\",\"width\":1083,\"height\":6,\"color\":\"A6A6A6\",\"weight\":6,\"left\":0,\"top\":1054,\"vpos\":\"top\",\"hpos\":\"left\",\"visible\":true,\"id\":\"box-351\",\"group\":\"root\",\"zindex\":24,\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"borderStyle\":\"solid\",\"rotation\":0,\"scale\":1,\"aspectratio\":false},{\"name\":\"text\",\"type\":\"text\",\"lib\":\"common\",\"caption\":\"Posts・23\",\"text\":\"Posts・23\",\"textFont\":\"sans-serif,Helvetica Neue,Arial\",\"textSize\":51,\"textColor\":\"000000\",\"backgroundColor\":\"none\",\"width\":239,\"height\":58,\"lineHeight\":60,\"textProperties\":[],\"textAlign\":\"left\",\"textSpacing\":\"0\",\"enableShadow\":false,\"autoResize\":true,\"v2\":true,\"left\":435,\"top\":1095,\"vpos\":\"top\",\"hpos\":\"left\",\"visible\":true,\"id\":\"box-352\",\"group\":\"root\",\"zindex\":24,\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"propagateEvents\":false,\"lineHeightAuto\":true,\"rotation\":0,\"scale\":1,\"aspectratio\":false},{\"name\":\"text\",\"type\":\"text\",\"lib\":\"common\",\"caption\":\"Super delicious spic...\",\"text\":\"Super delicious spicy crayfish nearby！\",\"textFont\":\"sans-serif,Helvetica Neue,Arial\",\"textSize\":51,\"textColor\":\"000000\",\"backgroundColor\":\"none\",\"width\":688,\"height\":115,\"lineHeight\":60,\"textProperties\":[],\"textAlign\":\"left\",\"textSpacing\":\"0\",\"enableShadow\":false,\"autoResize\":false,\"v2\":true,\"left\":308,\"top\":1244,\"vpos\":\"top\",\"hpos\":\"left\",\"visible\":true,\"id\":\"box-353\",\"group\":\"root\",\"zindex\":24,\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"propagateEvents\":false,\"lineHeightAuto\":true,\"rotation\":0,\"scale\":1,\"aspectratio\":false},{\"name\":\"text\",\"type\":\"text\",\"lib\":\"common\",\"caption\":\"861\",\"text\":\"861\",\"textFont\":\"sans-serif,Helvetica Neue,Arial\",\"textSize\":51,\"textColor\":\"#717171\",\"backgroundColor\":\"none\",\"width\":95,\"height\":58,\"lineHeight\":60,\"textProperties\":[],\"textAlign\":\"left\",\"textSpacing\":\"0\",\"enableShadow\":false,\"autoResize\":true,\"v2\":true,\"left\":902,\"top\":1360,\"vpos\":\"top\",\"hpos\":\"left\",\"visible\":true,\"id\":\"box-354\",\"group\":\"root\",\"zindex\":24,\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"propagateEvents\":false,\"lineHeightAuto\":true,\"rotation\":0,\"scale\":1,\"aspectratio\":false},{\"name\":\"image\",\"type\":\"image\",\"lib\":\"common\",\"caption\":\"TB2NzUJE41YBuNjy1zcXXbNcXXa_!!36739055.jpg\",\"imgSrc\":{\"bucketsource\":\"main\",\"fileId\":\"81aea9cbf78ca9fd990283cedbc23690.jpg\",\"name\":\"TB2NzUJE41YBuNjy1zcXXbNcXXa_!!36739055.jpg\",\"assetType\":\"project\"},\"repeat\":false,\"width\":202,\"height\":202,\"borderWidth\":0,\"borderRadius\":0,\"borderColor\":\"#D1D1D1\",\"borderPos\":\"inside\",\"propagateEvents\":false,\"actions\":[],\"overlay\":false,\"autoResize\":false,\"aspectratio\":false,\"left\":40,\"top\":1239,\"visible\":true,\"id\":\"box-355\",\"group\":\"root\",\"zindex\":24,\"hpos\":\"left\",\"vpos\":\"top\",\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"borderStyle\":\"solid\",\"rotation\":0,\"scale\":1},{\"name\":\"horizontalline\",\"type\":\"horizontalline\",\"lib\":\"common\",\"caption\":\"Horizontal line 2\",\"width\":288,\"height\":3,\"color\":\"A6A6A6\",\"weight\":3,\"left\":412,\"top\":533,\"vpos\":\"top\",\"hpos\":\"left\",\"visible\":true,\"id\":\"box-356\",\"group\":\"root\",\"zindex\":24,\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"borderStyle\":\"solid\",\"rotation\":0,\"scale\":1,\"aspectratio\":false},{\"name\":\"image\",\"type\":\"image\",\"lib\":\"common\",\"caption\":\"like-4.svg\",\"imgSrc\":{\"fileId\":\"4d8d94a406b1e9ce5e2fc146a5bba5f5.svg\",\"name\":\"like-4.svg\",\"assetType\":\"icon\",\"bucketsource\":\"static\",\"url\":\"f1352971179296/f8c8c8ce19280e42c95e254da75aacca.svg\",\"targetSrc\":\"generated/4d8d94a406b1e9ce5e2fc146a5bba5f5_717171.svg\",\"color\":\"717171\"},\"repeat\":false,\"width\":58,\"height\":58,\"borderWidth\":0,\"borderRadius\":0,\"borderColor\":\"#D1D1D1\",\"borderPos\":\"inside\",\"propagateEvents\":false,\"actions\":[],\"overlay\":false,\"autoResize\":false,\"aspectratio\":1,\"left\":812,\"top\":1360,\"vpos\":\"top\",\"hpos\":\"left\",\"visible\":true,\"id\":\"box-357\",\"group\":\"root\",\"zindex\":24,\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"borderStyle\":\"solid\",\"rotation\":0,\"scale\":1},{\"name\":\"text\",\"type\":\"text\",\"lib\":\"common\",\"caption\":\"US\",\"text\":\"US\",\"textFont\":\"sans-serif,Helvetica Neue,Arial\",\"textSize\":51,\"textColor\":\"#E2E2E2\",\"backgroundColor\":\"none\",\"width\":84,\"height\":58,\"lineHeight\":60,\"textProperties\":[],\"textAlign\":\"left\",\"textSpacing\":\"0\",\"enableShadow\":false,\"autoResize\":false,\"v2\":true,\"left\":516,\"top\":533,\"vpos\":\"top\",\"hpos\":\"left\",\"visible\":true,\"id\":\"box-358\",\"group\":\"root\",\"zindex\":24,\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"propagateEvents\":false,\"lineHeightAuto\":true,\"rotation\":0,\"scale\":1,\"aspectratio\":false},{\"name\":\"rectangle\",\"type\":\"rectangle\",\"lib\":\"common\",\"caption\":\"Rectangle 3\",\"backgroundColor\":\"rgba(237,237,237,0.28)\",\"borderWidth\":3,\"borderColor\":\"D1D1D1\",\"borderRadius\":0,\"width\":1054,\"height\":282,\"lineHeight\":60,\"lineHeightAuto\":true,\"actions\":[],\"textFont\":\"sans-serif,Helvetica Neue,Arial\",\"textSize\":42,\"textColor\":\"#000000\",\"textProperties\":[],\"textSpacing\":\"0\",\"textAlign\":\"center\",\"text\":\"\",\"typeName\":\"rectangle\",\"left\":12,\"top\":1512,\"vpos\":\"top\",\"hpos\":\"left\",\"visible\":true,\"id\":\"box-359\",\"group\":\"root\",\"zindex\":24,\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"borderStyle\":\"solid\",\"rotation\":0,\"scale\":1,\"aspectratio\":false},{\"name\":\"text\",\"type\":\"text\",\"lib\":\"common\",\"caption\":\"😋Best salad ever!\\nY...\",\"text\":\"😋Best salad ever!<br>Yum Yum🤗🤗\",\"textFont\":\"sans-serif,Helvetica Neue,Arial\",\"textSize\":51,\"textColor\":\"000000\",\"backgroundColor\":\"none\",\"width\":432,\"height\":115,\"lineHeight\":60,\"textProperties\":[],\"textAlign\":\"left\",\"textSpacing\":\"0\",\"enableShadow\":false,\"autoResize\":true,\"v2\":true,\"left\":308,\"top\":1558,\"vpos\":\"top\",\"hpos\":\"left\",\"visible\":true,\"id\":\"box-360\",\"group\":\"root\",\"zindex\":24,\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"propagateEvents\":false,\"lineHeightAuto\":true,\"rotation\":0,\"scale\":1,\"aspectratio\":false},{\"name\":\"text\",\"type\":\"text\",\"lib\":\"common\",\"caption\":\"886\",\"text\":\"886\",\"textFont\":\"sans-serif,Helvetica Neue,Arial\",\"textSize\":51,\"textColor\":\"#717171\",\"backgroundColor\":\"none\",\"width\":95,\"height\":58,\"lineHeight\":60,\"textProperties\":[],\"textAlign\":\"left\",\"textSpacing\":\"0\",\"enableShadow\":false,\"autoResize\":true,\"v2\":true,\"left\":902,\"top\":1674,\"vpos\":\"top\",\"hpos\":\"left\",\"visible\":true,\"id\":\"box-361\",\"group\":\"root\",\"zindex\":24,\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"propagateEvents\":false,\"lineHeightAuto\":true,\"rotation\":0,\"scale\":1,\"aspectratio\":false},{\"name\":\"image\",\"type\":\"image\",\"lib\":\"common\",\"caption\":\"my-diy-salad.jpg 2\",\"imgSrc\":{\"fileId\":\"2cc6ce6091642407be96c59e54048a27.jpg\",\"assetType\":\"project\",\"bucketsource\":\"main\",\"name\":\"my-diy-salad.jpg\"},\"repeat\":false,\"width\":202,\"height\":202,\"borderWidth\":0,\"borderRadius\":0,\"borderColor\":\"#D1D1D1\",\"borderPos\":\"inside\",\"propagateEvents\":false,\"actions\":[],\"overlay\":false,\"autoResize\":false,\"aspectratio\":false,\"left\":40,\"top\":1553,\"visible\":true,\"id\":\"box-362\",\"group\":\"root\",\"zindex\":24,\"hpos\":\"left\",\"vpos\":\"top\",\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"borderStyle\":\"solid\",\"rotation\":0,\"scale\":1},{\"name\":\"image\",\"type\":\"image\",\"lib\":\"common\",\"caption\":\"like-4.svg 2\",\"imgSrc\":{\"fileId\":\"4d8d94a406b1e9ce5e2fc146a5bba5f5.svg\",\"name\":\"like-4.svg\",\"assetType\":\"icon\",\"bucketsource\":\"static\",\"url\":\"f1352971179296/f8c8c8ce19280e42c95e254da75aacca.svg\",\"targetSrc\":\"generated/4d8d94a406b1e9ce5e2fc146a5bba5f5_717171.svg\",\"color\":\"717171\"},\"repeat\":false,\"width\":58,\"height\":58,\"borderWidth\":0,\"borderRadius\":0,\"borderColor\":\"#D1D1D1\",\"borderPos\":\"inside\",\"propagateEvents\":false,\"actions\":[],\"overlay\":false,\"autoResize\":false,\"aspectratio\":1,\"left\":812,\"top\":1674,\"vpos\":\"top\",\"hpos\":\"left\",\"visible\":true,\"id\":\"box-363\",\"group\":\"root\",\"zindex\":24,\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"borderStyle\":\"solid\",\"rotation\":0,\"scale\":1},{\"name\":\"rectangle\",\"type\":\"rectangle\",\"lib\":\"common\",\"caption\":\"Rectangle 4\",\"backgroundColor\":\"rgba(237,237,237,0.28)\",\"borderWidth\":3,\"borderColor\":\"D1D1D1\",\"borderRadius\":0,\"width\":1054,\"height\":282,\"lineHeight\":60,\"lineHeightAuto\":true,\"actions\":[],\"textFont\":\"sans-serif,Helvetica Neue,Arial\",\"textSize\":42,\"textColor\":\"#000000\",\"textProperties\":[],\"textSpacing\":\"0\",\"textAlign\":\"center\",\"text\":\"\",\"typeName\":\"rectangle\",\"left\":15,\"top\":1809,\"vpos\":\"top\",\"hpos\":\"left\",\"visible\":true,\"id\":\"box-364\",\"group\":\"root\",\"zindex\":24,\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"borderStyle\":\"solid\",\"rotation\":0,\"scale\":1,\"aspectratio\":false},{\"name\":\"text\",\"type\":\"text\",\"lib\":\"common\",\"caption\":\"❤️❤️F R I D A Y❤️❤️...\",\"text\":\"❤️❤️F R I D A Y❤️❤️<br>I can't wait to hop on he train to Firenze\",\"textFont\":\"sans-serif,Helvetica Neue,Arial\",\"textSize\":51,\"textColor\":\"000000\",\"backgroundColor\":\"none\",\"width\":711,\"height\":173,\"lineHeight\":60,\"textProperties\":[],\"textAlign\":\"left\",\"textSpacing\":\"0\",\"enableShadow\":false,\"autoResize\":false,\"v2\":true,\"left\":311,\"top\":1855,\"vpos\":\"top\",\"hpos\":\"left\",\"visible\":true,\"id\":\"box-365\",\"group\":\"root\",\"zindex\":24,\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"propagateEvents\":false,\"lineHeightAuto\":true,\"rotation\":0,\"scale\":1,\"aspectratio\":false},{\"name\":\"text\",\"type\":\"text\",\"lib\":\"common\",\"caption\":\"110\",\"text\":\"110\",\"textFont\":\"sans-serif,Helvetica Neue,Arial\",\"textSize\":51,\"textColor\":\"#717171\",\"backgroundColor\":\"none\",\"width\":92,\"height\":58,\"lineHeight\":60,\"textProperties\":[],\"textAlign\":\"left\",\"textSpacing\":\"0\",\"enableShadow\":false,\"autoResize\":true,\"v2\":true,\"left\":902,\"top\":1970,\"vpos\":\"top\",\"hpos\":\"left\",\"visible\":true,\"id\":\"box-366\",\"group\":\"root\",\"zindex\":24,\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"propagateEvents\":false,\"lineHeightAuto\":true,\"rotation\":0,\"scale\":1,\"aspectratio\":false},{\"name\":\"image\",\"type\":\"image\",\"lib\":\"common\",\"caption\":\"hd450x300.jpg\",\"imgSrc\":{\"bucketsource\":\"main\",\"fileId\":\"97e5fa8bdb7675032f575171813975ca.jpg\",\"name\":\"hd450x300.jpg\",\"assetType\":\"project\"},\"repeat\":false,\"width\":225,\"height\":202,\"borderWidth\":0,\"borderRadius\":0,\"borderColor\":\"#D1D1D1\",\"borderPos\":\"inside\",\"propagateEvents\":false,\"actions\":[],\"overlay\":false,\"autoResize\":false,\"aspectratio\":false,\"left\":43,\"top\":1849,\"visible\":true,\"id\":\"box-367\",\"group\":\"root\",\"zindex\":24,\"hpos\":\"left\",\"vpos\":\"top\",\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"borderStyle\":\"solid\",\"rotation\":0,\"scale\":1},{\"name\":\"image\",\"type\":\"image\",\"lib\":\"common\",\"caption\":\"like-4.svg 3\",\"imgSrc\":{\"fileId\":\"4d8d94a406b1e9ce5e2fc146a5bba5f5.svg\",\"name\":\"like-4.svg\",\"assetType\":\"icon\",\"bucketsource\":\"static\",\"url\":\"f1352971179296/f8c8c8ce19280e42c95e254da75aacca.svg\",\"targetSrc\":\"generated/4d8d94a406b1e9ce5e2fc146a5bba5f5_717171.svg\",\"color\":\"717171\"},\"repeat\":false,\"width\":58,\"height\":58,\"borderWidth\":0,\"borderRadius\":0,\"borderColor\":\"#D1D1D1\",\"borderPos\":\"inside\",\"propagateEvents\":false,\"actions\":[],\"overlay\":false,\"autoResize\":false,\"aspectratio\":1,\"left\":812,\"top\":1970,\"vpos\":\"top\",\"hpos\":\"left\",\"visible\":true,\"id\":\"box-368\",\"group\":\"root\",\"zindex\":24,\"wtype\":\"fixed\",\"htype\":\"fixed\",\"opacity\":1,\"borderStyle\":\"solid\",\"rotation\":0,\"scale\":1}]",
+            "history": [],
+            "id": "e58b3632-7b02-4fd7-a8d4-0d07d182febd",
+            "dimensions": [1083, 2091],
+            "groups": {},
+            "background": "none",
+            "multipliers": [1, 1]
+        }],
+        "orientation": "portrait",
+        "grid": {
+            "col_number": 3,
+            "col_width": 341,
+            "gutter_width": 20,
+            "margins": 10
+        }
+    }],
+    "saveversion": 340,
+    "_imgs_version": 1532093883,
+    "makescrollable": 0
+};
+prx.xdata_str = JSON.stringify(prx.xdata);
